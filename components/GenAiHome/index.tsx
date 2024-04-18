@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import YouTube from "react-youtube";
 import SectionHeader from "../Common/SectionHeader";
 import Link from "next/link";
 
