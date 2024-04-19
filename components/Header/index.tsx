@@ -57,7 +57,7 @@ const Header = () => {
           {/* <!-- Hamburger Toggle BTN --> */}
           <button
             aria-label="hamburger Toggler"
-            className="lg:hidden block"
+            className="lg:hidden block mr-8"
             onClick={() => setNavigationOpen(!navigationOpen)}
           >
             <span className="block relative cursor-pointer w-5.5 h-5.5">

@@ -30,7 +30,7 @@ const Portfolio = () => {
  <section className="pb-2 lg:py-15 xl:py-10 px-10">
         <div className="flex flex-row mx-auto max-w-c-1280 px-4 md:px-8 xl:px-0 mt-15 xl:mt-20">
               <div className="flex flex-col justify-center items-center w-full">
-                    <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16 ">
+                    <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-10 ">
                     🔥 Portfolio
                       <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">
                       </span>
@@ -41,7 +41,7 @@ const Portfolio = () => {
 
 
           <section className="pb-10 lg:py-15 xl:py-10 px-10">
-          <div className="flex flex-row justify-center gap-6 mt-1">
+          <div className="flex flex-wrap flex-row justify-center gap-6 mt-1">
                 {/* <div className="flex flex-col justify-center items-center">
                     <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16 ">
                     🔥 Nasze Portfolio
