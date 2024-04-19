@@ -10,7 +10,7 @@ import Link from "next/link";
 const Portfolio = () => {
   const [selectedTag, setSelectedTag] = useState("websites");
   const [filteredPortfolio, setFilteredPortfolio] = useState(PortfolioData);
-
+ 
   useEffect(() => {
     if (selectedTag === "websites") {
       setFilteredPortfolio(PortfolioData);
@@ -56,7 +56,7 @@ const Portfolio = () => {
 
 
           <section className="pb-10 lg:py-15 xl:py-20 px-10">
-          <div className="flex flex-row justify-center gap-6 mt-1">
+          <div className="flex flex-wrap flex-row justify-center gap-6 mt-1">
                   <button
                     className={`mr-2 text-lg font-semibold ${
                       selectedTag === "websites" ? "bg-blue-500 text-white" : "bg-gray-200"
