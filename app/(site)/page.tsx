@@ -18,26 +18,16 @@ import Slider from "@/components/Slider"
 import HomePortfolio from "@/components/Portfolio/HomePortfolio";
 
 
-// export const metadata: Metadata = {
-//   title: "Aiware - Business development studio",
-//   description: "We help you expand your business using the newest AI and Web technology & creating amazing web & social media presence and effective ads campaigns",
-//   openGraph: {
-//     title: "Aiware - Business development studio",
-//     description: "We help you expand your business using the newest AI and Web technology & creating amazing web & social media presence and effective ads campaigns",
-//     // other open graph properties
-//   },
-//   // other metadata
-// };
 export const metadata: Metadata = {
-  title: "Aiware - Kompleksowe Rozwiązania Web & AI dla Twojego Biznesu",
-  description: "Jesteśmy Aiware - Twoim partnerem w dziedzinie sztucznej inteligencji i rozwiązań webowych. Oferujemy kompleksowe usługi, które pomogą Ci wykorzystać potencjał internetu i AI dla rozwoju Twojego biznesu",
+  title: "Piotr Macai - AI | Web | Automation For Business",
+  description: "Tailored To The Needs Of Your Company Web & AI and Automation solutions that help businesses to grow. Discover our services tailored to the needs of your company.",
   openGraph: {
-    title: "Aiware - Kompleksowe Rozwiązania Web & AI dla Twojego Biznesu",
-    description:"Jesteśmy Aiware - Twoim partnerem w dziedzinie sztucznej inteligencji i rozwiązań webowych. Oferujemy kompleksowe usługi, które pomogą Ci wykorzystać potencjał internetu i AI dla rozwoju Twojego biznesu",
+    title: "Piotr Macai - AI | Web | Automation For Business",
+    description:"Tailored To The Needs Of Your Company Web & AI and Automation solutions that help businesses to grow. Discover our services tailored to the needs of your company.",
     images: [
       {
         url: '/images/about/logobig.jpg', // Updated path to your image
-        alt: 'Aiware Business Development', // Optional: alt text for the image
+        alt: 'Potr Macai Business Development', // Optional: alt text for the image
       },
     ]
   }, 
