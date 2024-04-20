@@ -178,7 +178,7 @@ const Hero = () => {
                                     }}
                               className="rounded-lg p-4 shadow-lg flex flex-col items-center justify-center grid-in-twitter">
                                   <a href="/generativeai" target="_blank" className="text-center">
-                                  <img src="/images/brand/ai.png" alt="Tools" className="inline w-12 h-12 mb-2" />
+                                  <img src="/images/brand/icons8-adobe-illustrator-100.png" alt="Tools" className="inline w-12 h-12 mb-2" />
                                     <p className="text-lg font-semibold">Generative AI</p>
                                     <p className="text-sm">Artworks</p>
                                   </a>
@@ -196,7 +196,7 @@ const Hero = () => {
                                 }}
                               className="rounded-lg p-4 shadow-lg flex flex-col items-center justify-center grid-in-twitter">
                                   <a href="https://macai.tech/portfolio/" target="_blank" className="text-center">
-                                    <img src="/images/brand/portfolio.png" alt="Twitter" className="inline w-12 h-12 mb-2" />
+                                    <img src="/images/brand/icons8-portfolio-96.png" alt="Twitter" className="inline w-12 h-12 mb-2" />
                                     <p className="text-lg font-semibold">Portfolio</p>
                                     <p className="text-sm">With the best of my projects</p>
                                   </a>
