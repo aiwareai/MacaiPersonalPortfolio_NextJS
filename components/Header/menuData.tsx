@@ -5,19 +5,22 @@ const menuData: Menu[] = [
     id: 1,
     title: "Home",
     newTab: false,
-    path: "/"
+    path: "/",
+    icon: "/images/icon/home.svg",
   },
   {
     id: 2,
     title: "Portfolio",
     newTab: false,
-    path: "/portfolio"
+    path: "/portfolio",
+    icon: "/images/icon/bag.svg",
   },
   {
     id: 3,
     title: "Services",
     newTab: true,
     path: "#",
+    icon: "/images/icon/phone.svg",
     submenu: [
       {
         id: 31,
@@ -62,7 +65,8 @@ const menuData: Menu[] = [
     id: 4,
     title: "Contact",
     newTab: false,
-    path: "/contact"
+    path: "/contact",
+    icon: "/images/icon/phone.svg",
   },
 ];
 

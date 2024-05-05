@@ -7,6 +7,8 @@ import { usePathname } from "next/navigation";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
+import LanguageSwitcher from "./LanguageSwitcher";
+
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [dropdownToggler, setDropdownToggler] = useState(false);
@@ -143,6 +145,7 @@ const Header = () => {
                           : "hover:text-primary"
                       }
                     >
+                      
                       {menuItem.title}
                     </Link>
                   )}
@@ -153,6 +156,7 @@ const Header = () => {
 
           <div className="flex items-center gap-6 mt-7 lg:mt-0">
             <ThemeToggler />
+            <LanguageSwitcher />
 
             {/* <Link
               href="https://github.com/NextJSTemplates/solid-nextjs"

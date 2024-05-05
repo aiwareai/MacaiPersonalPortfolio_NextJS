@@ -5,6 +5,8 @@ import PortfolioItem from "../portfolioItem";
 import PortfolioData from "./homePortfolioData";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
+// import LanguageSwitcher from '../components/LanguageSwitcher';
 
 const Portfolio = () => {
   const [selectedTag, setSelectedTag] = useState("websites");
@@ -32,6 +34,11 @@ const Portfolio = () => {
               <div className="flex flex-col justify-center items-center w-full">
                     <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-10 ">
                     🔥 Portfolio
+                      <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">
+                      </span>
+                    </h1>
+                    <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-10 ">
+                    🔥 
                       <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">
                       </span>
                     </h1>

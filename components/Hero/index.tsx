@@ -5,12 +5,20 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+import { useTranslations } from 'next-intl';
+
 const Hero = () => {
   const [email, setEmail] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
   };
+
+  const t = useTranslations('home');
+
+  // const handleLanguageChange = (locale) => {
+  //   intl.update('locale', locale);
+  // };
 
   return (
     <>
@@ -19,7 +27,7 @@ const Hero = () => {
           <div className="flex sm:flex-col md:flex-row lg:items-center lg:gap-2 xl:gap-32.5">
             <div className="md:w-1/2 sm:w-full">
               <h4 className="text-black dark:text-white text-lg font-medium ml-8 mb-4.5 ">
-               Hello 🔥 
+              {t('title')} 🔥 
               </h4>
               <div className="flex flex-row justify-start items-center">
               <Image

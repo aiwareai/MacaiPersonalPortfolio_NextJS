@@ -1,0 +1,10 @@
+{
+    "common": {
+        "language": "Język",
+        "english": "Angielski",
+        "polish": "Polski"
+      },
+      "home": {
+        "title": "Macai Studio Polska"
+      }
+  }
