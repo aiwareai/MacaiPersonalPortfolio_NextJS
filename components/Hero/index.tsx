@@ -27,7 +27,8 @@ const Hero = () => {
           <div className="flex sm:flex-col md:flex-row lg:items-center lg:gap-2 xl:gap-32.5">
             <div className="md:w-1/2 sm:w-full">
               <h4 className="text-black dark:text-white text-lg font-medium ml-8 mb-4.5 ">
-              {t('title')} 🔥 
+              {/* {t('title')}   */}
+              🔥 Web & AI Studio 
               </h4>
               <div className="flex flex-row justify-start items-center">
               <Image
@@ -172,7 +173,7 @@ const Hero = () => {
               </div>
 
 
-                <div className="lg:grid grid-cols-3 grid-rows-1 gap-4 flex flex-row mt-10">
+                {/* <div className="lg:grid grid-cols-3 grid-rows-1 gap-4 flex flex-row mt-10">
 
                           <div className="col-span-1 bg-gray-200 p-4">
                               <div 
@@ -210,7 +211,7 @@ const Hero = () => {
                                   </a>
                                 </div>
                       </div>
-                </div>
+                </div> */}
 
 
             </div>
@@ -218,7 +219,47 @@ const Hero = () => {
 
                 {/* SECOND COLUMN */}
 
-                <div className="md:w-1/2 hidden md:grid lg:grid grid-cols-2 grid-rows-3 gap-4">
+                <div className="md:w-1/2 sm:w-full md:block p-8 md:p-3"> {/* Removed the hidden class for mobile view */}
+            <div className="relative 2xl:-mr-7.5">
+              <Image
+                src="/images/shape/shape-01.png"
+                alt="shape"
+                width={46}
+                height={246}
+                className="absolute -left-11.5 top-0"
+              />
+              <Image
+                src="/images/shape/shape-02.svg"
+                alt="shape"
+                width={36.9}
+                height={36.7}
+                className="absolute right-0 bottom-0 z-10"
+              />
+              <Image
+                src="/images/shape/shape-03.svg"
+                alt="shape"
+                width={21.64}
+                height={21.66}
+                className="absolute -right-6.5 bottom-0 z-1"
+              />
+              <div className="relative aspect-[700/444] w-full">
+                <Image
+                  className="dark:hidden shadow-solid-l"
+                  src="/images/hero/hero-dark.svg"
+                  alt="Hero"
+                  fill
+                />
+                <Image
+                  className="hidden dark:block shadow-solid-l"
+                  src="/images/hero/hero-dark.svg"
+                  alt="Hero"
+                  fill
+                />
+              </div>
+            </div>
+          </div>
+
+                {/* <div className="md:w-1/2 hidden md:grid lg:grid grid-cols-2 grid-rows-3 gap-4">
                   <div className="bg-gray-600 p-4 col-span-2">
                           <div 
                                 style={{
@@ -293,7 +334,7 @@ const Hero = () => {
                   </div>
                   
                
-                </div>
+                </div> */}
               
     
 

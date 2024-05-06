@@ -30,12 +30,13 @@ const Portfolio = () => {
 
   return (
     <>
-   <section className="pt-35 md:pt-40 xl:pt-46 pb-20 xl:pb-25 px-3 overflow-hidden">
+  <section className="pt-35 md:pt-40 xl:pt-46 pb-20 xl:pb-25 px-3 overflow-hidden">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex sm:flex-col md:flex-row lg:items-center lg:gap-2 xl:gap-32.5">
             <div className="md:w-1/2 sm:w-full">
               <h4 className="text-black dark:text-white text-lg font-medium ml-8 mb-4.5 ">
-                🔥 My Projects
+              {/* {t('title')}   */}
+              🔥 My Portfolio
               </h4>
               <div className="flex flex-row justify-start items-center">
               <Image
@@ -46,7 +47,7 @@ const Portfolio = () => {
                     className="mr-6 mb-3"
                   />
               <h1 className="text-black dark:text-white text-4xl xl:text-hero font-bold mb-5 pr-16 ">
-              Portfolio 
+              Piotr Macai 
                 <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">
                 </span>
               </h1>
@@ -161,66 +162,26 @@ const Portfolio = () => {
               <div className="mt-10">
                 {/* <form onSubmit={handleSubmit}> */}
                   <div className="flex flex-wrap gap-5">
-           
-                  <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
-
-                <form
-                 action="https://formspree.io/f/xyyqlvdz" method="POST">
-                    <div className="relative">
-                      <input
-                       type="email" name="email"
-                       placeholder="Leave Your Email"
-                        className="w-full dark:bg-black border border-stroke dark:border-strokedark shadow-solid-11 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-3 px-6"
-                      />
-
-                      <button type="submit" value="Submit" aria-label="signup to newsletter" className="absolute right-0 p-4">
-                        <svg
-                          className="fill-[#757693] dark:fill-white hover:fill-primary"
-                          width="20"
-                          height="20"
-                          viewBox="0 0 20 20"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <g clipPath="url(#clip0_48_1487)">
-                            <path
-                              d="M3.1175 1.17318L18.5025 9.63484C18.5678 9.67081 18.6223 9.72365 18.6602 9.78786C18.6982 9.85206 18.7182 9.92527 18.7182 9.99984C18.7182 10.0744 18.6982 10.1476 18.6602 10.2118C18.6223 10.276 18.5678 10.3289 18.5025 10.3648L3.1175 18.8265C3.05406 18.8614 2.98262 18.8792 2.91023 18.8781C2.83783 18.8769 2.76698 18.857 2.70465 18.8201C2.64232 18.7833 2.59066 18.7308 2.55478 18.6679C2.51889 18.6051 2.50001 18.5339 2.5 18.4615V1.53818C2.50001 1.46577 2.51889 1.39462 2.55478 1.33174C2.59066 1.26885 2.64232 1.2164 2.70465 1.17956C2.76698 1.14272 2.83783 1.12275 2.91023 1.12163C2.98262 1.12051 3.05406 1.13828 3.1175 1.17318ZM4.16667 10.8332V16.3473L15.7083 9.99984L4.16667 3.65234V9.16651H8.33333V10.8332H4.16667Z"
-                              fill=""
-                            />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_48_1487">
-                              <rect width="20" height="20" fill="white" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                      </button>
-                    </div>
-                  </form>
-
-                </motion.div>
+                    <input
+                      // value={email}
+                      // onChange={(e) => setEmail(e.target.value)}
+                      // type="text"
+                      placeholder="Signup to Newsletter"
+                      className="dark:bg-black border border-stroke dark:border-strokedark shadow-solid-2 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-2.5 px-1"
+                    />
+                    <Link href="https://ainsider.beehiiv.com/subscribe" target="_blank">
+                    <button
+                      aria-label="signup to newsletter"
+                      className="flex bg-black hover:bg-blackho dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-5.5 py-2.5"
+                    >
+                      Subscribe
+                    </button>
+                    </Link>
                   </div>
               </div>
 
 
-                <div className="lg:grid grid-cols-3 grid-rows-1 gap-4 flex flex-row mt-10">
+                {/* <div className="lg:grid grid-cols-3 grid-rows-1 gap-4 flex flex-row mt-10">
 
                           <div className="col-span-1 bg-gray-200 p-4">
                               <div 
@@ -258,7 +219,7 @@ const Portfolio = () => {
                                   </a>
                                 </div>
                       </div>
-                </div>
+                </div> */}
 
 
             </div>
@@ -266,7 +227,47 @@ const Portfolio = () => {
 
                 {/* SECOND COLUMN */}
 
-                <div className="md:w-1/2 hidden md:grid lg:grid grid-cols-2 grid-rows-3 gap-4">
+                <div className="md:w-1/2 sm:w-full md:block p-8 md:p-3"> {/* Removed the hidden class for mobile view */}
+            <div className="relative 2xl:-mr-7.5">
+              <Image
+                src="/images/shape/shape-01.png"
+                alt="shape"
+                width={46}
+                height={246}
+                className="absolute -left-11.5 top-0"
+              />
+              <Image
+                src="/images/shape/shape-02.svg"
+                alt="shape"
+                width={36.9}
+                height={36.7}
+                className="absolute right-0 bottom-0 z-10"
+              />
+              <Image
+                src="/images/shape/shape-03.svg"
+                alt="shape"
+                width={21.64}
+                height={21.66}
+                className="absolute -right-6.5 bottom-0 z-1"
+              />
+              <div className="relative aspect-[700/444] w-full">
+                <Image
+                  className="dark:hidden shadow-solid-l"
+                  src="/images/hero/hero-dark.svg"
+                  alt="Hero"
+                  fill
+                />
+                <Image
+                  className="hidden dark:block shadow-solid-l"
+                  src="/images/hero/hero-dark.svg"
+                  alt="Hero"
+                  fill
+                />
+              </div>
+            </div>
+          </div>
+
+                {/* <div className="md:w-1/2 hidden md:grid lg:grid grid-cols-2 grid-rows-3 gap-4">
                   <div className="bg-gray-600 p-4 col-span-2">
                           <div 
                                 style={{
@@ -341,7 +342,7 @@ const Portfolio = () => {
                   </div>
                   
                
-                </div>
+                </div> */}
               
     
 

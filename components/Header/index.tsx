@@ -156,7 +156,7 @@ const Header = () => {
 
           <div className="flex items-center gap-6 mt-7 lg:mt-0">
             <ThemeToggler />
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
 
             {/* <Link
               href="https://github.com/NextJSTemplates/solid-nextjs"

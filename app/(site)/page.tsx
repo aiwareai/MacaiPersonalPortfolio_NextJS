@@ -38,11 +38,9 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Brands />   
-      <Feature /> 
-       <HomePortfolio/>    
-      {/* <HomePortfolio />   */}
+      <Feature />
       <FeaturesTab /> 
+       <HomePortfolio/>    
       <GenAiHome/>             
       {/* <About />            */}
       {/* <PortfolioCta/> */}
@@ -52,7 +50,8 @@ export default function Home() {
       {/* <Testimonial /> */}
        <Pricing />      
        <CTA />
-      <Contact />
+      <Contact /> 
+      <Brands />   
       {/* <Blog /> */}
     </main>
   );
