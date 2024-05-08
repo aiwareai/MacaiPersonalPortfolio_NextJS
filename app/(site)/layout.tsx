@@ -5,7 +5,8 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Lines from "@/components/Lines";
-import Voiceflow from "@/components/Voiceflow";
+// import Voiceflow from "@/components/Voiceflow";
+import Botpress from "@/components/Botpress";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 const inter = Inter({ subsets: ["latin"] });
@@ -40,7 +41,8 @@ export default function RootLayout({
             <ToasterContext />
             {children}
             <Footer /> 
-            <Voiceflow/>  
+            <Botpress/>
+            {/* <Voiceflow/>   */}
         </ThemeProvider>
         </IntlProvider>
       </body>
