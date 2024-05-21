@@ -120,6 +120,14 @@ const Footer = () => {
                          {t('footer.menu4')}
                       </a>
                     </li>
+                    <li>
+                      <a
+                        href="/privacy-policy"
+                        className="inline-block hover:text-primary mb-3"
+                      >
+                         {t('footer.menu9')}
+                      </a>
+                    </li>
                   </ul>
                 </motion.div>
 
