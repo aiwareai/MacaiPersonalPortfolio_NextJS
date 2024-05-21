@@ -3,8 +3,11 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
@@ -62,19 +65,19 @@ const About = () => {
             >
               <h4 className="text-black dark:text-white font-medium uppercase">
                 <span className="bg-meta text-white text-metatitle inline-flex rounded-full py-1 px-4.5 mr-4 mb-4 uppercase ">
-                  Indywidualne
+                {t('about.header1.header1')}
                 </span>{" "}
-                Strategie
+                {t('about.header1.header2')}
               </h4>
               <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-                Kompletne rozwiązania 
+             {t('about.header1.header3')}
                 <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1">
-                  Dla Biznesu
+           {t('about.header1.header4')}
                 </span>
               </h2>
               <p>
-              W Aiware jesteśmy zaangażowani w dostarczanie spersonalizowanych rozwiązań, które doskonale współgrają z unikalnymi potrzebami Twojego biznesu oraz rozwiązują jego największe problemu i bolączki.<br></br> Nasze zaangażowanie w zrozumienie szczegółów Twojej branży, wyzwań i celów pozwala nam tworzyć spersonalizowane strategie, które najlepiej działają dla Ciebie. <br></br>Bez względu na to, czy szukasz optymalizacji operacji, poprawy efektywności czy rozwiązania konkretnych problemów, jesteśmy tutaj, aby Ci pomóc.
-              </p>
+              {t('about.header1.desc1')}             
+               </p>
               {/* <div className="mt-7.5 flex items-center gap-5">
                 <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
                   <p className="text-black dark:text-white font-semibold text-metatitle2">
@@ -130,19 +133,19 @@ const About = () => {
               className="animate_left md:w-1/2"
             >
               <h4 className="text-black dark:text-white font-medium uppercase">
-              Wznieś Śwój Biznes Na Wyższy Poziom
+              {t('about.header2.header1')}
               </h4>
               <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-              Na Wyższy Poziom              </h2>
+              {t('about.header2.header1')}    
+              </h2>
               <p>
-              Wykorzystując najnowsze technologie sztucznej inteligencji, która jest jedną z największych rewolucji Naszych czasów. <br></br> Nasze starannie opracowane podejście obejmuje najnowsze pomysły i techniki, dostosowane do Twojej konkretnej branży i celów. 
-              </p>
+              {t('about.header2.desc1')}                 </p>
               <div>
                 <a
                   href="/contact"
                   className="flex items-center gap-2.5 text-black dark:text-white mt-7.5 hover:text-primary dark:hover:text-primary"
                 >
-                  <span className="hover:pr-2 duration-500">Zacznijmy projekt</span>
+                  <span className="hover:pr-2 duration-500">{t('about.header2.button')}</span>
                   <svg
                     width="14"
                     height="14"

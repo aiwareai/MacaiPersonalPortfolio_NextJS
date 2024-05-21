@@ -6,12 +6,13 @@ import PortfolioData from "./portfolioData";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 
 const Portfolio = () => {
   const [selectedTag, setSelectedTag] = useState("websites");
   const [filteredPortfolio, setFilteredPortfolio] = useState(PortfolioData);
-
+  const { t } = useTranslation();
  
   useEffect(() => {
     if (selectedTag === "websites") {
@@ -36,7 +37,7 @@ const Portfolio = () => {
             <div className="md:w-1/2 sm:w-full">
               <h4 className="text-black dark:text-white text-lg font-medium ml-8 mb-4.5 ">
               {/* {t('title')}   */}
-              🔥 My Portfolio
+              Piotr Macai 
               </h4>
               <div className="flex flex-row justify-start items-center">
               <Image
@@ -47,13 +48,13 @@ const Portfolio = () => {
                     className="mr-6 mb-3"
                   />
               <h1 className="text-black dark:text-white text-4xl xl:text-hero font-bold mb-5 pr-16 ">
-              Piotr Macai 
+              🔥  {t('portfolio.header')}
                 <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">
                 </span>
               </h1>
               </div>
               <h4 className="text-black dark:text-white text-lg font-medium mt-4 mb-5.5">
-                Web | AI | Marketing | Automations
+              {t('description')}
               </h4>
 
               <motion.div
@@ -166,7 +167,7 @@ const Portfolio = () => {
                       // value={email}
                       // onChange={(e) => setEmail(e.target.value)}
                       // type="text"
-                      placeholder="Signup to Newsletter"
+                      placeholder={t('portfolio.newsletter')}
                       className="dark:bg-black border border-stroke dark:border-strokedark shadow-solid-2 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-2.5 px-1"
                     />
                     <Link href="https://ainsider.beehiiv.com/subscribe" target="_blank">
@@ -174,7 +175,7 @@ const Portfolio = () => {
                       aria-label="signup to newsletter"
                       className="flex bg-black hover:bg-blackho dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-5.5 py-2.5"
                     >
-                      Subscribe
+                      {t('subscribe')}
                     </button>
                     </Link>
                   </div>
@@ -359,7 +360,7 @@ const Portfolio = () => {
                     }`}
                     onClick={() => handleTagSelection("websites")}
                   >
-                    Websites
+                  {t('portfolio.button1')}
                   </button>
                     <button
                     className={`mr-2 text-lg font-semibold ${
@@ -367,7 +368,7 @@ const Portfolio = () => {
                     }`}
                     onClick={() => handleTagSelection("marketing")}
                   >
-                    Marketing & SEO
+                    {t('portfolio.button2')}
                   </button>
                   <button
                     className={`mr-2 text-lg font-semibold ${
@@ -375,7 +376,7 @@ const Portfolio = () => {
                     }`}
                     onClick={() => handleTagSelection("ai")}
                   >
-                    AI & Automations
+                    {t('portfolio.button3')}
                   </button>
                   <Link href="/generativeai" target="_blank" rel="noopener noreferrer">
                   <button 
@@ -383,7 +384,7 @@ const Portfolio = () => {
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                   >
-                    Generative AI
+                    {t('portfolio.button4')}
                   </button>
                   </Link>
                     

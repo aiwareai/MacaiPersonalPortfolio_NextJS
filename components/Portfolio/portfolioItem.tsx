@@ -37,7 +37,9 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
               {title}
             </Link>
           </h4>
-          <p className="text-sm">{metadata}</p>
+          {/* <p className="text-sm">
+            {metadata}
+          </p> */}
 
           {/* Display tags */}
           <div className="mt-4">

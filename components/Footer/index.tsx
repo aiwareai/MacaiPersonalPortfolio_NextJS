@@ -2,8 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <footer className="bg-white dark:bg-blacksection border-t border-stroke dark:border-strokedark">
@@ -51,7 +54,7 @@ const Footer = () => {
                 </p>
 
                 <p className="uppercase tracking-[5px] text-sectiontitle mb-1.5">
-                  Contact
+                {t('footer.contact')}
                 </p>
                 <a
                   href="#"
@@ -90,7 +93,7 @@ const Footer = () => {
                         href="/"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Home
+                         {t('footer.menu1')}
                       </a>
                     </li>
                     <li>
@@ -98,7 +101,7 @@ const Footer = () => {
                         href="/portfolio"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Portfolio
+                        {t('footer.menu2')}
                       </a>
                     </li>
                     <li>
@@ -106,7 +109,7 @@ const Footer = () => {
                         href="/contact"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Contact
+                        {t('footer.menu3')}
                       </a>
                     </li>
                     <li>
@@ -114,7 +117,7 @@ const Footer = () => {
                         href="https://ainsider.cloud"
                         className="inline-block hover:text-primary mb-3"
                       >
-                        Ainsider - My Blog
+                         {t('footer.menu4')}
                       </a>
                     </li>
                   </ul>
@@ -197,10 +200,10 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="font-medium text-black dark:text-white text-itemtitle2 mb-9">
-                    Let's start
+                  {t('footer.start')}
                   </h4>
                   <p className="mb-4 w-[90%]">
-                    Send your email - and i'll dm You
+                  {t('footer.startDesc')}
                   </p>
 
 
@@ -209,7 +212,7 @@ const Footer = () => {
                     <div className="relative">
                       <input
                        type="email" name="email"
-                       placeholder="Leave Your Email"
+                       placeholder={t('footer.formDesc')}
                         className="w-full dark:bg-black border border-stroke dark:border-strokedark shadow-solid-11 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-3 px-6"
                       />
 

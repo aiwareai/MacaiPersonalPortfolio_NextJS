@@ -13,7 +13,7 @@ const BlogData: Portfolio[] = [
   { 
     _id: 0.1,
     mainImage: "/images/portfolio/ainspire.jpg",
-    title: "GenAI Magazine",
+    title: "Ainsider.cloud",
     metadata:
       "Gallery of prompts and Generative AI magazine",
       urlLink:"/portfolio/ainsider-cloud",
@@ -22,7 +22,7 @@ const BlogData: Portfolio[] = [
   { 
     _id: 1,
     mainImage: "/images/portfolio/ainsidertools.jpg",
-    title: "Ai Tools Library Application",
+    title: "Ainsider.tools",
     metadata:
       "Ultra-fast library of AI tools and models",
       urlLink:"/portfolio/aitoolslibrary",
@@ -31,7 +31,7 @@ const BlogData: Portfolio[] = [
   { 
     _id: 2,
     mainImage: "/images/portfolio/afterrave.jpg",
-    title: "After Rave",
+    title: "After-rave.eu",
     metadata:
       "Shop in Shopify in multiple languages",
       urlLink:"/portfolio/after-rave",
@@ -40,7 +40,7 @@ const BlogData: Portfolio[] = [
   { 
     _id: 3,
     mainImage: "/images/portfolio/bakaliovelove.jpg",
-    title: "bakaliowelove.pl",
+    title: "Bakaliowelove.pl",
     metadata:
       "Store on Woocommerce with healthy food",
       urlLink:"/portfolio/bakaliowelove",
@@ -49,7 +49,7 @@ const BlogData: Portfolio[] = [
   { 
     _id: 4,
     mainImage: "/images/portfolio/cora.jpg",
-    title: "cora-goralczyk.pl",
+    title: "Cora-goralczyk.pl",
     metadata:
       "Website for automotive mechanic workshop",
       urlLink:"/portfolio/cora-goralczyk",
@@ -67,7 +67,7 @@ const BlogData: Portfolio[] = [
   {
     _id: 7,
     mainImage: "/images/portfolio/lanelyya.jpg",
-    title: "lanelyya.de",
+    title: "Lanelyya.de",
     metadata:
       "Shop in multiple languages on Shopify for German market",
       urlLink:"/portfolio/lanelyya",
@@ -76,7 +76,7 @@ const BlogData: Portfolio[] = [
   {
     _id: 8,
     mainImage: "/images/portfolio/volton.jpg",
-    title: "voltoninstall.pl",
+    title: "Voltoninstall.pl",
     metadata:
       "Business website for electrical services and smart home",
       urlLink:"/portfolio/volton",
@@ -85,7 +85,7 @@ const BlogData: Portfolio[] = [
   { 
     _id: 9,
     mainImage: "/images/portfolio/szkolajazdynew.jpg",
-    title: "szkolajazdymachowski.pl",
+    title: "Szkolajazdymachowski.pl",
     metadata:
       "Website created together with AI Chatbot and FB profile for Driving School",
       urlLink:"/portfolio/osk-machowski",
@@ -100,19 +100,19 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/bodymedica",
   //     tags: ["websites"],
   // },
-  { 
-    _id: 11,
-    mainImage: "/images/portfolio/paintball.jpg",
-    title: "paintball-osada.pl",
-    metadata:
-      "Business website for Entertainment Park and Paintball",
-      urlLink:"/portfolio/paintball-osada",
-      tags: ["websites"],
-  },
+  // { 
+  //   _id: 11,
+  //   mainImage: "/images/portfolio/paintball.jpg",
+  //   title: "paintball-osada.pl",
+  //   metadata:
+  //     "Business website for Entertainment Park and Paintball",
+  //     urlLink:"/portfolio/paintball-osada",
+  //     tags: ["websites"],
+  // },
   { 
     _id: 12,
     mainImage: "/images/portfolio/slovlydeskop.jpg",
-    title: "slovlystudio.pl",
+    title: "Slovlystudio.pl",
     metadata:
       "Online store for handmade clothing brand",
       urlLink:"/portfolio/slovly",

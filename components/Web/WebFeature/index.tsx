@@ -3,8 +3,11 @@ import React from "react";
 import featuresData from "./WebFeaturesData";
 import SingleFeature from "./SingleFeature";
 import SectionHeader from "../../Common/SectionHeader";
+import { useTranslation } from 'react-i18next';
 
 const Feature = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* <!-- ===== Features Start ===== --> */}

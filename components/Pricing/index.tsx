@@ -2,8 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import SectionHeader from "../Common/SectionHeader";
+import { useTranslation } from 'react-i18next';
 
 const Pricing = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* <!-- ===== Pricing Table Start ===== --> */}
@@ -13,9 +16,9 @@ const Pricing = () => {
           <div className="animate_top text-center mx-auto">
             <SectionHeader
               headerInfo={{
-                title: `My Services`,
-                subtitle: `Pricing`,
-                description: `To receive a detailed quote, we encourage you to chat with our AI chatbot or fill out the form on the 'Contact' page.`,
+                title: t('pricing.header.header1'),
+                subtitle: t('pricing.header.header2'),
+                description: t('pricing.header.desc1'),
               }}
             />
           </div>
@@ -41,23 +44,23 @@ const Pricing = () => {
                  {" "} PLN 999
               </h3> */}
               <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-                Marketing / Social Media
+              {t('pricing.marketing.header')}
               </h4>
-              <p>Intended to directly attract new customers</p>
+              <p>  {t('pricing.marketing.desc')}</p>
 
 <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
   <ul>
     <li className="text-black dark:text-manatee mb-4 last:mb-0">
-      Ad campaigns: from from 249 $
+    {t('pricing.marketing.item1')}
     </li>
     <li className="text-black dark:text-manatee mb-4 last:mb-0">
-      Social media management + content: from from 249 $
+    {t('pricing.marketing.item2')}
     </li>
     <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-      Consultations and audits: from from 49 $
+    {t('pricing.marketing.item3')}
     </li>
     <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-      SEO and Google positioning: from 249 $
+    {t('pricing.marketing.item4')}
     </li>
   </ul>
 </div>
@@ -70,7 +73,7 @@ const Pricing = () => {
                 aria-label="purchase this plan"
                 className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
               >
-                <span className="hover:pr-2 duration-500"> Detailed Pricing</span>
+                <span className="hover:pr-2 duration-500">{t('pricing.marketing.more')}</span>
                 <svg
                   width="14"
                   height="14"
@@ -99,23 +102,23 @@ const Pricing = () => {
                 {" "} PLN 999
               </h3> */}
           <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-  Websites and Ecom platforms
+          {t('pricing.web.header')}
 </h4>
-<p>Created precisely for your needs.</p>
+<p>{t('pricing.web.desc')}</p>
 
 <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
   <ul>
     <li className="text-black dark:text-manatee mb-4 last:mb-0">
-      Landing page/business card websites: 249 $
+    {t('pricing.web.item1')}
     </li>
     <li className="text-black dark:text-manatee mb-4 last:mb-0">
-      Business card website: from 299 $
+    {t('pricing.web.item2')}
     </li>
     <li className="text-black dark:text-manatee mb-4 last:mb-0">
-      Online store: from 449 $
+    {t('pricing.web.item3')}
     </li>
     <li className="text-black dark:text-manatee mb-4 last:mb-0 opacity-40">
-      Custom projects: from 499 $
+    {t('pricing.web.item4')}
     </li>
   </ul>
 </div>
@@ -127,7 +130,7 @@ const Pricing = () => {
                 aria-label="purchase this plan"
                 className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
               >
-                <span className="hover:pr-2 duration-500"> Detailed Pricing</span>
+                <span className="hover:pr-2 duration-500">{t('pricing.web.more')}</span>
                 <svg
                   width="14"
                   height="14"
@@ -152,23 +155,23 @@ const Pricing = () => {
                 {" "} PLN 999
               </h3> */}
            <h4 className="text-black dark:text-white font-medium text-para2 mb-2.5">
-  AI & Automations
+           {t('pricing.ai.header')}
 </h4>
-<p>Processes and various repetitive tasks in your company</p>
+<p>{t('pricing.ai.desc')}</p>
 
 <div className="border-t border-stroke dark:border-strokedark mt-9 pt-9 pb-12.5">
   <ul>
     <li className="text-black dark:text-manatee mb-4 last:mb-0">
-      AI chatbots with custom knowledge base: from 249 $
+    {t('pricing.ai.item1')}
     </li>
     <li className="text-black dark:text-manatee mb-4 last:mb-0">
-      Chatbots for customer support / lead generation: from 299 $
+    {t('pricing.ai.item2')}
     </li>
     <li className="text-black dark:text-manatee mb-4 last:mb-0">
-      Custom projects: from 499 $
+    {t('pricing.ai.item3')}
     </li>
     <li className="text-black dark:text-manatee mb-4 last:mb-0">
-      Automations: from 250 $
+    {t('pricing.ai.item4')}
     </li>
   </ul>
 </div>
@@ -178,7 +181,7 @@ const Pricing = () => {
                 aria-label="purchase this plan"
                 className="inline-flex items-center gap-2.5 text-primary dark:text-white dark:hover:text-primary font-medium transition-all duration-300"
               >
-                <span className="hover:pr-2 duration-500"> Detailed Pricing</span>
+                <span className="hover:pr-2 duration-500"> {t('pricing.ai.more')}</span>
                 <svg
                   width="14"
                   height="14"

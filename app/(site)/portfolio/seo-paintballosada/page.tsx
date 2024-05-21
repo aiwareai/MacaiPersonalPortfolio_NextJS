@@ -1,7 +1,12 @@
+"use client"
+
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
+import { useTranslation } from 'react-i18next';
 
 const SingleBlogPage = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <title>{"paintball-osada.pl - Project Details"}</title>
@@ -11,24 +16,24 @@ const SingleBlogPage = () => {
             <div className="md:w-1/2 lg:w-[32%]">
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-9 mb-10">
                 <h4 className="font-semibold text-2xl text-black dark:text-white mt-2 mb-7.5">
-                  Project Details
+                {t('mainPortfolio.details')}
                 </h4>
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Link:</p>
+                    <p>Link</p>
                     <a href="https://www.google.com/search?q=paintball+wa%C5%82brzych&oq=paintball+wa%C5%82brzych&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMg0IARAuGK8BGMcBGIAEMgYIAhBFGDzSAQg0NTU4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" 
                     className="text-white transition-all duration-300 hover:text-primary">Google Results</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Company:</p>
+                    <p>{t('mainPortfolio.company')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Paintball Osada Wałbrzych</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Industry:</p>
+                    <p>{t('mainPortfolio.industry')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Entertainment / Paintball</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Project Technologies:</p>
+                    <p>{t('mainPortfolio.tech')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">WordPress</p>
                   </li>
                 </ul>
@@ -37,7 +42,7 @@ const SingleBlogPage = () => {
             <div className="lg:w-2/3">
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-7.5 md:p-10">
                 <h2 className="font-semibold text-3xl 2xl:text-sectiontitle2 text-black dark:text-white mb-5">
-                  Paintball Osada No. 1 in Google
+                {t('mainPortfolio.seo-paintballosada.header')}
                 </h2>
                 <div className="mb-10 w-full overflow-hidden">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/72]">
@@ -51,7 +56,7 @@ const SingleBlogPage = () => {
                 </div>
                 <div className="blog-details">
                   <h2 className="font-semibold text-3xl 2xl:text-sectiontitle2 text-black dark:text-white mb-5">
-                    First Position in Google for Paintball in Lower Silesia
+                  {t('mainPortfolio.seo-paintballosada.header2')}
                   </h2>
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">
                     <Image
@@ -61,7 +66,7 @@ const SingleBlogPage = () => {
                       className="object-contain object-center rounded-md"
                     />
                   </div>
-                  <p>The "paintball-osada.pl" website has achieved the prestigious first position in Google search results for the phrase "paintball Wałbrzych" and other key queries related to paintball in Lower Silesia. This impressive result is the outcome of a carefully planned and executed SEO strategy, which included content optimization for local keywords, improvement of website technical parameters, and building a valuable backlink profile. Thanks to these efforts, "paintball-osada.pl" not only dominates in local paintball-related searches but also effectively attracts enthusiasts of this sport from the Lower Silesia region, providing the company with a solid customer base and brand recognition within the local community.</p>
+                  <p>  {t('mainPortfolio.seo-paintballosada.desc1')}</p>
                 </div>
                 <SharePost />
               </div>

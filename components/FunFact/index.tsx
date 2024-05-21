@@ -2,8 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const FunFact = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
@@ -56,10 +59,11 @@ const FunFact = () => {
             className="animate_top mx-auto text-center md:w-4/5 lg:w-2/3 xl:w-1/2 mb-12.5 lg:mb-17.5 px-4 md:px-0"
           >
             <h2 className="font-bold text-black dark:text-white text-3xl xl:text-sectiontitle3 mb-4">
-                My Results in Numbers
+            {t('funfact.header1')}
             </h2>
             <p className="lg:w-11/12 mx-auto">
-            I love to analyze data with advanced tools and analysis - I love to doliver even better results than you expect.           </p>
+            {t('funfact.header2')}     
+            </p>
           </motion.div>
 
           <div className="flex flex-wrap justify-center gap-8 lg:gap-42.5">
@@ -84,7 +88,7 @@ const FunFact = () => {
               <h3 className="font-bold text-black dark:text-white text-2xl xl:text-sectiontitle3 mb-2.5">
                 +15
               </h3>
-              <p className="text-lg lg:text-para2">Happy <br></br>Clients</p>
+              <p className="text-lg lg:text-para2"> {t('funfact.item1-1')}<br></br>{t('funfact.item1-2')}</p>
             </motion.div>
             <motion.div
               variants={{
@@ -107,7 +111,7 @@ const FunFact = () => {
               <h3 className="font-bold text-black dark:text-white text-2xl xl:text-sectiontitle3 mb-2.5">
                 +100
               </h3>
-              <p className="text-lg lg:text-para2">Automated <br></br>Processes</p>
+              <p className="text-lg lg:text-para2">{t('funfact.item2-1')}<br></br>{t('funfact.item2-2')}</p>
             </motion.div>
             <motion.div
               variants={{
@@ -130,7 +134,7 @@ const FunFact = () => {
               <h3 className="font-bold text-black dark:text-white text-2xl xl:text-sectiontitle3 mb-2.5">
                 +1000 
               </h3>
-              <p className="text-lg lg:text-para2">Saved <br></br>Hours</p>
+              <p className="text-lg lg:text-para2">{t('funfact.item3-1')}<br></br>{t('funfact.item3-2')}</p>
             </motion.div>
             <motion.div
               variants={{
@@ -153,7 +157,7 @@ const FunFact = () => {
               <h3 className="font-bold text-black dark:text-white text-2xl xl:text-sectiontitle3 mb-2.5">
                 +10k 
               </h3>
-              <p className="text-lg lg:text-para2">Earned $<br></br>by Clients</p>
+              <p className="text-lg lg:text-para2">{t('funfact.item4-1')}<br></br>{t('funfact.item4-2')}</p>
             </motion.div>
           </div>
         </div>

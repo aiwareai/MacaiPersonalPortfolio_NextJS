@@ -1,38 +1,85 @@
 'use client'
 
-import Image from "next/image";
-
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
+  const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
 
+  const changeLanguage = (language: string) => {
+    i18n.changeLanguage(language);
+  };
 
 
   return (
-    <button
-    aria-label="language toggler"
-      className="bg-gray-2 dark:bg-dark-bg flex cursor-pointer items-center justify-center rounded-full text-black dark:text-white mr-1.5 absolute lg:static right-17"
-      // onClick={handleLanguageSwitch}
-    >
-      <Image
-        src="/images/icon/PL.svg"
-        alt="logo"
-        width={21}
-        height={21}
-        className="dark:hidden"
-      />
+    <div>
+      {/* <button onClick={() => changeLanguage('en')}>English</button>
+      <button onClick={() => changeLanguage('pl')}>Polski</button> */}
+       <div className="flex items-center border border-black rounded-full overflow-hidden bg-gray-200 dark:bg-gray-800">
 
-      <Image
-        src="/images/icon/EN.svg"
-        alt="logo"
-        width={22}
-        height={22}
-        className="hidden dark:block"
-      />
-    </button>
+       <button
+        onClick={() => changeLanguage('pl')}
+        className={`px-4 py-2 ${
+          currentLanguage === 'pl'
+            ? 'bg-primary text-white'
+            : 'bg-gray-200 dark:bg-gray-800 text-black dark:text-white'
+        } hover:bg-primaryho transition duration-300`}
+      >
+        Polski
+      </button>
+      <button
+        onClick={() => changeLanguage('en')}
+        className={`px-4 py-2 ${
+          currentLanguage === 'en'
+            ? 'bg-primary text-white'
+            : 'bg-gray-200 dark:bg-gray-800 text-black dark:text-white'
+        } hover:bg-primaryho transition duration-300`}
+      >
+        English
+      </button>
+
+    </div>
+    </div>
   );
 };
 
 export default LanguageSwitcher;
+
+
+// import Image from "next/image";
+
+
+// const LanguageSwitcher = () => {
+
+
+
+//   return (
+//     <button
+//     aria-label="language toggler"
+//       className="bg-gray-2 dark:bg-dark-bg flex cursor-pointer items-center justify-center rounded-full text-black dark:text-white mr-1.5 absolute lg:static right-17"
+//       // onClick={handleLanguageSwitch}
+//     >
+//       <Image
+//         src="/images/icon/PL.svg"
+//         alt="logo"
+//         width={21}
+//         height={21}
+//         className="dark:hidden"
+//       />
+
+//       <Image
+//         src="/images/icon/EN.svg"
+//         alt="logo"
+//         width={22}
+//         height={22}
+//         className="hidden dark:block"
+//       />
+//     </button>
+//   );
+// };
+
+// export default LanguageSwitcher;
 
 
 

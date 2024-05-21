@@ -2,12 +2,15 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
   /**
    * Source: https://www.joshwcomeau.com/react/the-perils-of-rehydration/
    * Reason: To fix rehydration error
    */
+  const { t } = useTranslation();
+
   const [hasMounted, setHasMounted] = React.useState(false);
   React.useEffect(() => {
     setHasMounted(true);
@@ -57,7 +60,7 @@ const Contact = () => {
               className="animate_top w-full md:w-3/5 lg:w-3/4 shadow-solid-8 rounded-lg bg-white dark:bg-black dark:border dark:border-strokedark p-7.5 xl:p-15"
             >
               <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-semibold mb-15">
-                Project Pricing
+              {t('contact.header')}
               </h2>
 
 
@@ -68,14 +71,14 @@ const Contact = () => {
                 <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-7.5">
                   <input
                     type="text" name="FullName"
-                    placeholder="Name"
+                    placeholder={t('contact.form.name')}
                     required
                     className="w-full lg:w-1/2 bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white pb-3.5"
                   />
 
                   <input
                     type="email" name="email"
-                    placeholder="Email"
+                    placeholder={t('contact.form.email')}
                     required
                     className="w-full lg:w-1/2 bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white pb-3.5"
                   />
@@ -84,7 +87,7 @@ const Contact = () => {
                 <div className="flex flex-col lg:flex-row lg:justify-between gap-7.5 lg:gap-14 mb-12.5">
                   <input
                     type="text" name="Purpose"
-                    placeholder="What Do You need?"
+                    placeholder={t('contact.form.need')}
                     required
                     className="w-full lg:w-1/2 bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white pb-3.5"
                   />
@@ -92,7 +95,7 @@ const Contact = () => {
 
                 <div className="flex mb-11.5">
                   <textarea
-                    placeholder="Please provide Your Business Details"
+                    placeholder={t('contact.form.business')}
                     name="BusinessType"
                     rows={4}
                     className="w-full bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white"
@@ -101,7 +104,7 @@ const Contact = () => {
 
                 <div className="flex mb-11.5">
                   <textarea
-                    placeholder="Please provide details about your project"
+                    placeholder={t('contact.form.details')}
                     name="Design"
                     rows={4}
                     className="w-full bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white"
@@ -110,7 +113,7 @@ const Contact = () => {
 
                 <div className="flex mb-11.5">
                   <textarea
-                    placeholder="Deadline & other information"
+                    placeholder={t('contact.form.deadline')}
                     name="Details"
                      rows={4}
                     className="w-full bg-transparent border-b border-stroke dark:border-strokedark focus-visible:outline-none focus:border-waterloo dark:focus:border-manatee focus:placeholder:text-black dark:focus:placeholder:text-white"
@@ -131,11 +134,12 @@ const Contact = () => {
                       htmlFor="fid_preview_checkboxes_option_513B5186-4757-4EB3-947C-549ABBD4E867"
                       className="max-w-[425px] flex cursor-pointer select-none pl-5 text-sm"
                     >
-I consect to process my personal data                    </label>
+                    {t('contact.consent')}                
+                    </label>
                   </div>
 
                   <button type="submit" value="Submit" aria-label="send message" className="inline-flex items-center gap-2.5 bg-black hover:bg-blackho ease-in-out duration-300 dark:bg-btndark font-medium text-white rounded-full px-6 py-3">
-                   Send Message
+                  {t('contact.button')}
                     <svg
                       className="fill-white"
                       width="14"
@@ -174,20 +178,20 @@ I consect to process my personal data                    </label>
               className="animate_top w-full md:w-2/5 lg:w-[26%] md:p-7.5 xl:pt-15"
             >
               <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-semibold mb-12.5">
-                Let's get to know
+              {t('contact.header2')}
               </h2>
 
               <div className="mb-7 5">
                 <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
-                  Calendly
+                {t('contact.calendly')}
                 </h4>
                 <p>
-                  <a href="https://calendly.com/piotrmacai0/consultation">Get Free Consultation</a>
+                  <a href="https://calendly.com/piotrmacai0/consultation">{t('contact.header3')}</a>
                 </p>
               </div>
               <div className="mb-7 5">
                 <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
-                  Email
+                {t('contact.email')}
                 </h4>
                 <p>
                   <a href="mailto:piotr@aiware.me">piotr@aiware.me</a>
@@ -195,7 +199,7 @@ I consect to process my personal data                    </label>
               </div>
               <div className="mb-7 5">
               <h4 className="font-medium text-black dark:text-white text-metatitle3 mb-4">
-                  Phone & Whatsapp
+              {t('contact.number')}
                 </h4>
                 <p>
                   <a href="#">+48 795 715 052</a>
@@ -206,7 +210,7 @@ I consect to process my personal data                    </label>
                   Messenger
                 </h4>
                 <p>
-                  <a href="https://m.me/piotr.macx.5">Talk in Messenger</a>
+                  <a href="https://m.me/piotr.macx.5">{t('contact.mess')}</a>
                 </p>
               </div>
             </motion.div>

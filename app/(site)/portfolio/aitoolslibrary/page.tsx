@@ -1,8 +1,12 @@
+"use client"
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
 import RelatedPost from "@/components/Blog/RelatedPost";
+import { useTranslation } from 'react-i18next';
 
 const SingleBlogPage = async () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <title>{`Blog Details - Solid`}</title>
@@ -14,7 +18,7 @@ const SingleBlogPage = async () => {
 
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-9 mb-10">
                 <h4 className="font-semibold text-2xl text-black dark:text-white mt-2 mb-7.5">
-                  Project Details
+                {t('mainPortfolio.details')}
                 </h4>
 
                 <ul>
@@ -23,15 +27,15 @@ const SingleBlogPage = async () => {
                     <a href="https://ainsider.tools" target="_blank" rel="noopener noreferrer" className="text-white transition-all duration-300 hover:text-primary">https://ainsider.tools</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Company:</p>
+                    <p>{t('mainPortfolio.company')}:</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Ainsider</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Industry:</p>
+                    <p>{t('mainPortfolio.industry')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">AI & Technology</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Project Technologies:</p>
+                    <p>{t('mainPortfolio.tech')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Next.js with Typescript</p>
                   </li>
                   {/* <li className="last:mb-0 mb-3 transition-all duration-300">
@@ -47,7 +51,7 @@ const SingleBlogPage = async () => {
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-7.5 md:p-10">
                         
                 <h2 className="font-semibold text-3xl 2xl:text-sectiontitle2 text-black dark:text-white mb-5">
-                  Ai Tools Library Application
+                {t('mainPortfolio.ainsidertools.header')}
                 </h2>
                 <div className="mb-10 w-full overflow-hidden ">
            
@@ -64,19 +68,16 @@ const SingleBlogPage = async () => {
 
                 <div className="blog-details">
                   <p>
-                  Ultrarapid library of AI tools and models
+                  {t('mainPortfolio.ainsidertools.desc1')}
                   </p>
                   <p>
-                    The Ainsider Tools project is an advanced AI tools library, created with the idea of providing a wide range of resources and tools related to artificial intelligence. This innovative platform was built using the Next.js framework and TypeScript programming language, which ensures not only high performance and search engine optimization, but also static typing, which increases code safety and reliability.
-                </p>
+                  {t('mainPortfolio.ainsidertools.desc2')}              </p>
                 <p>
-                Ainsider Tools offers users easy access to a wide range of AI tools, such as machine learning models, natural language processing (NLP) algorithms, data analysis libraries, and many other resources supporting the development of AI projects.
-                </p>
+                {t('mainPortfolio.ainsidertools.desc3')}                </p>
                 <p>
-                The platform was designed with maximum usability and accessibility for users of varying levels of expertise - from students and hobbyists to experienced engineers and researchers. Thanks to an intuitive user interface and the use of modern frontend solutions, Ainsider Tools enables quick searching and filtering of AI tools, helping to find the right resources tailored to specific project needs.
-                </p>
+                {t('mainPortfolio.ainsidertools.desc4')}                </p>
                 <h2 className="font-semibold text-3xl 2xl:text-sectiontitle2 text-black dark:text-white mb-5">
-                  Top Position on Page 1 of Google
+                {t('mainPortfolio.ainsidertools.header2')}
                 </h2>
                 <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">
                     <Image
@@ -86,7 +87,7 @@ const SingleBlogPage = async () => {
                       className="object-contain object-center rounded-md"
                     />
                   </div>
-                  <p>The "ainsider.tools" website has achieved significant success, ranking at the top positions of the first page of Google search results for key phrases related to AI tools libraries and automation. This exceptional achievement is the result of a comprehensive SEO strategy, which included content optimization for valuable keywords, improvement of page loading speed, and ensuring excellent usability for users. Thanks to effective optimization efforts, "ainsider.tools" has gained high visibility online, resulting in increased organic traffic and strengthening the platform's position as a leader in the field of AI tools and automation technology.</p>
+                  <p>{t('mainPortfolio.ainsidertools.desc5')}</p>
                   {/* <p>
                     Aenean augue ex, condimentum vel metus vitae, aliquam porta
                     elit. Quisque non metus ac orci mollis posuere. Mauris vel

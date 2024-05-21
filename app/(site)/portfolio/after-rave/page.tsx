@@ -1,8 +1,12 @@
+"use client"
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
 import RelatedPost from "@/components/Blog/RelatedPost";
-
+import { useTranslation } from 'react-i18next';
+ 
 const SingleBlogPage = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <title>{`After Rave - Details`}</title>
@@ -12,7 +16,7 @@ const SingleBlogPage = () => {
             <div className="md:w-1/2 lg:w-[32%]">
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-9 mb-10">
                 <h4 className="font-semibold text-2xl text-black dark:text-white mt-2 mb-7.5">
-                  Project Details
+                {t('mainPortfolio.item1.details')}
                 </h4>
 
                 <ul>
@@ -21,15 +25,15 @@ const SingleBlogPage = () => {
                     <a className="text-white transition-all duration-300 hover:text-primary" href="https://after-rave.eu" target="_blank" rel="noopener noreferrer">https://after-rave.eu</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Company:</p>
+                    <p>{t('mainPortfolio.item1.company')}:</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">After Rave Labs</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Industry:</p>
+                    <p>{t('mainPortfolio.item1.industry')}:</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Dietary Supplements</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Project Technologies:</p>
+                    <p>{t('mainPortfolio.item1.tech')}:</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Shopify</p>
                   </li>
                 </ul>
@@ -54,14 +58,12 @@ const SingleBlogPage = () => {
 
                 <div className="blog-details">
                   <p>
-                    Shopify store in multiple languages. The project involved creating an advanced online store with the ability to serve multilingual customers.
-                  </p>
+                  {t('mainPortfolio.item1.desc1')}                  </p>
 
-                  <h3 className="pt-8">Advanced e-commerce features</h3>
+                  <h3 className="pt-8">{t('mainPortfolio.item1.header')}</h3>
 
                   <p>
-                    Integration with payment solutions, order management systems, and adaptation to the needs of international sales before implementing other language versions and different currencies. Implementation of SEO features for better positioning and traffic analysis in the store.
-                  </p>
+                  {t('mainPortfolio.item1.desc2')}                  </p>
                 </div>
 
                 <SharePost />

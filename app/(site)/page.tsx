@@ -38,11 +38,12 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Feature />
+      <Feature /> 
+       <About />           
       <FeaturesTab /> 
        <HomePortfolio/>    
       <GenAiHome/>             
-      {/* <About />            */}
+    
       {/* <PortfolioCta/> */}
       <FunFact />
       {/* <Integration /> */}

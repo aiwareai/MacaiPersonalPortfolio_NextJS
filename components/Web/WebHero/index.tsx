@@ -1,37 +1,39 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-
+import { useTranslation } from 'react-i18next';
 import { motion } from "framer-motion";
 
 const WebHero = () => {
+  const { t } = useTranslation();
+
   const [email, setEmail] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
   };
-
+ 
   return (
     <>
    <section className="pt-35 md:pt-40 xl:pt-46 pb-20 xl:pb-25 px-3 overflow-hidden">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 flex flex-col md:flex-row"> {/* Added flex and flex-col for mobile view */}
           <div className="md:w-1/2 sm:w-full md:block mb-8 md:mb-0"> {/* Added mb-8 for mobile view */}
             <h4 className="text-black dark:text-white text-lg font-medium mb-4.5">
-              🔥 Web Technology
+              🔥 {t('web.header.header1')}
             </h4>
             <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-16">
-             Landings, Websites and Ecom
+            {t('web.header.header2')}
               <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5">
               </span>
             </h1>
-            <p>Perfectly </p>
+            <p>{t('web.header.desc1')} </p>
 
             <div className="mt-10">
               <form   action="https://formspree.io/f/xyyqlvdz" target="_blank" method="POST">
                 <div className="flex flex-wrap gap-5">
                   <input
                     type="email" name="email"
-                    placeholder="Zostaw swój email"
+                    placeholder="Email"
                     className="dark:bg-black border border-stroke dark:border-strokedark shadow-solid-2 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-2.5 px-6"
                   />
                   <button
@@ -40,7 +42,7 @@ const WebHero = () => {
                     aria-label="contact"
                     className="flex bg-black hover:bg-blackho dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-7.5 py-2.5"
                   >
-                    Contact
+                    {t('web.header.contact')}
                   </button>
                 </div>
               </form>

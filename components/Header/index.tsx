@@ -3,18 +3,22 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import { useTranslation } from 'react-i18next';
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import getTranslatedMenuData from "./menuData";
 
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
+  const { t } = useTranslation();
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [dropdownToggler, setDropdownToggler] = useState(false);
   const [stickyMenu, setStickyMenu] = useState(false);
 
   const pathUrl = usePathname();
+  const menuData = getTranslatedMenuData();
+
 
   // Sticky menu
   const handleStickyMenu = () => {
@@ -38,7 +42,7 @@ const Header = () => {
       }`}
     >
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 lg:flex items-center justify-between relative">
-        <div className="w-full lg:w-3/5 flex items-center justify-between">
+        <div className="w-full lg:w-2/5 flex items-center justify-between">
           <a href="/">
             <Image
               src="/images/logo/LogoWhite.png"
@@ -105,7 +109,7 @@ const Header = () => {
           }`}
         >
           <nav>
-            <ul className="flex lg:items-center flex-col lg:flex-row gap-5 lg:gap-10">
+            <ul className="flex lg:items-center flex-col lg:flex-row gap-5 lg:gap-10 mr-2">
               {menuData.map((menuItem, key) => (
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (
@@ -155,6 +159,7 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-6 mt-7 lg:mt-0">
+          <LanguageSwitcher />
             <ThemeToggler />
             {/* <LanguageSwitcher /> */}
 
@@ -167,9 +172,9 @@ const Header = () => {
 
             <Link
               href="/contact"
-              className="flex items-center justify-center bg-primary hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-2.5 px-7.5"
+              className="hidden sm:flex items-center justify-center bg-primary hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-2.5 px-7.5"
             >
-              Project Pricing 🔥
+              {t('header.pricing')}🔥
             </Link>
           </div>
         </div>

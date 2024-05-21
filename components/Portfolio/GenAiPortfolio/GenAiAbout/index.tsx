@@ -2,8 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const GenAiAbout = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
@@ -61,17 +64,18 @@ const GenAiAbout = () => {
             >
               <h4 className="text-black dark:text-white font-medium uppercase">
                 <span className="bg-meta text-white text-metatitle inline-flex rounded-full py-1 px-4.5 mr-4 mb-4 uppercase ">
-                  Generative AI
+                {t('generativeai.about1.h1-1')}
                 </span>{" "}
-                Business Transformation
+                {t('generativeai.about1.h1-2')}
+
               </h4>
               <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-                Using Generative AI
+              {t('generativeai.about1.header')}
                 <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1">
                 </span>
               </h2>
               <p>
-                Discover the potential of Generative Artificial Intelligence in revolutionizing your business. Our AI agency, aiware.me, specializes in generating images, graphics, and videos, delivering innovative solutions that can revolutionize how you showcase your products and services.
+              {t('generativeai.about1.desc')}
               </p>
               {/* <div className="mt-7.5 flex items-center gap-5">
                 <div className="w-15 h-15 rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection flex items-center justify-center">
@@ -128,20 +132,24 @@ const GenAiAbout = () => {
               className="animate_left md:w-1/2"
             >
               <h4 className="text-black dark:text-white font-medium uppercase">
-                Take Your Business to the Next Level
+              {t('generativeai.about2.h1-1')}
+
               </h4>
               <h2 className="relative font-bold text-black dark:text-white text-3xl xl:text-hero mb-6">
-                To the Next Level
+              {t('generativeai.about2.header')}
+
               </h2>
               <p>
-                Utilizing the latest artificial intelligence technologies, which is one of the greatest revolutions of our time. <br></br> Our carefully crafted approach encompasses the latest ideas and techniques tailored to your specific industry and goals.
+              {t('generativeai.about2.desc')}
               </p>
               <div>
                 <a
                   href="/contact"
                   className="flex items-center gap-2.5 text-black dark:text-white mt-7.5 hover:text-primary dark:hover:text-primary"
                 >
-                  <span className="hover:pr-2 duration-500">Start Project</span>
+                  <span className="hover:pr-2 duration-500">                
+                  {t('generativeai.about2.button')}
+                  </span>
                   <svg
                     width="14"
                     height="14"

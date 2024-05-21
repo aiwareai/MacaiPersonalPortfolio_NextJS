@@ -1,7 +1,13 @@
+"use client"
+
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
+import { useTranslation } from 'react-i18next';
+
 
 const SingleBlogPage = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <title>{"lanelyya.de - Project Details"}</title>
@@ -11,23 +17,23 @@ const SingleBlogPage = () => {
             <div className="md:w-1/2 lg:w-[32%]">
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-9 mb-10">
                 <h4 className="font-semibold text-2xl text-black dark:text-white mt-2 mb-7.5">
-                  Project Details
+                {t('mainPortfolio.details')}
                 </h4>
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Link:</p>
+                    <p>Link</p>
                     <a href="https://lanelyya.de" target="_blank" rel="noopener noreferrer" className="text-white transition-all duration-300 hover:text-primary">lanelyya.de</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Company:</p>
+                    <p>{t('mainPortfolio.company')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Lanelyya</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Industry:</p>
+                    <p>{t('mainPortfolio.industry')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Fashion</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Project Technologies:</p>
+                    <p>{t('mainPortfolio.tech')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Shopify</p>
                   </li>
                 </ul>
@@ -36,7 +42,7 @@ const SingleBlogPage = () => {
             <div className="lg:w-2/3">
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-7.5 md:p-10">
                 <h2 className="font-semibold text-3xl 2xl:text-sectiontitle2 text-black dark:text-white mb-5">
-                lanelyya.de
+                Lanelyya.de
                 </h2>
                 <div className="mb-10 w-full overflow-hidden">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/66]">
@@ -49,9 +55,9 @@ const SingleBlogPage = () => {
                   </div>
                 </div>
                 <div className="blog-details">
-                    <p>Lanellya is a modern online store for clothing and accessories, launched on Shopify to meet the expectations of discerning customers from Germany. Our platform is available in multiple languages, ensuring smooth shopping experiences for international and German-speaking customers. As a result, "ModeTrend DE" becomes a bridge between global fashion trends and local preferences, offering collections that blend modernity with tradition.</p>
-                    <p>By leveraging Shopify, our store not only provides smooth and secure checkout processes but also customization for individual user needs through multilingual support and localized payment and delivery options. We ensure that every aspect of our website reflects high standards of quality and design while promoting an ecological and ethical approach to clothing production.</p>
-                    <p>Integration with Shopify allows us to harness the latest e-commerce technologies for offer personalization and to ensure unforgettable shopping experiences. Lanellya also harnesses the power of social media to build an international community around our brand, enabling customers to share opinions and inspirations. Our mission is to deliver clothing and accessories that not only follow trends but also inspire conscious choices and self-expression of style.</p>
+                    <p>{t('mainPortfolio.lanelya.desc1')}</p>
+                    <p>{t('mainPortfolio.lanelya.desc2')}</p>
+                    <p>{t('mainPortfolio.lanelya.desc3')}</p>
                 </div>
                 <SharePost />
               </div>

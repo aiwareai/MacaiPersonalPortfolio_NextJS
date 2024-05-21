@@ -3,13 +3,15 @@ import React, { useState } from "react";
 import Image from "next/image";
 import featuresTabData from "./featuresTabData";
 import FeaturesTabItem from "./FeaturesTabItem";
-
+import { useTranslation } from 'react-i18next';
 import { motion } from "framer-motion";
+import getTranslatedFeaturesTabData from "./featuresTabData";
 
 const FeaturesTab = () => {
   const [currentTab, setCurrentTab] = useState("tabOne");
-
-  return (
+  const { t } = useTranslation();
+  const featuresTabData = getTranslatedFeaturesTabData();
+  return ( 
     <>
       {/* <!-- ===== Features Tab Start ===== --> */}
       <section className="pt-18.5 pb-20 lg:pb-22.5 relative">
@@ -63,7 +65,7 @@ const FeaturesTab = () => {
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                Audits and Consultations
+                {t('featuresTab.header.tabOne')}
                 </h5>
               </div>
             </div>
@@ -82,7 +84,7 @@ const FeaturesTab = () => {
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                Strategies and Implementations
+                {t('featuresTab.header.tabTwo')}
                 </h5>
               </div>
             </div>
@@ -101,7 +103,7 @@ const FeaturesTab = () => {
               </div>
               <div className="lg:w-auto md:w-3/5">
                 <h5 className="text-black dark:text-white text-sm xl:text-regular font-medium">
-                Analyses and Automations
+                {t('featuresTab.header.tabThree')}
                 </h5>
               </div>
             </div>
@@ -132,7 +134,7 @@ const FeaturesTab = () => {
                 className={feature.id === currentTab ? "block" : "hidden"}
                 key={key}
               >
-                <FeaturesTabItem featureTab={feature} />
+                <FeaturesTabItem featureTab={feature}  key={key} />
               </div>
             ))}
           </motion.div>

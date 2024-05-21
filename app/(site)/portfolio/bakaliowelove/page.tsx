@@ -1,7 +1,12 @@
+"use client"
+
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
+import { useTranslation } from 'react-i18next';
 
 const SingleBlogPage = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <title>{"slovlystudio.pl - Project Details"}</title>
@@ -11,7 +16,7 @@ const SingleBlogPage = () => {
             <div className="md:w-1/2 lg:w-[32%]">
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-9 mb-10">
                 <h4 className="font-semibold text-2xl text-black dark:text-white mt-2 mb-7.5">
-                  Project Details
+                {t('mainPortfolio.details')}
                 </h4>
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
@@ -19,15 +24,15 @@ const SingleBlogPage = () => {
                     <a href="https://bakaliowelove.pl" target="_blank" rel="noopener noreferrer" className="text-white transition-all duration-300 hover:text-primary">bakaliowelove.pl</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Company:</p>
+                    <p>{t('mainPortfolio.company')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Bakaliowelove</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Industry:</p>
+                    <p>{t('mainPortfolio.industry')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Healthy Food</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
-                    <p>Project Technologies:</p>
+                    <p>{t('mainPortfolio.tech')}</p>
                     <p className="text-white transition-all duration-300 hover:text-primary">Woocommerce</p>
                   </li>
                 </ul>
@@ -49,9 +54,9 @@ const SingleBlogPage = () => {
                   </div>
                 </div>
                 <div className="blog-details">
-                    <p>"Bakaliowe Love" is an innovative online store specializing in dried fruits and healthy food, built on the powerful WooCommerce platform. With this solution, we provide our customers with reliable and secure online shopping. WooCommerce enables us to offer an intuitive shopping experience with easy access to a wide range of nutritional and organic products.</p>
-                    <p>Our store utilizes advanced WooCommerce features for personalizing the product offering, allowing us to tailor product recommendations to each customer's preferences. As a result, shopping at "Bakaliowe Love" is not only simple but also customized to the individual health and dietary needs of our users.</p>
-                    <p>WooCommerce technology also supports our logistics and inventory management efforts, resulting in fast and efficient order fulfillment. We offer customers various payment and delivery options, making "Bakaliowe Love" the number one destination for anyone looking for convenient access to healthy food online.</p>
+                    <p> {t('mainPortfolio.bakaliowe.desc1')}</p>
+                    <p>{t('mainPortfolio.bakaliowe.desc2')}</p>
+                    <p>{t('mainPortfolio.bakaliowe.desc3')}</p>
                 </div>
                 <SharePost />
               </div>

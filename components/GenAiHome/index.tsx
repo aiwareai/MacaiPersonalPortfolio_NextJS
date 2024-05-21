@@ -4,18 +4,21 @@ import React from "react";
 import Image from "next/image";
 import SectionHeader from "../Common/SectionHeader";
 import Link from "next/link";
+import { useTranslation } from 'react-i18next';
 
 const GenAiArtworks = () => {
+  const { t } = useTranslation();
+
   return (
-    <>
+    <> 
 
       <section className="pb-10 lg:py-15 xl:py-20 px-10"> 
          <div className="animate_top mx-auto text-center md:w-4/5 lg:w-2/3 xl:w-1/2 mb-12.5 lg:mb-17.5 px-4 md:px-0">
          <SectionHeader
               headerInfo={{
-                title: `Generative AI`,
-                subtitle: `Images, Photographies and Videos`,
-                description: `For Business`,
+                title: t('genai.header1'),
+                subtitle: t('genai.header2'),
+                description: t('genai.header3'),
               }}
             />
             </div>
@@ -237,7 +240,7 @@ const GenAiArtworks = () => {
                        <div className="bg-zumthor text-center mt-8 md:mt-10 dark:bg-blacksection dark:border dark:border-strokedark inline-block rounded-full py-1.5 px-4.5 mb-4">
                          
                             <h4 className="font-medium text-center text-md text-black dark:text-white  ml-6">
-                            🔥 See More
+                            🔥   {t('genai.more')}
                             </h4>
                             </div>
                       </div>  

@@ -2,8 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const CTA = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* <!-- ===== CTA Start ===== --> */}
@@ -29,10 +32,10 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle4 font-bold mb-4 w-11/12">
-                Get Free Consultation <br></br> or Project Pricing
+              {t('cta.header1')} <br></br> {t('cta.header2')}
               </h2>
               <p>
-               Contact Me
+              {t('cta.contact')}
               </p>
             </motion.div>
             <motion.div
@@ -65,7 +68,7 @@ const CTA = () => {
                   href="/contact"
                   className="inline-flex items-center gap-2.5 font-medium text-white dark:text-black bg-black dark:bg-white rounded-full py-3 px-6 hover:opacity-90"
                 >
-                Contact
+                {t('cta.button')}
                   <Image
                     width={20}
                     height={20}

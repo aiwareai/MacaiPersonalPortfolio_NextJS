@@ -4,8 +4,8 @@ import Image from "next/image";
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useTranslation } from 'react-i18next';
 
-import { useTranslations } from 'next-intl';
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -14,11 +14,7 @@ const Hero = () => {
     e.preventDefault();
   };
 
-  const t = useTranslations('home');
-
-  // const handleLanguageChange = (locale) => {
-  //   intl.update('locale', locale);
-  // };
+  const { t } = useTranslation();
 
   return (
     <>
@@ -28,8 +24,9 @@ const Hero = () => {
             <div className="md:w-1/2 sm:w-full">
               <h4 className="text-black dark:text-white text-lg font-medium ml-8 mb-4.5 ">
               {/* {t('title')}   */}
-              🔥 Web & AI Studio 
+              🔥 {t('welcome')}
               </h4>
+
               <div className="flex flex-row justify-start items-center">
               <Image
                     width={130}
@@ -45,7 +42,7 @@ const Hero = () => {
               </h1>
               </div>
               <h4 className="text-black dark:text-white text-lg font-medium mt-4 mb-5.5">
-                Web | AI | Marketing | Automations
+                {t('description')}
               </h4>
 
               <motion.div
@@ -158,7 +155,7 @@ const Hero = () => {
                       // value={email}
                       // onChange={(e) => setEmail(e.target.value)}
                       // type="text"
-                      placeholder="Signup to Newsletter"
+                      placeholder="Email"
                       className="dark:bg-black border border-stroke dark:border-strokedark shadow-solid-2 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-2.5 px-1"
                     />
                     <Link href="https://ainsider.beehiiv.com/subscribe" target="_blank">
@@ -166,7 +163,7 @@ const Hero = () => {
                       aria-label="signup to newsletter"
                       className="flex bg-black hover:bg-blackho dark:bg-btndark text-white rounded-full ease-in-out duration-300 px-5.5 py-2.5"
                     >
-                      Subscribe
+                      {t('subscribe')}
                     </button>
                     </Link>
                   </div>

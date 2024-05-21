@@ -5,13 +5,14 @@ import PortfolioItem from "../portfolioItem";
 import PortfolioData from "./homePortfolioData";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from 'next-intl';
 // import LanguageSwitcher from '../components/LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 
 const Portfolio = () => {
   const [selectedTag, setSelectedTag] = useState("websites");
   const [filteredPortfolio, setFilteredPortfolio] = useState(PortfolioData);
-
+  const { t } = useTranslation();
+ 
   useEffect(() => {
     if (selectedTag === "websites") {
       setFilteredPortfolio(PortfolioData);
@@ -33,7 +34,7 @@ const Portfolio = () => {
         <div className="flex flex-row mx-auto max-w-c-1280 px-4 md:px-8 xl:px-0 mt-15 xl:mt-20">
               <div className="flex flex-col justify-center items-center w-full">
                     <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 pr-10 ">
-                    🔥 My Portfolio
+                    🔥 {t('portfolio.header')}
                       <span className="inline-block relative before:absolute before:bottom-2.5 before:left-0 before:w-full before:h-3 before:bg-titlebg dark:before:bg-titlebgdark before:-z-1 ml-2.5 ">
                       </span>
                     </h1>
@@ -57,7 +58,7 @@ const Portfolio = () => {
                     }`}
                     onClick={() => handleTagSelection("websites")}
                   >
-                    Websites
+                    {t('portfolio.button1')}
                   </button>
                     <button
                     className={`mr-2 text-lg font-semibold ${
@@ -65,7 +66,7 @@ const Portfolio = () => {
                     }`}
                     onClick={() => handleTagSelection("marketing")}
                   >
-                    Marketing & SEO
+                    {t('portfolio.button2')}
                   </button>
                   <button
                     className={`mr-2 text-lg font-semibold ${
@@ -73,7 +74,7 @@ const Portfolio = () => {
                     }`}
                     onClick={() => handleTagSelection("ai")}
                   >
-                    AI & Automations
+                    {t('portfolio.button3')}
                   </button>
                   <Link href="/generativeai" target="_blank" rel="noopener noreferrer">
                   <button 
@@ -81,7 +82,7 @@ const Portfolio = () => {
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                   >
-                    Generative AI
+                    {t('portfolio.button4')}
                   </button>
                   </Link>
            

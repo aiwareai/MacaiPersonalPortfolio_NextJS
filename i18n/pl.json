@@ -1,0 +1,325 @@
+{
+    "welcome": "Web & AI Studio",
+    "description": "Web | AI | Marketing | Automatyzacje",
+    "subscribe": "Subskrybuj",
+    "features": {
+        "header": {
+          "title": "Jak mogę ci pomóc?",
+          "subtitle": "Moje usługi i specjalizacje",
+          "description": "Dostosowane do twoich potrzeb - Rozwiązanie twoich problemów"
+        },
+            "websitesTitle": "Strony internetowe i strony docelowe",
+            "websitesDescription": "Nowoczesne i dopasowane strony internetowe, tworzone w dowolnej technologii lub przy użyciu wybranych szablonów - ale zawsze tworzone w celu osiągnięcia Twoich celów",
+            "marketingTitle": "Marketing i generowanie leadów",
+            "marketingDescription": "Rozumiem, że dotarcie do Twojej grupy docelowej i przekształcenie nowych klientów w lojalnych klientów zdecydowanie należy do głównych priorytetów Twojego biznesu - pomogę Ci w tym we wszystkim.",
+            "aiTitle": "Asystenci i Agenci AI",
+            "aiDescription": "Z pomocą sztucznej inteligencji stworzę asystentów i agentów AI dostosowanych do Twoich potrzeb, którzy pomogą Ci w najważniejszych aspektach Twojego biznesu.",
+            "designTitle": "Projektowanie i branding z wykorzystaniem AI",
+            "designDescription": "Wspólnie możemy stworzyć kompletny branding dla Twojej organizacji, w tym zdjęcia i filmy, jak sesje produktowe i influencerów AI. Szkolę również generatywne modele AI według indywidualnych potrzeb.",
+            "ecommerceTitle": "Handel elektroniczny i platformy internetowe",
+            "ecommerceDescription": "Dopasowane do Twojego biznesu e-commerce i platformy internetowe, które zwiększają sprzedaż, poprawiają doświadczenia użytkowników i rozwijają Twój biznes.",
+            "automationsTitle": "Automatyzacje i CRM-y",
+            "automationsDescription": "Wdrożę systemy zarządzania dostosowane do Twoich potrzeb z automatyzacją najbardziej powtarzalnych i czasochłonnych zadań, co da Ci dużo czasu na to, co robisz."
+       
+      },
+      "featuresTab": {
+        "header": {
+          "tabOne": "Audyty i Konsultacje",
+          "tabTwo": "Strategie i Implementacje",
+          "tabThree": "Analizy i Automatyzacje"
+        },
+        "tab1Title": "Audyty, analiza wyników i konsultacje",
+        "tab1Description1": "Odblokuj pełny potencjał swoich inicjatyw internetowych i AI dzięki audytowi i konsultacji. Zagłębiam się głęboko w istniejące systemy, analizując każdy aspekt pod kątem niewydajności, luk i możliwości.",
+        "tab1Description2": "Zapewniamy kompleksowe oceny, które podkreślają obszary do poprawy i optymalizacji. Od audytów technicznych po strategiczne konsultacje, jestem Twoim partnerem w podejmowaniu decyzji opartych na danych, które prowadzą do wzrostu i sukcesu.",
+        "tab2Title": "Nowoczesne Rozwiązania Dla Twojego Biznesu",
+        "tab2Description1": "Zmień swoje pomysły w rzeczywistość dzięki inteligentnej strategii i implementacji. Nie tworzę tylko planów - ożywiam je, tworząc spersonalizowane strategie, które są zgodne z Twoimi celami.",
+        "tab2Description2": "Wykorzystuję zaawansowane narzędzia monitorowania i analizy danych, aby zidentyfikować słabości i mocne strony. Pozostając o krok przed innymi, zapewniam, że Twoje wyniki zawsze rosną.",
+        "tab3Title": "Automatyzacje i Analizy",
+        "tab3Description1": "Zaawansowane usługi pozwolą Ci zautomatyzować wiele procesów w Twojej firmie, zyskując wiele czasu, co pozwoli Ci skupić się na istocie swojego biznesu.",
+        "tab3Description2": "Korzystając z zaawansowanych narzędzi analitycznych, dostarczam cenne wskazówki, które pomagają podejmować bardziej świadome decyzje biznesowe. Dzięki automatyzacji i analizom Twoja firma może osiągnąć lepsze wyniki i stać się znacznie bardziej konkurencyjna na rynku."
+      },
+      "about": {
+        "header1": {
+          "header1": "Indywidualne",
+          "header2": "Strategie i Implementacje",
+          "header3": "Kompletne rozwiązaniaDla Biznesu",
+          "header4": "Dla Biznesu",
+          "desc1": "W Aiware jesteśmy zaangażowani w dostarczanie spersonalizowanych rozwiązań, które doskonale współgrają z unikalnymi potrzebami Twojego biznesu oraz rozwiązują jego największe problemu i bolączki. Nasze zaangażowanie w zrozumienie szczegółów Twojej branży, wyzwań i celów pozwala nam tworzyć spersonalizowane strategie, które najlepiej działają dla Ciebie. Bez względu na to, czy szukasz optymalizacji operacji, poprawy efektywności czy rozwiązania konkretnych problemów, jesteśmy tutaj, aby Ci pomóc."
+        },
+        "header2": {
+            "header1": "Wznieś swój biznes",
+            "header2": "Na Wyższy Poziom",
+            "desc1": "Wykorzystując najnowsze technologie sztucznej inteligencji, która jest jedną z największych rewolucji Naszych czasów. Nasze starannie opracowane podejście obejmuje najnowsze pomysły i techniki, dostosowane do Twojej konkretnej branży i celów.",
+            "button": "Zacznijmy projekt"
+          }
+        },
+        "genai": 
+        {
+             "header1": "Generatywna AI",
+             "header2": "Zdjęcia, Ilustracje i Video",
+             "header3": "Dla Biznesu",
+             "more": "Zobacz Więcej"
+       },
+       "funfact": {
+        "header1": "Moje Wyniki w Liczbach",
+        "header2": "Uwielbiam analizować dane za pomocą zaawansowanych narzędzi i analiz – uwielbiam dostarczać jeszcze lepsze wyniki, niż się spodziewasz.",
+        "item1-1": "Zadowolenych",
+        "item1-2": "Klientów",
+        "item2-1": "Zautomatyzowanych",
+        "item2-2": "Procesów",
+        "item3-1": "Zaoszczędzonych",
+        "item3-2": "Godzin",
+        "item4-1": "Przychodów",
+        "item4-2": "Klientów"
+        },
+        "pricing": {
+            "header": {
+                "header1": "Moje Usługi",
+                "header2": "Cennik",
+                "desc1": "Aby otrzymać szczegółową wycenę, zachęcamy do rozmowy z naszym chatbotem AI lub wypełnienia formularza na stronie 'Kontakt'."
+            },
+            "marketing": {
+                "header": "Marketing / Media Społecznościowe",
+                "desc": "Przeznaczone do bezpośredniego przyciągania nowych klientów",
+                "item1": "Kampanie reklamowe: od 999 PLN",
+                "item2": "Zarządzanie mediami społecznościowymi + treści: od 999 PLN",
+                "item3": "Konsultacje i audyty: od 199 PLN",
+                "item4": "SEO i pozycjonowanie Google: od 999 PLN",
+                "more": "Szczegółowa Wycena"
+            },
+            "web": {
+                "header": "Strony internetowe i platformy e-commerce",
+                "desc": "Stworzone precyzyjnie dla Twoich potrzeb.",
+                "item1": "Strony typu landing page / wizytówki: 1299 PLN",
+                "item2": "Strona biznesowa: od 1999 PLN",
+                "item3": "Sklep internetowy: od 2499 PLN",
+                "item4": "Indywidualne projekty: od 2999 PLN",
+                "more": "Szczegółowa Wycena"
+            },
+            "ai": {
+                "header": "AI i Automatyzacje",
+                "desc": "Procesy i wszelakie powtarzalne zadania w Twojej firmie",
+                "item1": "Asystenci AI z niestandardową bazą wiedzy: od 999 PLN",
+                "item2": "Asystenci do obsługi klienta / generowania leadów: od 1199 PLN",
+                "item3": "Projekty niestandardowe: od 1999 PLN",
+                "item4": "Automatyzacje: od 999 PLN",
+                "more": "Szczegółowa Wycena"
+            }
+        },
+        "cta": {
+            "header1": "Bezpłatna Konsultacja",
+            "header2": "I Wycena Projektu",
+            "contact": "Porozmawiajmy",
+            "button": "Kontakt"
+        },
+        "contact": {
+            "header": "Wycena Projektu",
+            "button": "Wyślij",
+            "consent":"Zgadzam się na przetwarzanie moich danych osobowych",
+            "header2": "Poznajmy się",
+            "header3": "Bezpłatna konsultacja",
+            "calendly":"Calendly",
+            "number":"Telefon & Whatsapp",
+            "mess":"Porozmawiajmy w Messengerze",
+            "contact": "Kontakt",
+            "email":"Email",
+            "form": {
+                "name": "Twoje Imię",
+                "email": "Twój Email",
+                "need": "Czego Potrzebujesz?",
+                "business": "Proszę Podaj Szczegóły Twojej działalności",
+                "details": "Proszę Podaj Szczegóły Swojego Projektu",
+                "deadline": "Termin wykonania I Inne Informacje"
+              }  
+        },
+        "portfolio": {
+            "header": "Moje Portfolio",
+            "button1": "Strony i Sklepy www",
+            "button2": "Marketing & SEO",
+            "button3": "AI & Automatyzacje",
+            "button4": "Generatywna AI",
+            "newsletter": "Dołącz do Newslettera",
+            "items": {
+                "name": "Your Name",
+                "email": "Your Email",
+                "need": "What Do You need?", 
+                "business": "Please Provide Your Business Details", 
+                "details": "Please Provide Details About Your Project", 
+                "deadline": "Deadline and other informations"
+              }
+        },
+        "header": {
+            "menu1": "Home",
+            "menu2": "Portfolio",
+            "menu3": "Usługi",
+            "menu4": "Kontakt",
+            "menu5": "Strony i Platformy www",
+            "menu6": "AI",
+            "menu7": "Automatyzacje",
+            "menu8": "Gen AI",
+            "pricing": "Wycena"
+        },
+        "footer": {
+            "contact": "Kontakt",
+            "start": "Zacznijmy Projekt",
+            "startDesc": "Wyślij swój email - A odezwę się do Ciebie",
+            "formDesc": "Podaj swój email",
+            "menu1": "Strona Główna",
+            "menu2": "Portfolio",
+            "menu3": "Kontakt",
+            "menu4": "AInsider AI Blog"
+          },
+
+         "generativeai": {
+              "header1": "Sztuka AI",
+              "header2": "Generatywna AI dla Biznesu",
+              "desc": "Generacje. Obrazy. Filmy. Dla Twojego Biznesu",
+              "about1": {
+                "h1-1": "GENERATYWNA AI",
+                "h1-2": "Która odmienia oblicze biznesu",
+                "header": "Generatywna AI",
+                "desc": "Odkryj potencjał Generatywnej Sztucznej Inteligencji w rewolucjonizowaniu Twojego biznesu. Nasza agencja AI, aiware.me, specjalizuje się w generowaniu obrazów, grafik i filmów, dostarczając innowacyjne rozwiązania, które mogą zrewolucjonizować sposób prezentowania Twoich produktów i usług."
+              },
+              "about2": {
+                "h1-1": "WZNIEŚ SWÓJ BIZNES NA WYŻSZY POZIOM",
+                "button": "Rozpocznijmy Projekt",
+                "header": "Na Wyższy Poziom",
+                "desc": "Wykorzystując najnowsze technologie sztucznej inteligencji, która jest jedną z największych rewolucji naszych czasów. Nasze starannie opracowane podejście obejmuje najnowsze pomysły i techniki dostosowane do Twojej specyficznej branży i celów."
+              }
+          },
+          "mainPortfolio": {
+            "header1": "Sztuka AI",
+            "header2": "Generatywna AI dla Biznesu",
+            "desc": "Generacje. Obrazy. Filmy. Dla Twojego Biznesu",
+            "share": "Udostępnij Na",
+            "item1": {
+                "details": "Szczegóły Projektu",
+                "company": "Firma",
+                "industry": "Branża",
+                "tech": "Technologie Projektu",
+                "header": "Galeria poleceń i magazyn Sztucznej Inteligencji Generatywnej",
+                "desc1": "Ainsider.cloud to platforma związana z Sztuczną Inteligencją Generatywną, dziedziną technologii AI, która w skrócie - tworzy treści takie jak grafiki, obrazy czy filmy, prezentując i analizując najnowsze trendy i osiągnięcia w dziedzinie sztuki generowanej przez sztuczną inteligencję, z biblioteką poleceń - komend tekstowych do generowania grafik.",
+                "desc2": "Stworzyliśmy ten projekt przy użyciu WordPressa, który jest najpopularniejszym systemem CMS na świecie. WordPress umożliwia łatwe zarządzanie treścią - tutaj z różnymi rodzajami wpisów, a także łatwe dostosowywanie wyglądu i funkcjonalności witryny, integrację z mediami społecznościowymi i innymi narzędziami.",
+                "tags": "Tagi"
+              },
+              "ainsidercloud": {
+                "details": "Szczegóły Projektu",
+                "company": "Firma",
+                "industry": "Branża",
+                "tech": "Technologie Projektu",
+                "header": "Galeria poleceń i magazyn Sztucznej Inteligencji Generatywnej",
+                "desc1": "Ainsider.cloud to platforma związana z Sztuczną Inteligencją Generatywną, dziedziną technologii AI, która w skrócie - tworzy treści takie jak grafiki, obrazy czy filmy, prezentując i analizując najnowsze trendy i osiągnięcia w dziedzinie sztuki generowanej przez sztuczną inteligencję, z biblioteką poleceń - komend tekstowych do generowania grafik.",
+                "desc2": "Stworzyliśmy ten projekt przy użyciu WordPressa, który jest najpopularniejszym systemem CMS na świecie. WordPress umożliwia łatwe zarządzanie treścią - tutaj z różnymi rodzajami wpisów, a także łatwe dostosowywanie wyglądu i funkcjonalności witryny, integrację z mediami społecznościowymi i innymi narzędziami.",
+                "tags": "Tagi"
+              },
+              "ainsidertools": {
+                "details": "Szczegóły Projektu",
+                "company": "Firma",
+                "industry": "Branża",
+                "tech": "Technologie Projektu",
+                "header": "Aplikacja Biblioteki Narzędzi AI",
+                "desc1": "Ultra-szybka biblioteka narzędzi i modeli AI",
+                "desc2": "Projekt Ainsider Tools to zaawansowana biblioteka narzędzi AI, stworzona z myślą o dostarczeniu szerokiego zakresu zasobów i narzędzi związanych z sztuczną inteligencją. Ta innowacyjna platforma została zbudowana przy użyciu frameworka Next.js i języka programowania TypeScript, co zapewnia nie tylko wysoką wydajność i optymalizację pod kątem wyszukiwarek internetowych, ale także statyczną typizację, co zwiększa bezpieczeństwo i niezawodność kodu.",
+                "desc3": "Ainsider Tools oferuje użytkownikom łatwy dostęp do szerokiego zakresu narzędzi AI, takich jak modele uczenia maszynowego, algorytmy przetwarzania języka naturalnego (NLP), biblioteki analizy danych i wiele innych zasobów wspierających rozwój projektów AI.",
+                "desc4": "Platforma została zaprojektowana z myślą o maksymalnej użyteczności i dostępności dla użytkowników o różnym poziomie wiedzy - od studentów i hobbystów po doświadczonych inżynierów i badaczy. Dzięki intuicyjnemu interfejsowi użytkownika i użyciu nowoczesnych rozwiązań frontendowych, Ainsider Tools umożliwia szybkie wyszukiwanie i filtrowanie narzędzi AI, pomagając znaleźć odpowiednie zasoby dopasowane do konkretnych potrzeb projektowych.",
+                "tags": "Tagi",
+                "header2": "Topowa Pozycja na Stronie 1 w Google",
+                "desc5": "Strona internetowa ainsider.tools osiągnęła znaczący sukces, plasując się na czołowych pozycjach pierwszej strony wyników wyszukiwania Google dla fraz kluczowych związanych z bibliotekami narzędzi AI i automatyzacją. Ten wyjątkowy osiągnięcie jest rezultatem kompleksowej strategii SEO, która obejmowała optymalizację treści pod kątem wartościowych słów kluczowych, poprawę szybkości wczytywania strony i zapewnienie doskonałej użyteczności dla użytkowników. Dzięki skutecznym działaniom optymalizacyjnym, ainsider.tools zyskał wysoką widoczność w Internecie, co przyczyniło się do zwiększenia ruchu organicznego i umocnienia pozycji platformy jako lidera w dziedzinie narzędzi AI i technologii automatyzacji."
+              },
+              "bakaliowe": {
+                "details": "Szczegóły Projektu",
+                "company": "Firma",
+                "industry": "Branża",
+                "industry2": "Zdrowa Żywność",
+                "tech": "Technologie Projektu",
+                "desc1": "Bakaliowe Love to innowacyjny sklep internetowy specjalizujący się w suszonych owocach i zdrowej żywności, zbudowany na potężnej platformie WooCommerce. Dzięki tej rozwiązaniu zapewniamy naszym klientom niezawodne i bezpieczne zakupy online. WooCommerce umożliwia nam oferowanie intuicyjnego doświadczenia zakupowego z łatwym dostępem do szerokiego asortymentu produktów odżywczych i organicznych.",
+                "desc2": "Nasz sklep wykorzystuje zaawansowane funkcje WooCommerce do personalizacji oferty produktowej, co pozwala nam dostosowywać rekomendacje produktów do preferencji każdego klienta. Dzięki temu zakupy w Bakaliowe Love są nie tylko proste, ale także dostosowane do indywidualnych potrzeb zdrowotnych i dietetycznych naszych użytkowników.",
+                "desc3": "Technologia WooCommerce wspiera również nasze wysiłki logistyczne i zarządzanie zapasami, co przekłada się na szybką i efektywną realizację zamówień. Oferujemy klientom różne opcje płatności i dostawy, sprawiając, że Bakaliowe Love staje się numerem jeden dla wszystkich poszukujących wygodnego dostępu do zdrowej żywności online.",
+                "desc4": "Platforma została zaprojektowana z myślą o maksymalnej użyteczności i dostępności dla użytkowników o różnym poziomie wiedzy - od studentów i hobbystów po doświadczonych inżynierów i badaczy. Dzięki intuicyjnemu interfejsowi użytkownika i wykorzystaniu nowoczesnych rozwiązań frontendowych, Ainsider Tools umożliwia szybkie wyszukiwanie i filtrowanie narzędzi AI, pomagając znaleźć odpowiednie zasoby dopasowane do konkretnych potrzeb projektowych."
+              },
+              "cora": {
+                "details": "Szczegóły Projektu",
+                "company": "Firma",
+                "industry": "Branża",
+                "industry2": "Motoryzacja / Mechanika Pojazdowa",
+                "tech": "Technologie Projektu",
+                "desc1": "Strona internetowa Zakładu Mechaniki Pojazdowej Cora-Góralczyk prezentująca usługi, kontakt i lokalizację warsztatu.",
+                "desc2": "Projekt Cora-Góralczyk to zaawansowana strona internetowa warsztatu mechaniki pojazdowej specjalizującego się w branży motoryzacyjnej. Strona została zaprojektowana i wdrożona w celu maksymalizacji dostępności i intuicyjności dla użytkowników, łącząc nowoczesne technologie internetowe, takie jak HTML, CSS i JavaScript. Świadomie unikając ciężkich rozwiązań, takich jak WordPress czy inne kreatory stron internetowych, osiągnięto znaczące usprawnienia szybkości wczytywania strony i optymalizacji SEO."
+              },
+              "lanelya": {
+                "desc1": "Lanellya to nowoczesny sklep internetowy z odzieżą i akcesoriami, uruchomiony na platformie Shopify, aby sprostać oczekiwaniom wymagających klientów z Niemiec. Nasza platforma jest dostępna w wielu językach, zapewniając płynne doświadczenia zakupowe dla klientów międzynarodowych i niemieckojęzycznych. W rezultacie staje się mostem między globalnymi trendami modowymi a lokalnymi preferencjami, oferując kolekcje, które łączą nowoczesność z tradycją.",
+                "desc2": "Dzięki wykorzystaniu technologii Shopify, nasz sklep nie tylko zapewnia płynne i bezpieczne procesy realizacji zamówień, ale także personalizację dla indywidualnych potrzeb użytkowników poprzez wsparcie wielojęzyczne i zlokalizowane opcje płatności i dostawy. Zapewniamy, że każdy aspekt naszej strony internetowej odzwierciedla wysokie standardy jakości i designu, promując ekologiczne i etyczne podejście do produkcji odzieży.",
+                "desc3": "Integracja z Shopify pozwala nam wykorzystać najnowsze technologie e-commerce do personalizacji i zapewnienia niezapomnianych doświadczeń zakupowych. Lanellya wykorzystuje także moc mediów społecznościowych, aby zbudować międzynarodową społeczność wokół naszej marki, umożliwiając klientom dzielenie się opiniami i inspiracjami. Naszą misją jest dostarczanie odzieży i akcesoriów, które nie tylko podążają za trendami, ale także inspirują świadome wybory i wyrażanie stylu."
+              },
+              "volton": {
+                "industry": "Usługi Elektryczne / Smart Home",
+                "desc1": "Strona internetowa voltoninstall.pl została stworzona jako wizytówka firmy Volton Install, specjalizującej się w nowoczesnych instalacjach elektrycznych i systemach Smart Home. Zaprojektowana przy użyciu HTML, CSS i JavaScript, strona łączy nowoczesność i funkcjonalność, prezentując szeroki zakres usług od projektowania po instalację systemów Smart Home i profesjonalne instalacje elektryczne.",
+                "desc2": "Oprócz wysokiej użyteczności, voltoninstall.pl wyróżnia się doskonałą optymalizacją SEO, co pozwala stronie osiągnąć wysokie pozycje w wynikach wyszukiwania Google dla kluczowych fraz związanych z usługami elektrycznymi i inteligentnymi domami. Dzięki starannie dobranym słowom kluczowym, optymalizacji treści i szybkości ładowania strony, strona przyciąga znaczący ruch organiczny, co bezpośrednio przekłada się na zwiększone zainteresowanie oferowanymi usługami. Ta kombinacja nowoczesnego designu, funkcjonalności i skutecznej optymalizacji SEO czyni stronę voltoninstall.pl kluczowym narzędziem w promocji i rozwoju firmy na rynku usług elektrycznych i rozwiązań smart home."
+              },
+              "jazda": {
+                "industry": "Edukacja / Rozwój Zawodowy",
+                "desc1": "Strona internetowa szkolajazdymachowski.pl to nowoczesna platforma online zaprojektowana w celu łatwego dostępu do informacji o kursach nauki jazdy i uproszczenia procesu rejestracji dla przyszłych uczniów. Projekt został zrealizowany przy użyciu technologii HTML, CSS i JavaScript, zapewniając szybkość, responsywność i doskonałą kompatybilność z różnymi urządzeniami i przeglądarkami.",
+                "desc2": "Zawiera ona integrację z chatbotem AI wspierającym obsługę klienta, generowanie leadów i automatyzację zapytań sprzedażowych za pomocą arkuszy Google i powiadomień e-mail.",
+                "header1": "",
+                "desc3": "Strona szkolajazdymachowski.pl osiągnęła imponujący sukces, zajmując pierwsze miejsce w wynikach wyszukiwania Google dla kluczowych fraz związanych z edukacją w zakresie nauki jazdy. Ten wyjątkowy rezultat jest wynikiem starannie przeprowadzonej optymalizacji SEO, skoncentrowanej na wysokiej jakości treści, właściwym użyciu słów kluczowych i technicznej doskonałości strony. W rezultacie szkoła jazdy Machowski wyróżnia się wśród konkurentów, przyciągając uwagę potencjalnych uczniów i zwiększając swoją widoczność w internecie.",
+                "header2": "Utworzenie i Promocja Profilu na Facebooku",
+                "desc4": "Oprócz sukcesów w dziedzinie wyszukiwarek internetowych, szkolajazdymachowski.pl rozszerzyła obecność Centrum Szkoleniowego w mediach społecznościowych poprzez utworzenie i promowanie profilu na Facebooku. Ten strategiczny ruch umożliwił budowanie społeczności wokół marki, angażując obecnych i potencjalnych klientów poprzez regularne posty, aktualizacje i interaktywne treści. Profil na Facebooku stał się ważnym narzędziem marketingowym, które nie tylko zwiększa świadomość marki, ale także umożliwia bezpośredni dialog ze studentami, przyczyniając się do budowania trwałych relacji i lojalności wobec szkoły."
+              },
+              "slovly": {
+                "desc1": "Sklep internetowy Slovly Studio to unikalna platforma e-commerce zbudowana na platformie Shopify, dedykowana entuzjastom unikalnej, ręcznie robionej odzieży. Koncentrując się na filozofii slow fashion, strona nie tylko prezentuje produkty, ale także podkreśla wartości marki, akcentując znaczenie świadomego konsumpcjonizmu i jakości. Intuicyjny interfejs użytkownika, połączony z eleganckim designem, zapewnia wyjątkowe doświadczenia zakupowe, umożliwiając łatwe przeglądanie kolekcji i dokonywanie zakupów online.",
+                "desc2": "Dzięki wykorzystaniu technologii Shopify, Slovly Studio oferuje zaawansowane funkcje e-commerce, takie jak bezpieczne płatności, elastyczne opcje wysyłki i spersonalizowane oferty dla użytkowników. Szczególny nacisk został położony na wizualną prezentację produktów, która w połączeniu z integracją z mediami społecznościowymi znacząco zwiększa zaangażowanie i promuje markę w szerszym gronie odbiorców. Ten projekt stanowi doskonały przykład, jak połączenie technologii i estetyki może przyczynić się do sukcesu sklepu internetowego w dzisiejszej branży modowej."
+              },
+              "seo-ainsider": {
+                "header": "Aplikacja Ainsider.tools - Najwyższa Pozycja w Google",
+                "header2": "Najwyższa Pozycja na 1. Stronie w Google dla Angielskich Słów Kluczowych",
+                "desc1": "Strona ainsider.tools odniosła znaczący sukces, zajmując czołowe pozycje na pierwszej stronie wyników wyszukiwania Google dla kluczowych fraz związanych z bibliotekami narzędzi AI i automatyzacją. Ten znaczący osiągnięcie jest rezultatem kompleksowej strategii SEO, która obejmowała optymalizację treści pod kątem wartościowych słów kluczowych, poprawę szybkości ładowania strony i zapewnienie doskonałej użyteczności dla użytkowników. Dzięki skutecznym działaniom optymalizacyjnym, ainsider.tools zyskał wysoką widoczność online, co przełożyło się na zwiększony ruch organiczny i umocnienie pozycji platformy jako lidera w dziedzinie narzędzi AI i technologii automatyzacji."
+              },
+              "seo-paintballosada": {
+                "header": "Paintball Osada Nr 1 w Google",
+                "header2": "Pierwsza Pozycja w Google dla Paintballa w Dolnym Śląsku",
+                "desc1": "Strona paintball-osada.pl osiągnęła prestiżową pierwszą pozycję w wynikach wyszukiwania Google dla frazy paintball Wałbrzych i innych kluczowych zapytań związanych z paintballem na Dolnym Śląsku. Ten imponujący wynik jest rezultatem starannie opracowanej i wdrożonej strategii SEO, która obejmowała optymalizację treści pod kątem lokalnych słów kluczowych, poprawę parametrów technicznych strony internetowej i budowę wartościowego profilu backlinków. Dzięki tym działaniom, paintball-osada.pl nie tylko dominuje w lokalnych wyszukiwaniach związanych z paintballem, ale także skutecznie przyciąga entuzjastów tego sportu z regionu Dolnego Śląska, dostarczając firmie solidną bazę klientów i rozpoznawalność marki w lokalnej społeczności."
+              },
+              "skin": {
+                "header": "Strona internetowa dla Kliniki Medycyny Estetycznej",
+                "desc1": "Projekt, który stworzyliśmy dla Skin Project Clinic, to ich strona internetowa oparta na platformie WordPress. Wykorzystując nasze doświadczenie w projektowaniu i tworzeniu stron internetowych, dostarczyliśmy im profesjonalną witrynę, która nie tylko reprezentuje ich markę, ale również ułatwia interakcję z klientami i zapewnia łatwe zarządzanie treścią.",
+                "desc2": "Nasza agencja wykorzystała możliwości WordPressa, aby stworzyć responsywną i estetycznie przyjemną stronę internetową, która nie tylko prezentuje usługi i produkty kliniki, ale także integruje się z innymi narzędziami, takimi jak media społecznościowe, zapewniając pełne wsparcie dla działań marketingowych."
+            }            
+          },
+          "web": {
+            "header": {
+                "header1": "Web Technologie",
+                "header2": "Landing Page, Ecommerce & Platformy Web",
+                "desc1": "Stworzone dla Twoich potrzeb",
+                "contact":"Kontakt" 
+ 
+              },
+              "marketing": {
+                "header": "Marketing / Social Media",
+                "desc": "Intended to directly attract new customers",
+                "item1": "Ad campaigns: from from 249 $", 
+                "item2": "Social media management + content: from from 249 $", 
+                "item3": "Consultations and audits: from from 49 $", 
+                "item4": "SEO and Google positioning: from 249 $", 
+                "more": "Detailed Pricing" 
+              },
+              "web": {
+                "header": "Websites and Ecom platforms",
+                "desc": "Created precisely for your needs.",
+                "item1": "Landing page/business card websites: 249 $", 
+                "item2": "Business card website: from 299 $", 
+                "item3": "Online store: from 449 $", 
+                "item4": "Custom projects: from 499 $", 
+                "more": "Detailed Pricing" 
+              },
+              "ai": {
+                "header": "AI & Automations",
+                "desc": "Processes and various repetitive tasks in your company",
+                "item1": "AI chatbots with custom knowledge base: from 249 $", 
+                "item2": "Chatbots for customer support / lead generation: from 299 $", 
+                "item3": "Custom projects: from 499 $", 
+                "item4": "Automations: from 249 $", 
+                "more": "Detailed Pricing" 
+              }
+        }        
+        
+  }

@@ -3,8 +3,12 @@ import React from "react";
 import featuresData from "./featuresData";
 import SingleFeature from "./SingleFeature";
 import SectionHeader from "../Common/SectionHeader";
+import { useTranslation } from 'react-i18next';
+import getTranslatedFeatures from "./featuresData";
 
 const Feature = () => {
+  const { t } = useTranslation();
+  const featuresData = getTranslatedFeatures();
   return (
     <>
       {/* <!-- ===== Features Start ===== --> */}
@@ -13,9 +17,9 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "How can I help you?",
-              subtitle: "My Services and Specializations",
-              description: `Tailored to your needs - Solving your problems`,
+              title: t('features.header.title'),
+              subtitle: t('features.header.subtitle'),
+              description: t('features.header.description'),
             }}
           />
           {/* <!-- Section Title End --> */}
@@ -24,7 +28,7 @@ const Feature = () => {
             {/* <!-- Features item Start --> */}
 
             {featuresData.map((feature, key) => (
-              <SingleFeature feature={feature} key={key} />
+              <SingleFeature feature={feature} key={key} t={t}/>
             ))}
             {/* <!-- Features item End --> */}
           </div>
