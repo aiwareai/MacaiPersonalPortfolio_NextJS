@@ -8,17 +8,17 @@
           "subtitle": "Moje usługi i specjalizacje",
           "description": "Dostosowane do twoich potrzeb - Rozwiązanie twoich problemów"
         },
-            "websitesTitle": "Strony internetowe i strony docelowe",
+            "websitesTitle": "Strony internetowe i Landing Page",
             "websitesDescription": "Nowoczesne i dopasowane strony internetowe, tworzone w dowolnej technologii lub przy użyciu wybranych szablonów - ale zawsze tworzone w celu osiągnięcia Twoich celów",
             "marketingTitle": "Marketing i generowanie leadów",
-            "marketingDescription": "Rozumiem, że dotarcie do Twojej grupy docelowej i przekształcenie nowych klientów w lojalnych klientów zdecydowanie należy do głównych priorytetów Twojego biznesu - pomogę Ci w tym we wszystkim.",
+            "marketingDescription": "Podstawą każdej działalności jest dotarcie i pozyskiwanie nowych klientów, jak i zatrzymywanie tych obecnych. Pomogę Ci w tym we wszystkim.",
             "aiTitle": "Asystenci i Agenci AI",
             "aiDescription": "Z pomocą sztucznej inteligencji stworzę asystentów i agentów AI dostosowanych do Twoich potrzeb, którzy pomogą Ci w najważniejszych aspektach Twojego biznesu.",
-            "designTitle": "Projektowanie i branding z wykorzystaniem AI",
-            "designDescription": "Wspólnie możemy stworzyć kompletny branding dla Twojej organizacji, w tym zdjęcia i filmy, jak sesje produktowe i influencerów AI. Szkolę również generatywne modele AI według indywidualnych potrzeb.",
-            "ecommerceTitle": "Handel elektroniczny i platformy internetowe",
+            "designTitle": "Generatywna AI",
+            "designDescription": "Wspólnie możemy stworzyć - z wykorzystaniem AI wszelakie materiały wizualne dla Twojego biznesu - jak sesje produktowe, branding, loga, lub nawet influencerów AI. Szkolę również generatywne modele AI według indywidualnych potrzeb.",
+            "ecommerceTitle": "Ecommerce i platformy internetowe",
             "ecommerceDescription": "Dopasowane do Twojego biznesu e-commerce i platformy internetowe, które zwiększają sprzedaż, poprawiają doświadczenia użytkowników i rozwijają Twój biznes.",
-            "automationsTitle": "Automatyzacje i CRM-y",
+            "automationsTitle": "Automatyzacje & CRM",
             "automationsDescription": "Wdrożę systemy zarządzania dostosowane do Twoich potrzeb z automatyzacją najbardziej powtarzalnych i czasochłonnych zadań, co da Ci dużo czasu na to, co robisz."
        
       },
@@ -42,7 +42,7 @@
         "header1": {
           "header1": "Indywidualne",
           "header2": "Strategie i Implementacje",
-          "header3": "Kompletne rozwiązaniaDla Biznesu",
+          "header3": "Kompletne rozwiązania",
           "header4": "Dla Biznesu",
           "desc1": "W Aiware jesteśmy zaangażowani w dostarczanie spersonalizowanych rozwiązań, które doskonale współgrają z unikalnymi potrzebami Twojego biznesu oraz rozwiązują jego największe problemu i bolączki. Nasze zaangażowanie w zrozumienie szczegółów Twojej branży, wyzwań i celów pozwala nam tworzyć spersonalizowane strategie, które najlepiej działają dla Ciebie. Bez względu na to, czy szukasz optymalizacji operacji, poprawy efektywności czy rozwiązania konkretnych problemów, jesteśmy tutaj, aby Ci pomóc."
         },
@@ -56,7 +56,7 @@
         "genai": 
         {
              "header1": "Generatywna AI",
-             "header2": "Zdjęcia, Ilustracje i Video",
+             "header2": "Zdjęcia i Video",
              "header3": "Dla Biznesu",
              "more": "Zobacz Więcej"
        },
@@ -157,6 +157,7 @@
             "menu6": "AI",
             "menu7": "Automatyzacje",
             "menu8": "Gen AI",
+            "menu10":"Marketing",
             "menu9": "Polityka Prywatności",
             "pricing": "Wycena"
         },
@@ -168,8 +169,9 @@
             "menu1": "Strona Główna",
             "menu2": "Portfolio",
             "menu3": "Kontakt",
-            "menu9": "Privacy Policy",
+            "menu9": "Polityka Prywatności",
             "menu4": "AInsider AI Blog"
+            
           },
 
          "generativeai": {
@@ -352,6 +354,115 @@
           "cook6": "W sprawach związanych z wykorzystywaniem plików cookies na stronie Sklepu, użytkownik może skontaktować się z Administratorem pod adresem email: piotr@macai.studio . Użytkownik ma prawo wniesienia skargi do organu nadzorczego (Prezesa Urzędu Ochrony Danych Osobowych) w zakresie naruszenia przepisów dotyczących ochrony danych osobowych.",
           "headcook6":"§6. POSTANOWIENIA KOŃCOWE",
           "cook7": "Niniejsza Polityka Cookies wchodzi w życie z dniem 01.05.2024. Administrator zastrzega sobie prawo do zmiany niniejszej Polityki Cookies. O zmianach Klienci będą informowani drogą elektroniczną."
-        }        
+        },
+        "heroWebSection": {
+          "header": {
+            "title": "Szyte Na Miarę Technologie Internetowe",
+            "subtitle": "Landing Page, Strony internetowe i E-commerce",
+            "description": "Doskonale Dopasowane do Twojej Działalności"
+          },
+          "WebFeaturesTab": {
+            "header": {
+              "tabOne": "Audyty i Konsultacje",
+              "tabTwo": "Projektowanie i Wdrożenia",
+              "tabThree": "Optymalizacja i SEO"
+            },
+            "tab1Title": "Kompleksowe Audyty Stron Internetowych & Konsultacje",
+            "tab1Description1": "Z wykorzystaniem najlepszych dostępnych narzędzi dokładnie analizuję każdy aspekt Twojej istniejącej witryny, identyfikując obszary wymagające usprawnień, możliwości optymalizacji i potencjalne luki.",
+            "tab1Description2": "Poprzez kompleksowe audyty, dostarczam kompleksowe raporty mające na celu zwiększenie wydajności Twojej strony internetowej, poprawę doświadczenia użytkownika oraz widocznośc w wyszukiwarkach, social mediach oraz wizytówkach firm.",
+            "tab2Title": "Nowoczesne i Responsywne Projektowanie oraz Wdrożenia Stron Internetowych",
+            "tab2Description1": "Przekształć swoje pomysły w rzeczywistość online. Specjalizuję się w tworzeniu wizualnie atrakcyjnych, przyjaznych dla użytkownika i nowoczesnych platform internetowych, które przykuwają uwagę odbiorców i zapewniają wyjątkowe doświadczenie użytkownika na wszystkich urządzeniach.",
+            "tab2Description2": "Wykorzystując najnowsze technologie internetowe i najlepsze praktyki branżowe, buduję niestandardowe strony internetowe dopasowane do Twojej marki i celów biznesowych. Od koncepcji po uruchomienie, dbam o to, aby Twoja witryna była zoptymalizowana pod kątem wydajności, widoczności w wyszukiwarkach oraz sprzedaży i marketingu Twoich produktów oraz usług.",
+            "tab3Title": "Optymalizacja Stron Internetowych i Strategie Rozwoju",
+            "tab3Description1": "Wykorzystuję zaawansowane narzędzia analityczne, aby zidentyfikować obszary wymagające usprawnień, monitorować metryki wydajności oraz wdrażać optymalizacje oparte na danych, mające na celu zwiększenie zaangażowania użytkowników, wskaźników konwersji i pozycji w wyszukiwarkach.",
+            "tab3Description2": "Moje usługi obejmują szeroki zakres pracy - w tym optymalizację dla wyszukiwarek (SEO), jak i udoskonalenia w zakresie doświadczenia użytkownika (UX). Pozostając o krok przed konkurencją, zapewniam, że Twoja strona internetowa zachowa przewagę konkurencyjną i będzie nadal napędzać rozwój Twojej firmy."
+          },
+          "aboutWeb": {
+            "header1": {
+              "header1": "Indywidualne Rozwiązania",
+              "header2": "Dla Twojej Działalności",
+              "header3": "Strony internetowe",
+              "header4": "Landing Page i E-commerce",
+              "desc1": "W Macai Studio dostarczam indywidualne rozwiązania web, które doskonale odpowiadają unikalnym potrzebom Twojej działności. Dzięki zrozumieniu specyfiki Twojej branży, wyzwań i celów, tworzę indywidualne strategie, wdrażając je jako w pełni funkcjonalne i doskonale zoptymalizowane landing page, strony i platformy internetowe."
+            },
+            "header2": {
+              "header1": "Wprowadź Swój Biznes Online",
+              "header2": "Na Kolejny Poziom",
+              "desc1": "Wykorzystując pełen potencjał i możliwości najnowszych technologii w tworzeniu rozwiązań internetowych, oferuję niezbędną wiedzę i narzędzia które pozwolą wprowadzić Twój biznes na kolejny, jeszcze wyższy poziom. Moje usługi łączą najnowsze pomysły, techniki i strategie dostosowane do specyfiki Twojej branży i celów.",
+              "button": "Rozpocznijmy Twój Projekt"
+            }
+          }
+        },
+        "heroAiSection": {
+          "header": {
+            "title": "Technologie AI",
+            "subtitle": "Asystenci i Agenci AI & Automatyzacja & CRM/CMS",
+            "description": "Transformacja Twojej firmy Z Wykorzystaniem Najnowszej Technologii i Sztucznej Inteligencji"
+          },
+          "AiFeaturesTab": {
+            "header": {
+              "tabOne": "Asystenci i Agenci AI",
+              "tabTwo": "Automatyzacje dla Biznesu",
+              "tabThree": "CRM i CMS - zarządzanie"
+            },
+            "tab1Title": "Tworzenie i Wdrożenia Asystentów oraz Agentów AI",
+            "tab1Description1": "Odkryj, jak Asystenci i Agenci AI mogą zrewolucjonizować interakcje w Twojej firmie. Nasze kompleksowe usługi obejmują projektowanie, rozwój i wdrażanie zaawansowanych asystentów AI, które poprawią jakość obsługi klienta, zwiększą produktywność i zoptymalizują operacje biznesowe.",
+            "tab1Description2": "Dzięki naszej wiedzy i doświadczeniu, tworzymy inteligentnych agentów AI, którzy automatyzują zadania, odpowiadają na zapytania w czasie rzeczywistym i integrują się z Twoimi systemami. Pozwól nam dostarczyć Ci rozwiązania, które będą działały na rzecz Twojego sukcesu, zwiększając efektywność i satysfakcję klientów.",
+            "tab2Title": "Automatyzacje dla Biznesu",
+            "tab2Description1": "Wdrażaj nowoczesne rozwiązania automatyzacyjne, które przekształcą Twoje operacje biznesowe. Specjalizujemy się w projektowaniu i implementacji systemów automatyzacji, które eliminują powtarzalne zadania, poprawiają precyzję i przyspieszają procesy.",
+            "tab2Description2": "Nasze podejście opiera się na najnowszych technologiach i najlepszych praktykach branżowych, co pozwala nam dostarczać rozwiązania dopasowane do specyficznych potrzeb Twojej firmy. Automatyzacje, które wprowadzamy, zwiększają efektywność, redukują koszty i pozwalają skupić się na strategicznych celach biznesowych.",
+            "tab3Title": "Zarządzanie - CRM i CMS",
+            "tab3Description1": "Usprawnij zarządzanie organizacją - z klientami, pracownikami i nadzorem nad zadaniami (CRM), jak i systemami zarządzania treścią (CMS) dzięki inteligentnym rozwiązaniom AI. Nasze usługi obejmują integrację i optymalizację systemów CRM i CMS, które są dostosowane do potrzeb Twojego biznesu.",
+            "tab3Description2": "Korzystając z zaawansowanych narzędzi i technologii, pomagamy automatyzować zarządzanie danymi klientów, personalizować komunikację i poprawiać wydajność operacyjną. Dzięki naszym rozwiązaniom, możesz podejmować lepsze decyzje biznesowe, zwiększać satysfakcję klientów i efektywnie zarządzać treściami."
+          },
+          "AboutAI": {
+            "header1": {
+              "header1": "Dostosowane Rozwiązania AI",
+              "header2": "Inteligentne Strategie",
+              "header3": "Usługi Kompleksowe",
+              "header4": "Dla Transformacji Biznesu",
+              "desc1": "Jako ekspert AI w Macai Studio, zawsze dostarczam w pełni dostosowane dla Twojej działalności rozwiązania, które wykorzystują moc sztucznej inteligencji w celu transformacji technologicznej Twojej firmy. Rozumiejąc specyfikę Twojej branży, wyzwania i cele, tworzę inteligentne strategie i rozwiązania oparte na AI, które odpowiadają na Twoje unikalne potrzeby i przynoszą realne korzyści dla Twojego biznesu."
+            },
+            "header2": {
+              "header1": "Uwolnij Moc AI",
+              "header2": "Dla Twojej Firmy",
+              "desc1": "Wykorzystaj transformacyjny potencjał sztucznej inteligencji dzięki moim starannie przygotowanym usługom. Łącząc zaawansowane technologie AI z głęboką wiedzą, oferuję kompleksowe usługi dostosowane do Twoich wymagań, umożliwiając Ci wyprzedzanie konkurencji i osiąganie trwałego wzrostu.",
+              "button": "Poznajmy Rozwiązania AI"
+            }
+          }
+        },
+        "heroMarketingSection": {
+          "FeaturesTab": {
+            "header": {
+              "tabOne": "Marketingu Dla Twojego Biznesu",
+              "tabTwo": "Generacja Leadów i Pozyskiwanie Klientów",
+              "tabThree": "Rozwój Social Media"
+            },
+            "tab1Title": "Zaawansowane Rozwiązania AI dla Marketingu",
+            "tab1Description1": "Odkryj, jak rozwiązania marketingowe wraz z wykorzystaniem AI mogą podnieść strategię Twojej firmy na wyższy poziom. Moje kompleksowe usługi obejmują projektowanie, rozwój i wdrażanie zaawansowanych rozwiązań, które poprawiają widoczność firmy i docierają do nowych, potencjalnych klientów.",
+            "tab1Description2": "Wykorzystując swoją wiedzę i doświadczenie, tworzę strategie marketingowe, które automatyzują tworzenie treści, optymalizują rozmieszczenie reklam i dostarczają analiz w czasie rzeczywistym. Pozwól mi dostarczyć rozwiązania, które napędzą Twój sukces, zwiększając zaangażowanie i zapewniając spójne komunikaty marki we wszystkich kanałach.",
+            "tab2Title": "Generacja Leadów i Nowi Klienci",
+            "tab2Description1": "Wdrażaj nowoczesne rozwiązania do generacji leadów i skutecznego pozyskiwania klientów, które przekształcą rozwój Twojego biznesu. Specjalizuję się w tworzeniu i implementacji systemów, które identyfikują wysokiej jakości leady, pielęgnują potencjalnych klientów poprzez spersonalizowane interakcje i przekształcają ich w lojalnych klientów.",
+            "tab2Description2": "Moje podejście łączy najnowsze technologie AI z najlepszymi praktykami branżowymi, dostarczając rozwiązania dostosowane do unikalnych potrzeb Twojej firmy. Strategie generacji leadów i konwersji, które stosuję, zwiększają efektywność, redukują koszty pozyskania klientów i zwiększają ich wartość w czasie.",
+            "tab3Title": "Rozwój Social Media Napędzany przez AI",
+            "tab3Description1": "Optymalizuj swoją obecność w mediach społecznościowych i zwiększaj zaangażowanie dzięki rozwiązaniom opartym na AI. Moje usługi obejmują integrację i optymalizację narzędzi AI do zarządzania social media, dostosowanych do specyficznych potrzeb Twojej firmy.",
+            "tab3Description2": "Wykorzystując zaawansowane narzędzia AI do analityki i automatyzacji, pomagam zarządzać treściami, analizować zachowania odbiorców i poprawiać wskaźniki zaangażowania. Dzięki moim rozwiązaniom możesz podejmować decyzje oparte na danych, ulepszać strategię social media i osiągać trwały rozwój we wszystkich platformach."
+          },
+          "About": {
+            "header1": {
+              "header1": "Indywidualne Strategie",
+              "header2": "I Rozwiązania",
+              "header3": "Marketing i Generacja Leadów",
+              "header4": "Dla Twojego Biznesu",
+              "desc1": "Zawsze dostarczam w pełni dostosowane dla Twojej działalności rozwiązania, które wykorzystują nowoczesne strategie marketingowe, generację leadów i rozwój social media w celu transformacji Twojej firmy. Rozumiejąc specyfikę Twojej branży, wyzwania i cele, tworzę inteligentne strategie, które odpowiadają na Twoje unikalne potrzeby i przynoszą realne korzyści dla Twojego biznesu."
+            },
+            "header2": {
+              "header1": "Uwolnij Moc AI",
+              "header2": "Dla Twojej Firmy",
+              "desc1": "Wykorzystaj pełen potencjał nowoczesnych narzędzi oraz strategii marketingowych dla skutecznej generacji leadów i dynamicznego rozwoju social media. Dzięki moim usługom, łącząc zaawansowane technologie z głęboką wiedzą, oferuję kompleksowe usługi dostosowane do Twoich wymagań i specyfiki rynku razem wzmieniemy Twoją działalność na kolejny poziom.",
+              "button": "Poznajmy Rozwiązania AI"
+            }
+          }
+        }          
         
   }

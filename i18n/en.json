@@ -158,6 +158,8 @@
             "menu6": "AI",
             "menu7": "Automations",
             "menu8": "Gen AI",
+            "menu10":"Marketing",
+            "menu9": "Privacy Policy",
             "pricing": "Pricing"
         },
         "footer": {
@@ -404,5 +406,116 @@
 "cook6": "For matters related to the use of cookies on the Store's website, the user can contact the Administrator at the email address: piotr@macai.studio. The user has the right to lodge a complaint with the supervisory authority (President of the Personal Data Protection Office) regarding violations of personal data protection regulations.",
 "headcook6": "§6. FINAL PROVISIONS",
 "cook7": "This Cookie Policy enters into force on 01.05.2024. The Administrator reserves the right to amend this Cookie Policy. Customers will be informed of any changes electronically."
+},
+"heroWebSection": {
+  "header": {
+    "title": "Web Technologies",
+    "subtitle": "Landing Pages, Websites, and E-commerce",
+    "description": "Perfectly Tailored for Your Online Presence"
+  },
+  "WebFeaturesTab": {
+    "header": {
+      "tabOne": "Audits and Consultations",
+      "tabTwo": "Design and Development",
+      "tabThree": "Optimization and Growth"
+    },
+    "tab1Title": "Comprehensive Website Audits and Expert Consultations",
+    "tab1Description1": "Unlock the full potential of your online presence with thorough website audits and expert consultations. I meticulously analyze every aspect of your existing website, identifying areas for improvement, optimization opportunities, and potential gaps.",
+    "tab1Description2": "Through comprehensive assessments, I provide valuable insights and recommendations to enhance your website's performance, user experience, and search engine visibility. From technical audits to strategic consultations, I am your trusted partner in data-driven decision-making, empowering you to achieve growth and success online.",
+    "tab2Title": "Modern and Responsive Website Design and Development",
+    "tab2Description1": "Transform your ideas into a stunning online reality with my cutting-edge website design and development services. I specialize in creating visually appealing, user-friendly, and responsive websites that captivate your audience and provide an exceptional user experience across all devices.",
+    "tab2Description2": "Leveraging the latest web technologies and industry best practices, I build custom websites tailored to your brand and business goals. From concept to launch, I ensure your website is optimized for performance, search engine visibility, and overall user satisfaction.",
+    "tab3Title": "Website Optimization and Growth Strategies",
+    "tab3Description1": "Maximize the potential of your online presence with comprehensive website optimization and growth strategies. I leverage advanced analytics tools to identify areas for improvement, monitor performance metrics, and implement data-driven optimizations to enhance user engagement, conversion rates, and search engine rankings.",
+    "tab3Description2": "My services encompass a wide range of optimization techniques, including search engine optimization (SEO), conversion rate optimization (CRO), and user experience (UX) enhancements. By staying ahead of the curve, I ensure your website remains competitive and continues to drive growth for your business."
+  },
+  "aboutWeb": {
+    "header1": {
+      "header1": "Tailored Solutions",
+      "header2": "Strategic Approach",
+      "header3": "Landing Pages, Websites",
+      "header4": "and E-commerce For Your Business",
+      "desc1": "As an AI and web development expert at MacAI Studio, I am committed to delivering tailored solutions that align perfectly with your unique online needs. By understanding the intricacies of your industry, challenges, and goals, I create customized strategies that address your biggest pain points and drive success for your online presence."
+    },
+    "header2": {
+      "header1": "Elevate Your Online Business",
+      "header2": "To New Heights",
+      "desc1": "Harnessing the power of cutting-edge artificial intelligence technologies and web development best practices, I offer a carefully crafted approach to elevate your online business to new heights. My services incorporate the latest ideas, techniques, and strategies tailored to your specific industry and goals.",
+      "button": "Let's Start Your Project"
+    }
+  }
+},
+"heroAiSection": {
+  "header": {
+    "title": "AI Technologies",
+    "subtitle": "Automation, Analysis, and Intelligence",
+    "description": "Transforming Your Business with Artificial Intelligence"
+  },
+  "AiFeaturesTab": {
+    "header": {
+      "tabOne": "AI Assistants and Agents",
+      "tabTwo": "Business Automation",
+      "tabThree": "CRM and CMS Management"
+    },
+    "tab1Title": "Creation and Implementation of AI Assistants and Agents",
+    "tab1Description1": "Discover how AI Assistants and Agents can revolutionize interactions within your company. Our comprehensive services include designing, developing, and implementing advanced AI assistants that enhance customer service quality, boost productivity, and optimize business operations.",
+    "tab1Description2": "With our expertise, we create intelligent AI agents that automate tasks, respond to inquiries in real time, and integrate with your systems. Let us provide you with solutions that work towards your success, increasing efficiency and customer satisfaction.",
+    "tab2Title": "Business Automation",
+    "tab2Description1": "Implement modern automation solutions that transform your business operations. We specialize in designing and implementing automation systems that eliminate repetitive tasks, improve accuracy, and accelerate processes.",
+    "tab2Description2": "Our approach leverages the latest technologies and best industry practices to deliver solutions tailored to your company's specific needs. The automations we introduce enhance efficiency, reduce costs, and allow you to focus on strategic business goals.",
+    "tab3Title": "AI-Driven CRM and CMS Management",
+    "tab3Description1": "Streamline your Customer Relationship Management (CRM) and Content Management Systems (CMS) with intelligent AI solutions. Our services include integrating and optimizing CRM and CMS systems tailored to your business needs.",
+    "tab3Description2": "Using advanced AI tools, we help automate customer data management, personalize communication, and improve operational efficiency. With our solutions, you can make better business decisions, increase customer satisfaction, and manage content effectively."
+  },
+  "AboutAI": {
+    "header1": {
+      "header1": "Tailored AI Solutions",
+      "header2": "Intelligent Strategies",
+      "header3": "End-to-End Services",
+      "header4": "For Business Transformation",
+      "desc1": "As an AI expert at MacAI Studio, I am committed to delivering tailored solutions that leverage the power of artificial intelligence to transform your business. By understanding the intricacies of your industry, challenges, and goals, I create intelligent strategies and AI-driven solutions that address your unique needs and drive real business impact."
+    },
+    "header2": {
+      "header1": "Unleash the Power of AI",
+      "header2": "For Your Business",
+      "desc1": "Harness the transformative potential of artificial intelligence with my carefully crafted approach. By combining cutting-edge AI technologies with deep industry expertise, I offer end-to-end services tailored to your specific requirements, empowering you to Stay ahead of the curve and achieve sustainable growth.",
+      "button": "Let's Explore AI Solutions"
+    }
+  }
+},
+"heroMarketingSection": {
+  "FeaturesTab": {
+    "header": {
+      "tabOne": "Marketing for Your Business",
+      "tabTwo": "Lead Generation and Customer Acquisition",
+      "tabThree": "Social Media Development"
+    },
+    "tab1Title": "Advanced AI Solutions for Marketing",
+    "tab1Description1": "Discover how marketing solutions enhanced with AI can elevate your company's strategy to the next level. My comprehensive services include designing, developing, and implementing advanced solutions that improve your company's visibility and reach new potential customers.",
+    "tab1Description2": "Leveraging my knowledge and experience, I create marketing strategies that automate content creation, optimize ad placement, and provide real-time analytics. Let me deliver solutions that drive your success by increasing engagement and ensuring consistent brand messaging across all channels.",
+    "tab2Title": "Lead Generation and New Customers",
+    "tab2Description1": "Implement modern solutions for lead generation and effective customer acquisition that will transform your business growth. I specialize in creating and implementing systems that identify high-quality leads, nurture potential customers through personalized interactions, and convert them into loyal clients.",
+    "tab2Description2": "My approach combines the latest AI technologies with industry best practices, delivering solutions tailored to the unique needs of your business. The lead generation and conversion strategies I employ increase efficiency, reduce customer acquisition costs, and enhance their lifetime value.",
+    "tab3Title": "AI-Driven Social Media Development",
+    "tab3Description1": "Optimize your social media presence and boost engagement with AI-powered solutions. My services include integrating and optimizing AI tools for social media management, tailored to your company's specific needs.",
+    "tab3Description2": "Utilizing advanced AI tools for analytics and automation, I help manage content, analyze audience behavior, and improve engagement metrics. With my solutions, you can make data-driven decisions, enhance your social media strategy, and achieve sustained growth across all platforms."
+  },
+  "About": {
+    "header1": {
+      "header1": "Personalized Strategies",
+      "header2": "And Solutions",
+      "header3": "Marketing and Lead Generation",
+      "header4": "For Your Business",
+      "desc1": "I always deliver fully tailored solutions for your business, utilizing modern marketing strategies, lead generation, and social media development to transform your company. Understanding the specifics of your industry, challenges, and goals, I create intelligent strategies that address your unique needs and bring real benefits to your business."
+    },
+    "header2": {
+      "header1": "Unleash the Power of AI",
+      "header2": "For Your Company",
+      "desc1": "Harness the full potential of modern tools and marketing strategies for effective lead generation and dynamic social media development. Through my services, combining advanced technologies with deep knowledge, I offer comprehensive services tailored to your requirements and market specifics to elevate your business to the next level.",
+      "button": "Discover Our AI Solutions"
+    }
+  }
 }
+
+
   }
