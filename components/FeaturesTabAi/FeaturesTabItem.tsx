@@ -15,7 +15,7 @@ const FeaturesTabItem: React.FC<Props> = ({ featureTab }) => {
     <>
       <div className="flex items-center gap-8 lg:gap-19">
         <div className="md:w-1/2">
-          <h2 className="text-black dark:text-white text-3xl xl:text-sectiontitle2 font-bold mb-7">
+          <h2 className="text-black dark:text-white text-xl xl:text-2xl font-bold mb-7">
             {t(title)}
           </h2>
           <p className="mb-5">{t(desc1)}</p>

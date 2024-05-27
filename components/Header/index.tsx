@@ -1,13 +1,11 @@
-"use client";
+'use client';
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslation } from 'react-i18next';
 import ThemeToggler from "./ThemeToggler";
-import menuData from "./menuData";
 import getTranslatedMenuData from "./menuData";
-
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
@@ -18,7 +16,6 @@ const Header = () => {
 
   const pathUrl = usePathname();
   const menuData = getTranslatedMenuData();
-
 
   // Sticky menu
   const handleStickyMenu = () => {
@@ -31,11 +28,16 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleStickyMenu);
-  });
+  }, []);
+
+  const handleMenuItemClick = () => {
+    setNavigationOpen(false);
+    setDropdownToggler(false);
+  };
 
   return (
     <header
-      className={`fixed left-0 top-0 w-full z-99999 py-7 ${
+      className={`fixed left-0 top-0 w-full z-20 py-7 ${
         stickyMenu
           ? "bg-white dark:bg-black shadow !py-4 transition duration-100"
           : ""
@@ -135,7 +137,12 @@ const Header = () => {
                       >
                         {menuItem.submenu.map((item, key) => (
                           <li key={key} className="hover:text-primary">
-                            <Link href={item.path || "#"}>{item.title}</Link>
+                            <Link
+                              href={item.path || "#"}
+                              onClick={handleMenuItemClick}
+                            >
+                              {item.title}
+                            </Link>
                           </li>
                         ))}
                       </ul>
@@ -148,8 +155,8 @@ const Header = () => {
                           ? "hover:text-primary text-primary"
                           : "hover:text-primary"
                       }
+                      onClick={handleMenuItemClick}
                     >
-                      
                       {menuItem.title}
                     </Link>
                   )}
@@ -159,20 +166,13 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-6 mt-7 lg:mt-0">
-          <LanguageSwitcher />
+            <LanguageSwitcher />
             <ThemeToggler />
-            {/* <LanguageSwitcher /> */}
-
-            {/* <Link
-              href="https://github.com/NextJSTemplates/solid-nextjs"
-              className="text-waterloo text-regular font-medium hover:text-primary"
-            >
-            GitHub Repo 🌟
-            </Link> */}
 
             <Link
               href="/contact"
               className="hidden sm:flex items-center justify-center bg-primary hover:bg-primaryho ease-in-out duration-300 text-white text-regular rounded-full py-2.5 px-7.5"
+              onClick={handleMenuItemClick}
             >
               {t('header.pricing')}🔥
             </Link>
@@ -182,7 +182,5 @@ const Header = () => {
     </header>
   );
 };
-
-// w-full delay-300
 
 export default Header;

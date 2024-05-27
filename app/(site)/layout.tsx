@@ -10,6 +10,8 @@ import "../globals.css";
 import ToasterContext from "../context/ToastContext";
 import i18n from '../../i18n/i18n';
 import { I18nextProvider } from 'react-i18next';
+import Voiceflow from "@/components/Voiceflow";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +33,7 @@ export default function RootLayout({
             {children}
             <Footer />
           </ThemeProvider>
+          <Voiceflow/>
         </body>
       </html>
     </I18nextProvider>
@@ -79,7 +82,7 @@ export default function RootLayout({
 //             {children}
 //             <Footer /> 
 //             <Botpress/>
-//             <Voiceflow/>  
+//             </>  
 //         </ThemeProvider>
 //       </body>
 //     </html>
