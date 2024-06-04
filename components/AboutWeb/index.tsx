@@ -30,16 +30,16 @@ const AboutWeb = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left hidden md:block md:w-1/2 relative mx-auto aspect-[588/526.5]"
+              className="animate_left hidden md:block md:w-1/2 relative mx-auto aspect-[665/488]"
             >
               <Image
-                src="/images/about/about-light-01.png"
+                src="/images/about/aboutweb.png"
                 alt="About"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="/images/about/about-dark-01.png"
+                src="/images/about/aboutweb.png"
                 alt="About"
                 className="hidden dark:block"
                 fill

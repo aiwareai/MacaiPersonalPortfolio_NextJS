@@ -3,15 +3,51 @@ import { Portfolio } from "@/types/portfolio";
 const BlogData: Portfolio[] = [
   { 
     _id: 0,
+    mainImage: "/images/portfolio/aiwareCloud.jpg",
+    title: "Aiware.cloud",
+    metadata:
+      "Website for Aesthetic Medicine Office",
+      urlLink:"/portfolio/aiwarecloud",
+      tags: ["websites"],
+  },
+   { 
+    _id: 1,
+    mainImage: "/images/portfolio/macaiStudio.jpg",
+    title: "AI Assistant for Leads & Support",
+    metadata:
+      "Ai Assistant for Macai.studio",
+      urlLink:"/portfolio/macai-chatbot",
+      tags: ["ai"],
+  },
+  { 
+    _id: 2,
     mainImage: "/images/portfolio/skin.jpg",
     title: "Skinproject.pl",
     metadata:
       "Website for Aesthetic Medicine Office",
-      urlLink:"/portfolio/skinproject",
+      urlLink:"/portfolio/akcesoriadouprawy-chatbot",
       tags: ["websites"],
   },
   { 
-    _id: 0.1,
+    _id: 3,
+    mainImage: "/images/portfolio/uprawaChatbot.jpg",
+    title: "AI Assistant for Ecommerce",
+    metadata:
+      "Ai Assistant for Akcesoriadouprawy.pl",
+      urlLink:"/portfolio/akcesoriadouprawy-chatbot",
+      tags: ["ai"],
+  },
+  { 
+    _id: 4,
+    mainImage: "/images/portfolio/aiwareSpeed.jpg",
+    title: "SEO & Speed Aiware.cloud",
+    metadata:
+      "SEO & Speed for ",
+      urlLink:"/portfolio/aiwarecloud",
+      tags: ["marketing"],
+  },
+  { 
+    _id: 5,
     mainImage: "/images/portfolio/ainspire.jpg",
     title: "Ainsider.Cloud",
     metadata:
@@ -20,7 +56,7 @@ const BlogData: Portfolio[] = [
       tags: ["websites", "ai"],
   },
   { 
-    _id: 1,
+    _id: 6,
     mainImage: "/images/portfolio/ainsidertools.jpg",
     title: "Ainsider.Tools",
     metadata:
@@ -29,7 +65,7 @@ const BlogData: Portfolio[] = [
       tags: ["websites", "ai"],
   },
   { 
-    _id: 2,
+    _id: 7,
     mainImage: "/images/portfolio/afterrave.jpg",
     title: "After-rave.eu",
     metadata:
@@ -38,7 +74,7 @@ const BlogData: Portfolio[] = [
       tags: ["websites"],
   },
   { 
-    _id: 3,
+    _id: 8,
     mainImage: "/images/portfolio/bakaliovelove.jpg",
     title: "Bakaliowelove.pl",
     metadata:
@@ -47,7 +83,7 @@ const BlogData: Portfolio[] = [
       tags: ["websites"],
   },
   { 
-    _id: 4,
+    _id: 9,
     mainImage: "/images/portfolio/cora.jpg",
     title: "Cora-goralczyk.pl",
     metadata:
@@ -65,7 +101,7 @@ const BlogData: Portfolio[] = [
   //     tags: ["websites"],
   // },
   {
-    _id: 7,
+    _id: 10,
     mainImage: "/images/portfolio/lanelyya.jpg",
     title: "Lanelyya.de",
     metadata:
@@ -74,7 +110,7 @@ const BlogData: Portfolio[] = [
       tags: ["websites"],
   },
   {
-    _id: 8,
+    _id: 11,
     mainImage: "/images/portfolio/volton.jpg",
     title: "Volton-install.pl",
     metadata:
@@ -83,7 +119,7 @@ const BlogData: Portfolio[] = [
       tags: ["websites"],
   },
   { 
-    _id: 9,
+    _id: 12,
     mainImage: "/images/portfolio/szkolajazdynew.jpg",
     title: "Szkolajazdymachowski.pl",
     metadata:
@@ -110,7 +146,7 @@ const BlogData: Portfolio[] = [
   //     tags: ["websites"],
   // },
   { 
-    _id: 12,
+    _id: 13,
     mainImage: "/images/portfolio/slovlydeskop.jpg",
     title: "Slovlystudio.pl",
     metadata:
@@ -146,7 +182,16 @@ const BlogData: Portfolio[] = [
   //     tags: ["ai"],
   // },
   { 
-    _id: 16,
+    _id: 14,
+    mainImage: "/images/portfolio/uprawaChatbot.jpg",
+    title: "AI Chatbot Szkolajazdymachowski.pl",
+    metadata:
+      "Ai Assistant Szkolajazdypolaniec.pl",
+      urlLink:"/portfolio/akcesoriadouprawy-chatbot",
+      tags: ["ai"],
+  },
+  { 
+    _id: 15,
     mainImage: "/images/portfolio/szkolajazdymarketing.jpg",
     title: "Social media + Marketing szkolajazdymachowski.pl",
     metadata:
@@ -155,7 +200,7 @@ const BlogData: Portfolio[] = [
       tags: ["marketing"],
   },
   { 
-    _id: 17,
+    _id: 16,
     mainImage: "/images/portfolio/ainsidertools-google.jpg",
     title: "SEO Ainsider.tools in Google",
     metadata:
@@ -164,7 +209,7 @@ const BlogData: Portfolio[] = [
       tags: ["marketing"],
   },
   { 
-    _id: 18,
+    _id: 17,
     mainImage: "/images/portfolio/paintball-google.jpg",
     title: "SEO paintball-osada.pl in Google",
     metadata:

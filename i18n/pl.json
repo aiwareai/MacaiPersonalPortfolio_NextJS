@@ -196,6 +196,10 @@
             "header2": "Generatywna AI dla Biznesu",
             "desc": "Generacje. Obrazy. Filmy. Dla Twojego Biznesu",
             "share": "Udostępnij Na",
+            "details": "Szczegóły Projektu",
+            "company": "Firma",
+            "industry": "Branża",
+            "tech": "Technologie Projektu",
             "item1": {
                 "details": "Szczegóły Projektu",
                 "company": "Firma",
@@ -287,7 +291,31 @@
                 "header": "Strona internetowa dla Kliniki Medycyny Estetycznej",
                 "desc1": "Projekt, który stworzyliśmy dla Skin Project Clinic, to ich strona internetowa oparta na platformie WordPress. Wykorzystując nasze doświadczenie w projektowaniu i tworzeniu stron internetowych, dostarczyliśmy im profesjonalną witrynę, która nie tylko reprezentuje ich markę, ale również ułatwia interakcję z klientami i zapewnia łatwe zarządzanie treścią.",
                 "desc2": "Nasza agencja wykorzystała możliwości WordPressa, aby stworzyć responsywną i estetycznie przyjemną stronę internetową, która nie tylko prezentuje usługi i produkty kliniki, ale także integruje się z innymi narzędziami, takimi jak media społecznościowe, zapewniając pełne wsparcie dla działań marketingowych."
-            }            
+            },
+            "aiwarecloud": {
+              "industry": "E-commerce",
+              "desc1": "Platforma sklepu internetowego aiware.cloud została stworzona na bazie WooCommerce, wraz z pełną optymalizacją która zapewniając responsywność, szybkość i doskonałą kompatybilność z różnymi urządzeniami i przeglądarkami.",
+              "desc2": "Sklep internetowy zawiera integrację z chatbotem AI, który wspiera obsługę klienta, generuje leady i automatyzuje zapytania sprzedażowe za pomocą arkuszy Google i powiadomień e-mail.",
+              "header1": "Optymalizacja & SEO",
+              "desc3": "Platforma aiware.cloud została gruntownie zoptymalizowana pod kątem SEO oraz prędkości ładowania, co zaowocowało wysokimi pozycjami w wynikach wyszukiwania Google dla kluczowych fraz związanych z e-commerce. Ten sukces jest wynikiem starannie przeprowadzonej optymalizacji, obejmującej wysokiej jakości treści, właściwe użycie słów kluczowych, optymalizację techniczną strony oraz budowanie profilu linków zwrotnych.",
+              "header2": "Optymalizacja Prędkości Ładowania",
+              "desc4": "Oprócz optymalizacji SEO, kluczowym aspektem projektu była optymalizacja prędkości ładowania strony. Zastosowano szereg technik, takich jak kompresja obrazów, minifikacja plików CSS i JavaScript, wykorzystanie buforowania przeglądarki i serwerów CDN, a także optymalizacja zapytań do bazy danych. Dzięki tym działaniom sklep internetowy https://aiware.cloud osiągnął imponujące wyniki w testach prędkości, zapewniając płynne i satysfakcjonujące doświadczenie użytkownika."
+              },
+              "macaibot": {
+                "header": "Asystent AI dla Macai.Studio & Aiware.cloud",
+                "desc1": "Dla obsługi i automatyzacji mojej działalności stworzyłem zaawansowanego asystenta AI opartego wykorzystując platformę Voiceflow wraz z API OpenAI.. Ten chatbot umożliwia zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Wykorzystując możliwości Voiceflow, nasz asystent prowadzi naturalne rozmowy, rozumie intencje użytkowników i dostarcza odpowiednie informacje lub inicjuje procesy biznesowe.",
+                "desc2": "Mój asystent AI zintegrowany jest z naszą stroną internetową oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta."
+                },
+                "uprawabot": {
+                  "header": "Asystent AI dla Sklepu Akcesoriadouprawy.pl",
+                  "desc1": "Dla wsparcia obsługi klienta i zwiększenia sprzedaży w sklepie akcesoriadouprawy.pl stworzyłem zaawansowanego asystenta AI opartego na platformie Botpress i API OpenAI. Ten inteligentny chatbot umożliwia klientom intuicyjne wyszukiwanie i odkrywanie odpowiednich produktów poprzez naturalne rozmowy. Wykorzystując możliwości Voiceflow, nasz asystent rozumie intencje użytkowników i dostarcza sugestie kategorii oraz konkretnych produktów, które mogą odpowiadać ich potrzebom.",
+                  "desc2": "Asystent AI jest w pełni zintegrowany z witryną sklepu akcesoriadouprawy.pl, zapewniając spójne i wygodne doświadczenie zakupowe. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować preferencje i wymagania klientów, a następnie przedstawiać odpowiednie oferty produktowe. Ta inteligentna automatyzacja znacznie poprawia konwersję sprzedaży, ponieważ klienci otrzymują trafne rekomendacje i mogą łatwo znaleźć poszukiwane produkty."
+                  },
+                  "foodbot": {
+                    "header": "Asystent AI dla Restauracji i Barów",
+                    "desc1": "Dla wsparcia obsługi klienta i optymalizacji procesu zamówień w restauracjach i barach stworzyłem zaawansowanego asystenta AI opartego na platformie Botpress i API OpenAI. Ten inteligentny chatbot umożliwia klientom intuicyjne składanie zamówień oraz odkrywanie menu poprzez naturalne rozmowy. Wykorzystując możliwości Voiceflow, nasz asystent rozumie intencje użytkowników i dostarcza sugestie dań oraz napojów, które mogą odpowiadać ich preferencjom.",
+                    "desc2": "Asystent AI jest w pełni zintegrowany z systemem zamówień restauracji i barów, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować preferencje i wymagania gości, a następnie przedstawiać odpowiednie propozycje dań i napojów. Ta inteligentna automatyzacja znacznie poprawia efektywność obsługi, ponieważ klienci otrzymują trafne rekomendacje i mogą łatwo złożyć zamówienie, co pozytywnie wpływa na ich zadowolenie oraz konwersję zamówień."
+                  }        
           },
           "web": {
             "header": {

@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description:"Tailored To The Needs Of Your Company Web & AI and Automation solutions that help businesses to grow. Discover our services tailored to the needs of your company.",
     images: [
       {
-        url: '/images/about/logobig.jpg', // Updated path to your image
+        url: '/images/user/piotrmacaihero.png', // Updated path to your image
         alt: 'Potr Macai Business Development', // Optional: alt text for the image
       },
     ]

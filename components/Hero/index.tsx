@@ -31,7 +31,7 @@ const Hero = () => {
               <Image
                     width={130}
                     height={130}
-                    src="/images/user/macaihero.png"
+                    src="/images/user/piotrmacaihero.png"
                     alt="Logo"
                     className="mr-6 mb-3"
                   />

@@ -291,7 +291,32 @@
               "header":"Website for Aesthetic Medicine Clinic",
               "desc1":"The project we created for Skin Project Clinic is their website based on the WordPress platform. Leveraging our experience in designing and developing websites, we provided them with a professional site that not only represents their brand but also facilitates interaction with clients and ensures easy content management.",
               "desc2":"Our agency utilized the capabilities of WordPress to create a responsive and aesthetically pleasing website that not only showcases the clinic's services and products but also integrates with other tools such as social media, providing full support for marketing activities."              
-          }
+          },
+          "aiwarecloud": {
+            "industry": "E-commerce",
+            "desc1": "The aiware.cloud e-commerce platform was built on WooCommerce, with full optimization ensuring responsiveness, speed, and excellent compatibility with various devices and browsers.",
+            "desc2": "The online store includes integration with an AI chatbot that supports customer service, generates leads, and automates sales inquiries using Google Sheets and email notifications.",
+            "header1": "Optimization & SEO",
+            "desc3": "The aiware.cloud platform has been thoroughly optimized for SEO and loading speed, resulting in high rankings in Google search results for key e-commerce-related phrases. This success is the result of carefully conducted optimization, including high-quality content, proper use of keywords, technical site optimization, and building a backlink profile.",
+            "header2": "Loading Speed Optimization",
+            "desc4": "In addition to SEO optimization, a key aspect of the project was optimizing the website's loading speed. A series of techniques were employed, such as image compression, minification of CSS and JavaScript files, utilization of browser caching and CDN servers, as well as optimization of database queries. Thanks to these efforts, the https://aiware.cloud online store achieved impressive speed test results, providing a smooth and satisfying user experience."
+            },
+            "macaibot": {
+              "header": "AI Assistant for Macai.Studio & Aiware.cloud",
+              "desc1": "To support and automate my business, I have created an advanced AI assistant utilizing the Voiceflow platform along with the OpenAI API. This chatbot enables me to collect leads and provide quotes for individual projects for clients in an automated and intuitive manner. Leveraging the capabilities of Voiceflow, our assistant engages in natural conversations, understands user intents, and delivers relevant information or initiates business processes.",
+              "desc2": "My AI assistant is integrated with our website and other communication channels, providing a consistent and convenient experience for clients. Thanks to advanced natural language processing and machine learning capabilities, it can precisely identify client needs, present relevant offers, and collect the necessary data to generate project quotes. This intelligent automation allows us to effectively manage leads and provide high-quality customer service."
+              },
+              "uprawabot": {
+                "header": "AI Assistant for Akcesoriadouprawy.pl Store",
+                "desc1": "To support customer service and increase sales in the akcesoriadouprawy.pl store, I created an advanced AI assistant based on the Botpress platform and OpenAI API. This intelligent chatbot allows customers to intuitively search for and discover suitable products through natural conversations. Utilizing Voiceflow's capabilities, our assistant understands users' intentions and provides category suggestions as well as specific products that may meet their needs.",
+                "desc2": "The AI assistant is fully integrated with the akcesoriadouprawy.pl store's website, ensuring a consistent and convenient shopping experience. Thanks to advanced natural language processing and machine learning features, it can accurately identify customer preferences and requirements, then present appropriate product offers. This intelligent automation significantly improves sales conversion as customers receive relevant recommendations and can easily find the products they are looking for."
+            },
+            "foodbot": {
+              "header": "AI Assistant for Restaurants and Bars",
+              "desc1": "To support customer service and optimize the ordering process in restaurants and bars, I have created an advanced AI assistant based on the Botpress platform and OpenAI API. This intelligent chatbot allows customers to intuitively place orders and explore the menu through natural conversations. Leveraging the capabilities of Voiceflow, our assistant understands user intentions and provides suggestions for dishes and drinks that may suit their preferences.",
+              "desc2": "The AI assistant is fully integrated with the restaurant and bar ordering system, ensuring a seamless and convenient experience for customers. Thanks to advanced natural language processing and machine learning features, it can accurately identify guests' preferences and requirements, then present appropriate dish and drink suggestions. This intelligent automation significantly improves service efficiency, as customers receive relevant recommendations and can easily place orders, positively impacting their satisfaction and order conversion."
+            }
+            
         },
         "web": {
             "header": {
