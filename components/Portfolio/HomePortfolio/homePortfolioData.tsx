@@ -2,18 +2,27 @@ import { Portfolio } from "@/types/portfolio";
 
 const BlogData: Portfolio[] = [
   { 
+    _id: 1,
+    mainImage: "/images/portfolio/aiwarecloudchatbot.jpg",
+    title: "Aiware.Cloud AI Assistant",
+    metadata:
+      "Ai Assistant for Aiware.Cloud",
+      urlLink:"/portfolio/aiware-chatbot",
+      tags: ["ai"],
+  },
+  { 
     _id: 0,
     mainImage: "/images/portfolio/aiwareCloud.jpg",
-    title: "Aiware.cloud",
+    title: "Aiware.cloud App",
     metadata:
-      "Website for Aesthetic Medicine Office",
+      "Website for Gen AI Magazine and Tools Library",
       urlLink:"/portfolio/aiwarecloud",
       tags: ["websites"],
   },
    { 
     _id: 1,
     mainImage: "/images/portfolio/macaiStudio.jpg",
-    title: "AI Assistant for Leads & Support",
+    title: "Macai Studio AI Assistant",
     metadata:
       "Ai Assistant for Macai.studio",
       urlLink:"/portfolio/macai-chatbot",
@@ -22,7 +31,7 @@ const BlogData: Portfolio[] = [
   { 
     _id: 2,
     mainImage: "/images/portfolio/ainspire.jpg",
-    title: "Ainsider.cloud",
+    title: "Ainsider.cloud AI Magazine",
     metadata:
       "Gallery of prompts and Generative AI magazine",
       urlLink:"/portfolio/ainsider-cloud",
@@ -109,15 +118,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/volton",
       tags: ["websites"],
   },
-  { 
-    _id: 8,
-    mainImage: "/images/portfolio/szkolajazdynew.jpg",
-    title: "Szkolajazdymachowski.pl",
-    metadata:
-      "Website created together with AI Chatbot and FB profile for Driving School",
-      urlLink:"/portfolio/osk-machowski",
-      tags: ["websites"],
-  },
+  // { 
+  //   _id: 8,
+  //   mainImage: "/images/portfolio/szkolajazdynew.jpg",
+  //   title: "Szkolajazdymachowski.pl",
+  //   metadata:
+  //     "Website created together with AI Chatbot and FB profile for Driving School",
+  //     urlLink:"/portfolio/osk-machowski",
+  //     tags: ["websites"],
+  // },
   // { 
   //   _id: 10,
   //   mainImage: "/images/portfolio/bodymedica.jpg",

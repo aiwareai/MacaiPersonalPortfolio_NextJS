@@ -2,18 +2,36 @@ import { Portfolio } from "@/types/portfolio";
 
 const BlogData: Portfolio[] = [
   { 
+    _id: 1,
+    mainImage: "/images/portfolio/aiwarecloudchatbot.jpg",
+    title: "Aiware.Cloud AI Assistant",
+    metadata:
+      "Ai Assistant for Macai.studio",
+      urlLink:"/portfolio/aiware-chatbot",
+      tags: ["ai"],
+  },
+  { 
     _id: 0,
     mainImage: "/images/portfolio/aiwareCloud.jpg",
-    title: "Aiware.cloud",
+    title: "Aiware.cloud App",
     metadata:
       "Website for Aesthetic Medicine Office",
       urlLink:"/portfolio/aiwarecloud",
       tags: ["websites"],
   },
+  { 
+    _id: 1,
+    mainImage: "/images/portfolio/foodchatbot.jpg",
+    title: "AI Assistant for Restaurants",
+    metadata:
+      "Ai Assistant for Macai.studio",
+      urlLink:"/portfolio/foodchatbot",
+      tags: ["ai"],
+  },
    { 
     _id: 1,
     mainImage: "/images/portfolio/macaiStudio.jpg",
-    title: "AI Assistant for Leads & Support",
+    title: "Macai.studio AI Assistant",
     metadata:
       "Ai Assistant for Macai.studio",
       urlLink:"/portfolio/macai-chatbot",
@@ -25,7 +43,7 @@ const BlogData: Portfolio[] = [
     title: "Skinproject.pl",
     metadata:
       "Website for Aesthetic Medicine Office",
-      urlLink:"/portfolio/akcesoriadouprawy-chatbot",
+      urlLink:"/portfolio/skinproject",
       tags: ["websites"],
   },
   { 
@@ -54,6 +72,24 @@ const BlogData: Portfolio[] = [
       "Gallery of prompts and Generative AI magazine",
       urlLink:"/portfolio/ainsider-cloud",
       tags: ["websites", "ai"],
+  },
+  { 
+    _id: 18,
+    mainImage: "/images/portfolio/ainsidercloudspeed.png",
+    title: "Ainsider.cloud Speed",
+    metadata:
+      "Number 1 position in Google",
+      urlLink:"/portfolio/ainsider-cloud",
+      tags: ["marketing"],
+  },
+  { 
+    _id: 19,
+    mainImage: "/images/portfolio/macaistudiospeed.jpg",
+    title: "Macai.studio Speed",
+    metadata:
+      "Number 1 position in Google",
+      urlLink:"#",
+      tags: ["marketing"],
   },
   { 
     _id: 6,
@@ -183,11 +219,11 @@ const BlogData: Portfolio[] = [
   // },
   { 
     _id: 14,
-    mainImage: "/images/portfolio/uprawaChatbot.jpg",
-    title: "AI Chatbot Szkolajazdymachowski.pl",
+    mainImage: "/images/portfolio/jazdaChatbot.jpg",
+    title: "Szkolajazdymachowski.pl AI Assistant",
     metadata:
       "Ai Assistant Szkolajazdypolaniec.pl",
-      urlLink:"/portfolio/akcesoriadouprawy-chatbot",
+      urlLink:"/portfolio/osk-machowski",
       tags: ["ai"],
   },
   { 

@@ -24,19 +24,19 @@ const SingleBlogPage = async () => {
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Link:</p>
-                    <a href="https://ainsider.cloud" target="_blank" rel="noopener noreferrer" className="text-white transition-all duration-300 hover:text-primary">ainsider.cloud</a>
+                    <a href="https://aiware.cloud" target="_blank" rel="noopener noreferrer" className="text-white transition-all duration-300 hover:text-primary">aiware.cloud</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>  {t('mainPortfolio.company')}</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">Ainsider</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">Aiware</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>{t('mainPortfolio.industry')}</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">AI & Technology</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">AI & Tech</p>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>{t('mainPortfolio.tech')}</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">Wordpress & Kadence Theme</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">Voiceflow + OpenAI API</p>
                   </li>
                   {/* <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Cel:</p>
@@ -51,13 +51,13 @@ const SingleBlogPage = async () => {
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-7.5 md:p-10">
                         
                 <h2 className="font-semibold text-3xl 2xl:text-sectiontitle2 text-black dark:text-white mb-5">
-                {t('mainPortfolio.ainsidercloud.header')}
+                {t('mainPortfolio.aiwarebot.header')}
                 </h2>
                 <div className="mb-10 w-full overflow-hidden ">
            
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">
                     <Image
-                      src={"/images/portfolio/ainspire.jpg"}
+                      src={"/images/portfolio/aiwarecloudchatbot.jpg"}
                       alt="Kobe Steel plant that supplied"
                       fill
                       className="object-contain object-center rounded-md"
@@ -68,22 +68,10 @@ const SingleBlogPage = async () => {
 
                 <div className="blog-details">
                   <p>
-                  {t('mainPortfolio.ainsidercloud.desc1')}                  </p>
+                  {t('mainPortfolio.aiwarebot.desc1')}                  </p>
                   <p>
-                  {t('mainPortfolio.ainsidercloud.desc2')}                  </p>
-
-                  <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">
-                    <Image
-                      src={"/images/portfolio/ainsidercloudspeed.png"}
-                      alt="Kobe Steel plant that supplied"
-                      fill
-                      className="object-contain object-center rounded-md"
-                    />
-                  </div>
-
+                  {t('mainPortfolio.aiwarebot.desc2')}                  </p>
                 </div>
-
-                
 
                 <SharePost />
               </div>

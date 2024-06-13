@@ -302,7 +302,7 @@
               "desc4": "Oprócz optymalizacji SEO, kluczowym aspektem projektu była optymalizacja prędkości ładowania strony. Zastosowano szereg technik, takich jak kompresja obrazów, minifikacja plików CSS i JavaScript, wykorzystanie buforowania przeglądarki i serwerów CDN, a także optymalizacja zapytań do bazy danych. Dzięki tym działaniom sklep internetowy https://aiware.cloud osiągnął imponujące wyniki w testach prędkości, zapewniając płynne i satysfakcjonujące doświadczenie użytkownika."
               },
               "macaibot": {
-                "header": "Asystent AI dla Macai.Studio & Aiware.cloud",
+                "header": "Asystent AI dla Macai.Studio",
                 "desc1": "Dla obsługi i automatyzacji mojej działalności stworzyłem zaawansowanego asystenta AI opartego wykorzystując platformę Voiceflow wraz z API OpenAI.. Ten chatbot umożliwia zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Wykorzystując możliwości Voiceflow, nasz asystent prowadzi naturalne rozmowy, rozumie intencje użytkowników i dostarcza odpowiednie informacje lub inicjuje procesy biznesowe.",
                 "desc2": "Mój asystent AI zintegrowany jest z naszą stroną internetową oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta."
                 },
@@ -315,7 +315,12 @@
                     "header": "Asystent AI dla Restauracji i Barów",
                     "desc1": "Dla wsparcia obsługi klienta i optymalizacji procesu zamówień w restauracjach i barach stworzyłem zaawansowanego asystenta AI opartego na platformie Botpress i API OpenAI. Ten inteligentny chatbot umożliwia klientom intuicyjne składanie zamówień oraz odkrywanie menu poprzez naturalne rozmowy. Wykorzystując możliwości Voiceflow, nasz asystent rozumie intencje użytkowników i dostarcza sugestie dań oraz napojów, które mogą odpowiadać ich preferencjom.",
                     "desc2": "Asystent AI jest w pełni zintegrowany z systemem zamówień restauracji i barów, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować preferencje i wymagania gości, a następnie przedstawiać odpowiednie propozycje dań i napojów. Ta inteligentna automatyzacja znacznie poprawia efektywność obsługi, ponieważ klienci otrzymują trafne rekomendacje i mogą łatwo złożyć zamówienie, co pozytywnie wpływa na ich zadowolenie oraz konwersję zamówień."
-                  }        
+                  },
+                  "aiwarebot": {
+                    "header": "Asystent AI dla Aiware.cloud",
+                    "desc1": "Dla obsługi i automatyzacji działalności platfromy i ecommerce Aiware.cloud stworzyłem zaawansowanego asystenta AI opartego wykorzystując platformę Voiceflow wraz z API OpenAI.. Ten chatbot umożliwia zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Wykorzystując możliwości Voiceflow, nasz asystent prowadzi naturalne rozmowy, rozumie intencje użytkowników i dostarcza odpowiednie informacje lub inicjuje procesy biznesowe.",
+                    "desc2": "Asystent AI zintegrowany jest z stroną i sklepem Aiware, oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta."
+                    }        
           },
           "web": {
             "header": {

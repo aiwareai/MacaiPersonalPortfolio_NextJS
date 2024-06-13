@@ -315,7 +315,12 @@
               "header": "AI Assistant for Restaurants and Bars",
               "desc1": "To support customer service and optimize the ordering process in restaurants and bars, I have created an advanced AI assistant based on the Botpress platform and OpenAI API. This intelligent chatbot allows customers to intuitively place orders and explore the menu through natural conversations. Leveraging the capabilities of Voiceflow, our assistant understands user intentions and provides suggestions for dishes and drinks that may suit their preferences.",
               "desc2": "The AI assistant is fully integrated with the restaurant and bar ordering system, ensuring a seamless and convenient experience for customers. Thanks to advanced natural language processing and machine learning features, it can accurately identify guests' preferences and requirements, then present appropriate dish and drink suggestions. This intelligent automation significantly improves service efficiency, as customers receive relevant recommendations and can easily place orders, positively impacting their satisfaction and order conversion."
-            }
+            },
+            "aiwarebot": {
+              "header": "AI Assistant for Aiware.cloud",
+              "desc1": "For the management and automation of Aiware.cloud's platform and ecommerce activities, I have created an advanced AI assistant utilizing the Voiceflow platform along with the OpenAI API. This chatbot enables the collection of leads and the pricing of individual projects for clients in an automated and intuitive manner. Leveraging the capabilities of Voiceflow, our assistant conducts natural conversations, understands user intents, and provides appropriate information or initiates business processes.",
+              "desc2": "The AI assistant is integrated with the Aiware website and store, as well as other communication channels, ensuring a consistent and convenient experience for customers. Thanks to advanced natural language processing and machine learning features, it can accurately identify customer needs, present relevant offers, and gather necessary data to generate project estimates. This intelligent automation allows us to manage leads efficiently and provide high-quality customer service."
+          }
             
         },
         "web": {
