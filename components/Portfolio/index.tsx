@@ -228,7 +228,7 @@ const Portfolio = () => {
 
                 {/* SECOND COLUMN */}
 
-                <div className="md:w-1/2 sm:w-full md:block p-8 md:p-3"> {/* Removed the hidden class for mobile view */}
+                <div className="md:w-1/2 sm:w-full md:block p-4 md:p-3"> {/* Removed the hidden class for mobile view */}
             <div className="relative 2xl:-mr-7.5">
               <Image
                 src="/images/shape/shape-01.png"
@@ -268,92 +268,14 @@ const Portfolio = () => {
             </div>
           </div>
 
-                {/* <div className="md:w-1/2 hidden md:grid lg:grid grid-cols-2 grid-rows-3 gap-4">
-                  <div className="bg-gray-600 p-4 col-span-2">
-                          <div 
-                                style={{
-                                  backgroundColor: 'rgba(217, 216, 216, 0.10)',
-                                  borderRadius: '16px',
-                                  boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
-                                  backdropFilter: 'blur(19.5px)',
-                                  WebkitBackdropFilter: 'blur(19.5px)',
-                                  border: '1px solid rgba(255, 255, 255, 0.03)',
-                                }}
-                          className="rounded-lg p-4 shadow-lg flex flex-col items-center justify-center grid-in-twitter">
-                              <a href="https://ainsider.cloud" target="_blank" className="text-center">
-                                <img src="/images/logo/logo-white.png"  alt="Twitter" className="inline w-12 h-12 mb-2" />
-                                <p className="text-lg font-semibold">Ainsider Magazine</p>
-                                <p className="text-sm">Gen AI Tools | Blog | Prompts </p>
-                              </a>
-                            </div>
-                  </div>
-                  <div className="col-span-1 bg-gray-200 p-4">
-                          <div 
-                                style={{
-                                  backgroundColor: 'rgba(217, 216, 216, 0.24)',
-                                  borderRadius: '16px',
-                                  boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
-                                  backdropFilter: 'blur(19.5px)',
-                                  WebkitBackdropFilter: 'blur(19.5px)',
-                                  border: '1px solid rgba(255, 255, 255, 0.03)',
-                                }}
-                          className="rounded-lg p-4 shadow-lg flex flex-col items-center justify-center grid-in-twitter">
-                              <a href="https://twitter.com/piotrmacai" target="_blank" className="text-center">
-                                <img src="/images/brand/x64o.png" alt="Twitter" className="inline w-12 h-12 mb-2" />
-                                <p className="text-lg font-semibold">My Twitter</p>
-                                <p className="text-sm">Latest AI Insights</p>
-                              </a>
-                            </div>
-                  </div>
-                  <div className="bg-gray-200 p-4 row-span-2 h-full">
-                          <div 
-                                style={{
-                                  backgroundColor: 'rgba(217, 216, 216, 0.30)',
-                                  borderRadius: '16px',
-                                  boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
-                                  backdropFilter: 'blur(19.5px)',
-                                  WebkitBackdropFilter: 'blur(19.5px)',
-                                  border: '1px solid rgba(255, 255, 255, 0.03)',
-                                }}
-                          className="h-full rounded-lg p-4 shadow-lg flex flex-col items-center justify-center grid-in-twitter">
-                              <a href="https://ainsider.beehiiv.com/" target="_blank" className="text-center">
-                                <img src="/images/logo/logo-dark.png" alt="Beehiiv" className="inline w-12 h-12 mb-2" />
-                                <p className="text-lg font-semibold">Ainsider Newsletter</p>
-                                <p className="text-sm">Subscribe to My AInsider Newsletter</p>
-                              </a>
-                            </div>
-                  </div>
-                  <div className="bg-gray-200 p-4 col-span-1 h-full">
-                          <div
-                                style={{
-                                  backgroundColor: 'rgba(217, 216, 216, 0.14)',
-                                  borderRadius: '16px',
-                                  boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
-                                  backdropFilter: 'blur(19.5px)',
-                                  WebkitBackdropFilter: 'blur(19.5px)',
-                                  border: '1px solid rgba(255, 255, 255, 0.03)',
-                                }}
-                          className="-full rounded-lg p-4 shadow-lg flex flex-col items-center justify-center grid-in-twitter">
-                              <a href="https://www.linkedin.com/in/piotrmac0/" target="_blank" className="text-center">
-                                <img src="/images/brand/linkedin64.png" alt="Linkedin" className="inline w-12 h-12 mb-2" />
-                                <p className="text-lg font-semibold">Linkedin</p>
-                                <p className="text-sm">Let's connect at Linkedin</p>
-                              </a>
-                            </div>
-                  </div>
-                  
-               
-                </div> */}
-              
-    
 
           </div>
         </div>
       </section>
 
 
-          <section className="pb-10 lg:py-15 xl:py-20 px-10">
-          <div className="flex flex-wrap flex-row justify-center gap-6 mt-1">
+          <section className="pb-10 lg:py-15 xl:py-20 lg:px-10 px-2">
+          <div className="flex flex-wrap flex-row justify-center gap-6 mt-1 px-4">
                   <button
                     className={`mr-2 text-lg font-semibold ${
                       selectedTag === "websites" ? "bg-blue-500 text-white" : "bg-gray-200"

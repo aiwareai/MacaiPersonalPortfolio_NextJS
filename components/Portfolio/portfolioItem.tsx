@@ -25,13 +25,13 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
         whileInView="visible"
         transition={{ duration: 1, delay: 0.5 }}
         viewport={{ once: true }}
-        className="animate_top bg-white dark:bg-blacksection rounded-lg shadow-solid-8 p-4 pb-9"
+        className="animate_top bg-white dark:bg-blacksection rounded-lg shadow-solid-8 p-4 pb-2"
       >
         <Link href={urlLink} className="block relative aspect-[368/239]" target="_blank" rel="noopener noreferrer">
           <Image src={mainImage} alt={title} fill style={{ borderRadius: '10px' }}/>
         </Link>
 
-        <div className="px-4">
+        <div className="px-2">
           <h4 className="font-medium text-md xl:text-xl text-black hover:text-primary dark:hover:text-primary dark:text-white mt-7.5 mb-3.5">
             <Link href={urlLink} target="_blank" rel="noopener noreferrer">
               {title}
@@ -42,9 +42,9 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
           </p> */}
 
           {/* Display tags */}
-          <div className="mt-4">
+          <div className="mt-2">
             {tags.map((tag, index) => (
-              <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+              <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-2 text-sm font-semibold text-gray-700 mr-1 mb-1">
                 {tag}
               </span>
             ))}

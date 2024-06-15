@@ -150,7 +150,7 @@ const Hero = () => {
 
               <div className="mt-10">
                 {/* <form onSubmit={handleSubmit}> */}
-                  <div className="flex flex-wrap gap-5">
+                  <div className="flex flex-row flex-wrap gap-3">
                     <input
                       // value={email}
                       // onChange={(e) => setEmail(e.target.value)}

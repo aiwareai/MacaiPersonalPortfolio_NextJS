@@ -72,9 +72,9 @@ export default function Home() {
       <AboutMarketing/>
       <MarketingFeaturesTab/>
       </div> 
-      <div id="headerGenAi">
+      {/* <div id="headerGenAi">
       <GenAiHome/> 
-      </div>  
+      </div>   */}
        <Pricing />   
        <FunFact /> 
        <CTA />
