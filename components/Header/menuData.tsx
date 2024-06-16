@@ -61,7 +61,7 @@ const getTranslatedMenuData = () => {
           id: 35,
           title:  t('header.menu8'),
           newTab: true,
-          path: "/#headerGenAi",
+          path: "/generativeai",
         },
       ],
     },

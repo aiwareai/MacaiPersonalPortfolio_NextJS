@@ -18,9 +18,10 @@ const PortfolioPage = async () => {
   return (
     <>
     <GenAiPortfolio />
-    <Brands/>
+  
     <GenAiArtworks/>
-    <GenAiAbout/>
+    <GenAiAbout/> 
+     <Brands/>
     <CTA/>
     <Contact/>
     </>

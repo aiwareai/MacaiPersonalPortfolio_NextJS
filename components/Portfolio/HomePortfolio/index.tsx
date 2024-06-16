@@ -30,7 +30,7 @@ const Portfolio = () => {
 
   return (
     <>
- <section className="pb-2 lg:py-15 xl:py-10 px-10 py-10">
+ <section className="pb-2 lg:py-15 xl:py-10 px-10 sm:px-2 py-10">
         <div className="flex flex-row mx-auto max-w-c-1280 px-4 md:px-8 xl:px-0 mt-15 xl:mt-20">
               <div className="flex flex-col justify-center items-center w-full">
                     <h1 className="text-black dark:text-white text-3xl xl:text-hero font-bold mb-5 sm:pr-10 ">

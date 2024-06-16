@@ -10,6 +10,96 @@ const GenAiArtworks = () => {
       <section className="pb-10 lg:py-15 xl:py-20 px-10">
         <div className="mx-auto max-w-c-1280 px-4 md:px-8 xl:px-0 mt-15 xl:mt-20">
           <div className="masonry-grid gap-2.5 xl:gap-10">
+          <div className="masonry-item">
+              <Image
+                src="/images/genai/genai_shoes.jpg"
+                alt="Genai1"
+                width={900}
+                height={600}
+                layout="responsive"
+                style={{ borderRadius: '10px' }}
+              />
+            </div>
+            <div className="masonry-item">
+              <Image
+                src="/images/genai/genai_money.jpeg"
+                alt="Genai2"
+                width={600}
+                height={600}
+                layout="responsive"
+                style={{ borderRadius: '10px' }}
+              />
+            </div>
+            <div className="masonry-item">
+              <Image
+                src="/images/genai/genai_car.jpg"
+                alt="Genai3"
+                width={900}
+                height={600}
+                layout="responsive"
+                style={{ borderRadius: '10px' }}
+              />
+            </div>
+          <div className="masonry-item">
+              <Image
+                src="/images/genai/genai_banner.jpeg"
+                alt="Genai1"
+                width={900}
+                height={600}
+                layout="responsive"
+                style={{ borderRadius: '10px' }}
+              />
+            </div>
+            <div className="masonry-item">
+              <Image
+                src="/images/genai/genai_drink.jpg"
+                alt="Genai2"
+                width={600}
+                height={600}
+                layout="responsive"
+                style={{ borderRadius: '10px' }}
+              />
+            </div>
+            <div className="masonry-item">
+              <Image
+                src="/images/genai/genailogo3.jpeg"
+                alt="Genai3"
+                width={900}
+                height={600}
+                layout="responsive"
+                style={{ borderRadius: '10px' }}
+              />
+            </div>
+            <div className="masonry-item">
+              <Image
+                src="/images/genai/genailogo1.jpeg"
+                alt="Genai1"
+                width={900}
+                height={600}
+                layout="responsive"
+                style={{ borderRadius: '10px' }}
+              />
+            </div>
+            <div className="masonry-item md:mt-[-70px]">
+              <Image
+                src="/images/genai/gen_glasstyping.jpg"
+                alt="Genai2"
+                width={600}
+                height={600}
+                layout="responsive"
+                style={{ borderRadius: '10px' }}
+              />
+            </div>
+            <div className="masonry-item">
+              <Image
+                src="/images/genai/genai_punk.jpg"
+                alt="Genai3"
+                width={900}
+                height={600}
+                layout="responsive"
+                style={{ borderRadius: '10px' }}
+              />
+            </div>
             <div className="masonry-item">
               <Image
                 src="/images/genai/genai1.jpg"
@@ -20,7 +110,7 @@ const GenAiArtworks = () => {
                 style={{ borderRadius: '10px' }}
               />
             </div>
-            <div className="masonry-item">
+            <div className="masonry-item md:mt-[-50px]">
               <Image
                 src="/images/genai/genai2.jpg"
                 alt="Genai2"

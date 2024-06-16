@@ -74,12 +74,13 @@ export default function Home() {
       </div> 
       {/* <div id="headerGenAi">
       <GenAiHome/> 
-      </div>   */}
+      </div>   */} 
+       <Brands />   
        <Pricing />   
-       <FunFact /> 
+       {/* <FunFact />  */}
        <CTA />
       <Contact /> 
-      <Brands />   
+  
       {/* <Voiceflow/> */}
       {/* <Blog /> */}
     </main>
