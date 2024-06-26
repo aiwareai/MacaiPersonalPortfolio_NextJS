@@ -68,11 +68,11 @@ const SingleBlogPage = async () => {
 
                 <div className="blog-details">
                   <p>
-                  {t('mainPortfolio.macaibot.desc1')}                  </p>
+                  {t('mainPortfolio.flowise.desc1')}                  </p>
                   <p>
-                  {t('mainPortfolio.macaibot.desc2')}                  </p>
+                  {t('mainPortfolio.flowise.desc2')}                  </p>
                   <p>
-                  {t('mainPortfolio.macaibot.desc3')}                  </p>
+                  {t('mainPortfolio.flowise.desc3')}                  </p>
                 </div>
 
                 <SharePost />
