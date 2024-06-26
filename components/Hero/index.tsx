@@ -145,16 +145,19 @@ const Hero = () => {
                   <Image src="/images/brand/github.png" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"/>
                   </a>
                 </li>
+                <li>
+                  <a href="https://huggingface.co/Piotr-Macai" target="_blank">
+                    
+                  <Image src="/images/brand/hf-logo-pirate.svg" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"/>
+                  </a>
+                </li>
               </ul>
             </motion.div>
 
-              <div className="mt-10">
-                {/* <form onSubmit={handleSubmit}> */}
+              {/* <div className="mt-10">
                   <div className="flex flex-row flex-wrap gap-3">
                     <input
-                      // value={email}
-                      // onChange={(e) => setEmail(e.target.value)}
-                      // type="text"
+                
                       placeholder="Email"
                       className="dark:bg-black border border-stroke dark:border-strokedark shadow-solid-2 dark:shadow-none rounded-full focus:outline-none focus:border-primary dark:focus:border-primary py-2.5 px-1"
                     />
@@ -167,7 +170,7 @@ const Hero = () => {
                     </button>
                     </Link>
                   </div>
-              </div>
+              </div> */}
 
 
                 {/* <div className="lg:grid grid-cols-3 grid-rows-1 gap-4 flex flex-row mt-10">

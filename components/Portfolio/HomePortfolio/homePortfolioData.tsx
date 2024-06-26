@@ -2,27 +2,36 @@ import { Portfolio } from "@/types/portfolio";
 
 const BlogData: Portfolio[] = [
   { 
+    _id: 0.1,
+    mainImage: "/images/portfolio/flowisebot.jpg",
+    title: "AI Assistant in Flowise",
+    metadata:
+      "Ai Assistants and Agents created in Flowise for business purposes",
+      urlLink:"/portfolio/flowise",
+      tags: ["ai"],
+  },
+  { 
     _id: 1,
     mainImage: "/images/portfolio/aiwarecloudchatbot.jpg",
-    title: "Aiware.Cloud AI Assistant",
+    title: "AI Assistant - Aiware Cloud",
     metadata:
       "Ai Assistant for Aiware.Cloud",
       urlLink:"/portfolio/aiware-chatbot",
       tags: ["ai"],
   },
   { 
-    _id: 0,
+    _id: 0.5,
     mainImage: "/images/portfolio/aiwareCloud.jpg",
-    title: "Aiware.cloud App",
+    title: "Aiware.cloud AI Magazine",
     metadata:
       "Website for Gen AI Magazine and Tools Library",
       urlLink:"/portfolio/aiwarecloud",
       tags: ["websites"],
   },
    { 
-    _id: 1,
+    _id: 1.1,
     mainImage: "/images/portfolio/macaiStudio.jpg",
-    title: "Macai Studio AI Assistant",
+    title: "AI Assistant - Macai Studio",
     metadata:
       "Ai Assistant for Macai.studio",
       urlLink:"/portfolio/macai-chatbot",

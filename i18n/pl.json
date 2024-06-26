@@ -320,7 +320,13 @@
                     "header": "Asystent AI dla Aiware.cloud",
                     "desc1": "Dla obsługi i automatyzacji działalności platfromy i ecommerce Aiware.cloud stworzyłem zaawansowanego asystenta AI opartego wykorzystując platformę Voiceflow wraz z API OpenAI.. Ten chatbot umożliwia zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Wykorzystując możliwości Voiceflow, nasz asystent prowadzi naturalne rozmowy, rozumie intencje użytkowników i dostarcza odpowiednie informacje lub inicjuje procesy biznesowe.",
                     "desc2": "Asystent AI zintegrowany jest z stroną i sklepem Aiware, oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta."
-                    }        
+                    },
+                    "flowise": {
+                      "header": "Chatbot AI w Flowise",
+                      "desc1": "Dla obsługi i automatyzacji mojej działalności, a także dla konkretnych celów biznesowych stworzyłem zaawansowane chatboty i agentów AI korzystając z platformy Flowise - opartej na Langchain oraz hostując je i renderując przy użyciu Hugging Face. Te chatboty umożliwiają zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Dzięki zaawansowanym możliwościom Flowise, nasze asystenty prowadzą naturalne rozmowy, rozumieją intencje użytkowników i dostarczają odpowiednie informacje lub inicjują procesy biznesowe.",
+                      "desc2": "Moje chatboty AI są zintegrowane z naszą stroną internetową oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, mogą one precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta.",
+                      "desc3": "Chatbot - stworzony oczywiście w Flowise - dostępny pod powyższym linkiem dostarczy Ci najlepsze dostępne narzędzia AI dla Twoich indywidualnych celów oraz potrzeb."
+                    }      
           },
           "web": {
             "header": {

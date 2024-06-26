@@ -320,6 +320,12 @@
               "header": "AI Assistant for Aiware.cloud",
               "desc1": "For the management and automation of Aiware.cloud's platform and ecommerce activities, I have created an advanced AI assistant utilizing the Voiceflow platform along with the OpenAI API. This chatbot enables the collection of leads and the pricing of individual projects for clients in an automated and intuitive manner. Leveraging the capabilities of Voiceflow, our assistant conducts natural conversations, understands user intents, and provides appropriate information or initiates business processes.",
               "desc2": "The AI assistant is integrated with the Aiware website and store, as well as other communication channels, ensuring a consistent and convenient experience for customers. Thanks to advanced natural language processing and machine learning features, it can accurately identify customer needs, present relevant offers, and gather necessary data to generate project estimates. This intelligent automation allows us to manage leads efficiently and provide high-quality customer service."
+          },
+          "flowise": {
+            "header": "AI Chatbot in Flowise",
+            "desc1": "To manage and automate my business activities, as well as for specific business goals, I have created advanced chatbots and AI agents using the Flowise platform - based on Langchain, and hosting and rendering them with Hugging Face. These chatbots enable automated and intuitive lead collection and project pricing for clients. Leveraging Flowise's advanced capabilities, our assistants conduct natural conversations, understand user intentions, and provide relevant information or initiate business processes.",
+            "desc2": "My AI chatbots are integrated with our website and other communication channels, ensuring a consistent and convenient experience for clients. Thanks to advanced natural language processing and machine learning functions, they can precisely identify customer needs, present appropriate offers, and gather necessary data to generate project quotes. This intelligent automation allows us to manage leads efficiently and provide high-quality customer service.",
+            "desc3": "The chatbot - created of course in Flowise - available at the above link will provide you with the best AI tools available for your individual goals and needs."
           }
             
         },
