@@ -1,24 +1,15 @@
 import { Portfolio } from "@/types/portfolio";
 
 const BlogData: Portfolio[] = [
-  { 
-    _id: 0.1,
-    mainImage: "/images/portfolio/flowisebot.jpg",
-    title: "AI Assistant in Flowise",
-    metadata:
-      "Ai Assistants and Agents created in Flowise for business purposes",
-      urlLink:"/portfolio/flowise",
-      tags: ["ai"],
-  },
-  { 
-    _id: 1,
-    mainImage: "/images/portfolio/aiwarecloudchatbot.jpg",
-    title: "AI Assistant - Aiware Cloud",
-    metadata:
-      "Ai Assistant for Aiware.Cloud",
-      urlLink:"/portfolio/aiware-chatbot",
-      tags: ["ai"],
-  },
+  // { 
+  //   _id: 1,
+  //   mainImage: "/images/portfolio/aiwarecloudchatbot.jpg",
+  //   title: "AI Assistant - Aiware Cloud",
+  //   metadata:
+  //     "Ai Assistant for Aiware.Cloud",
+  //     urlLink:"/portfolio/aiware-chatbot",
+  //     tags: ["ai"],
+  // },
   { 
     _id: 0.5,
     mainImage: "/images/portfolio/aiwareCloud.jpg",
@@ -28,15 +19,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/aiwarecloud",
       tags: ["websites"],
   },
-   { 
-    _id: 1.1,
-    mainImage: "/images/portfolio/macaiStudio.jpg",
-    title: "AI Assistant - Macai Studio",
-    metadata:
-      "Ai Assistant for Macai.studio",
-      urlLink:"/portfolio/macai-chatbot",
-      tags: ["ai"],
-  },
+  //  { 
+  //   _id: 1.1,
+  //   mainImage: "/images/portfolio/macaiStudio.jpg",
+  //   title: "AI Assistant - Macai Studio",
+  //   metadata:
+  //     "Ai Assistant for Macai.studio",
+  //     urlLink:"/portfolio/macai-chatbot",
+  //     tags: ["ai"],
+  // },
   { 
     _id: 2,
     mainImage: "/images/portfolio/ainspire.jpg",
@@ -46,24 +37,24 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/ainsider-cloud",
       tags: ["websites", "ai"],
   },
-  { 
-    _id: 3,
-    mainImage: "/images/portfolio/uprawaChatbot.jpg",
-    title: "AI Assistant for Ecommerce",
-    metadata:
-      "Ai Assistant for Akcesoriadouprawy.pl",
-      urlLink:"/portfolio/akcesoriadouprawy-chatbot",
-      tags: ["ai"],
-  },
-  { 
-    _id: 4,
-    mainImage: "/images/portfolio/aiwareSpeed.jpg",
-    title: "SEO & Speed Aiware.cloud",
-    metadata:
-      "SEO & Speed for ",
-      urlLink:"/portfolio/aiwarecloud",
-      tags: ["marketing"],
-  },
+  // { 
+  //   _id: 3,
+  //   mainImage: "/images/portfolio/uprawaChatbot.jpg",
+  //   title: "AI Assistant for Ecommerce",
+  //   metadata:
+  //     "Ai Assistant for Akcesoriadouprawy.pl",
+  //     urlLink:"/portfolio/akcesoriadouprawy-chatbot",
+  //     tags: ["ai"],
+  // },
+  // { 
+  //   _id: 4,
+  //   mainImage: "/images/portfolio/aiwareSpeed.jpg",
+  //   title: "SEO & Speed Aiware.cloud",
+  //   metadata:
+  //     "SEO & Speed for ",
+  //     urlLink:"/portfolio/aiwarecloud",
+  //     tags: ["marketing"],
+  // },
   { 
     _id: 5,
     mainImage: "/images/portfolio/ainsidertools.jpg",
@@ -82,6 +73,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/after-rave",
       tags: ["websites"],
   },
+  { 
+    _id: 0.1,
+    mainImage: "/images/portfolio/flowisebot.jpg",
+    title: "AI Assistant in Flowise",
+    metadata:
+      "Ai Assistants and Agents created in Flowise for business purposes",
+      urlLink:"/portfolio/flowise",
+      tags: ["ai"],
+  },
   // { 
   //   _id: 3,
   //   mainImage: "/images/portfolio/bakaliovelove.jpg",
@@ -91,15 +91,15 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/bakaliowelove",
   //     tags: ["websites"],
   // },
-  // { 
-  //   _id: 7,
-  //   mainImage: "/images/portfolio/cora.jpg",
-  //   title: "Cora-goralczyk.pl",
-  //   metadata:
-  //     "Website for automotive mechanic workshop",
-  //     urlLink:"/portfolio/cora-goralczyk",
-  //     tags: ["websites"],
-  // },
+  { 
+    _id: 7,
+    mainImage: "/images/portfolio/cora.jpg",
+    title: "Cora-goralczyk.pl",
+    metadata:
+      "Website for automotive mechanic workshop",
+      urlLink:"/portfolio/cora-goralczyk",
+      tags: ["websites"],
+  },
   // { 
   //   _id: 5,
   //   mainImage: "/images/portfolio/piotrmacaidev.jpg",

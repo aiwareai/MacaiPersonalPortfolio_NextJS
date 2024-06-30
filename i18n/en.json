@@ -41,18 +41,18 @@
       },
       "about": {
         "header1": {
-          "header1": "Tailored to needs",
+          "header1": "Individual",
           "header2": "Strategies",
           "header3": "Complete Solutions",
           "header4": "For Business",
-          "desc1": " I am committed to delivering personalized solutions that align perfectly with the unique needs of your business and address its biggest problems and pain points. My dedication to understanding the intricacies of your industry, challenges, and goals enables me to create customized strategies that work best for you. Whether you're seeking operational optimization, improved efficiency, or solutions to specific issues, I'm here to assist you."
-        },
-        "header2": {
-            "header1": "Elevate Your Business",
-            "header2": "To the Next Level",
-            "desc1": "Harnessing the latest artificial intelligence technologies, which are one of the greatest revolutions of our time. Our carefully crafted approach incorporates the latest ideas and techniques tailored to your specific industry and goals.",
-            "button": "Let's Start the Project"
-         }
+          "desc1": "Based on unique needs, I deliver personalized solutions that save a lot of time and solve the most pressing problems in any business."
+      },
+      "header2": {
+          "header1": "Elevate Your Business",
+          "header2": "To The Next Level",
+          "desc1": "Leveraging the latest artificial intelligence technologies, which are one of the greatest revolutions of our time, allows the creation of modern, personalized solutions tailored to your specific industry and goals.",
+          "button": "Let's Start the Project"
+      }
          },
         "genai": 
          {
@@ -134,7 +134,7 @@
               }
         },
         "portfolio": {
-            "header": "My Portfolio",
+            "header": "Portfolio",
             "button1": "Web",
             "button2": "Marketing & SEO",
             "button3": "AI & Automations",

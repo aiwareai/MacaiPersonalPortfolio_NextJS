@@ -41,15 +41,15 @@
       "about": {
         "header1": {
           "header1": "Indywidualne",
-          "header2": "Strategie i Implementacje",
+          "header2": "Strategie",
           "header3": "Kompletne rozwiązania",
           "header4": "Dla Biznesu",
-          "desc1": "W Aiware jesteśmy zaangażowani w dostarczanie spersonalizowanych rozwiązań, które doskonale współgrają z unikalnymi potrzebami Twojego biznesu oraz rozwiązują jego największe problemu i bolączki. Nasze zaangażowanie w zrozumienie szczegółów Twojej branży, wyzwań i celów pozwala nam tworzyć spersonalizowane strategie, które najlepiej działają dla Ciebie. Bez względu na to, czy szukasz optymalizacji operacji, poprawy efektywności czy rozwiązania konkretnych problemów, jesteśmy tutaj, aby Ci pomóc."
+          "desc1": "Na podstawie unikalnych potrzeb dostarczam spersonalizowane rozwiązania, które pozwalają zaoszczędzić wiele czasu, oraz rozwiązują najbardziej palące problemy w każdej działalności."
         },
         "header2": {
             "header1": "Wznieś swój biznes",
             "header2": "Na Wyższy Poziom",
-            "desc1": "Wykorzystując najnowsze technologie sztucznej inteligencji, która jest jedną z największych rewolucji Naszych czasów. Nasze starannie opracowane podejście obejmuje najnowsze pomysły i techniki, dostosowane do Twojej konkretnej branży i celów.",
+            "desc1": "Wykorzystując najnowsze technologie sztucznej inteligencji - co pozwala stworzyć nowoczesne, spersonalizowane rozwiązania dostosowane do Twojej konkretnej branży i celów.",
             "button": "Zacznijmy projekt"
           }
         },
@@ -133,7 +133,7 @@
               }  
         },
         "portfolio": {
-            "header": "Moje Portfolio",
+            "header": "Portfolio",
             "button1": "Strony i Sklepy www",
             "button2": "Marketing & SEO",
             "button3": "AI & Automatyzacje",

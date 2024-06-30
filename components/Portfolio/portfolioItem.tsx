@@ -42,13 +42,13 @@ const PortfolioItem = ({ portfolio }: { portfolio: Portfolio }) => {
           </p> */}
 
           {/* Display tags */}
-          <div className="mt-2">
+          {/* <div className="mt-2">
             {tags.map((tag, index) => (
               <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-2 text-sm font-semibold text-gray-700 mr-1 mb-1">
                 {tag}
               </span>
             ))}
-          </div>
+          </div> */}
         </div>
       </motion.div>
     </>

@@ -111,7 +111,7 @@ const About = () => {
       {/* <!-- ===== About End ===== --> */}
 
       {/* <!-- ===== About Two Start ===== --> */}
-      <section>
+      <section className="hidden md:flex">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 2xl:px-0 overflow-hidden">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <motion.div
