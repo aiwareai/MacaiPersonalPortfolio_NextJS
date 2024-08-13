@@ -11,61 +11,34 @@ const BlogData: Portfolio[] = [
   //     tags: ["ai"],
   // },
   { 
-    _id: 0.5,
+    _id: 1,
     mainImage: "/images/portfolio/aiwareCloud.jpg",
-    title: "Aiware.cloud AI Magazine",
+    title: "Aiware.cloud",
     metadata:
-      "Website for Gen AI Magazine and Tools Library",
+      "AI Platform with Ecommerce and Blog",
       urlLink:"/portfolio/aiwarecloud",
       tags: ["websites"],
   },
-  //  { 
-  //   _id: 1.1,
-  //   mainImage: "/images/portfolio/macaiStudio.jpg",
-  //   title: "AI Assistant - Macai Studio",
-  //   metadata:
-  //     "Ai Assistant for Macai.studio",
-  //     urlLink:"/portfolio/macai-chatbot",
-  //     tags: ["ai"],
-  // },
   { 
     _id: 2,
-    mainImage: "/images/portfolio/ainspire.jpg",
-    title: "Ainsider.cloud AI Magazine",
+    mainImage: "/images/portfolio/cora.jpg",
+    title: "Cora-goralczyk.pl",
     metadata:
-      "Gallery of prompts and Generative AI magazine",
+      "Website for automotive mechanic workshop",
+      urlLink:"/portfolio/cora-goralczyk",
+      tags: ["websites"],
+  },
+  { 
+    _id: 3,
+    mainImage: "/images/portfolio/ainspire.jpg",
+    title: "Ainsider.cloud",
+    metadata:
+      "Ai Tools Library & Generative AI magazine",
       urlLink:"/portfolio/ainsider-cloud",
       tags: ["websites", "ai"],
   },
-  // { 
-  //   _id: 3,
-  //   mainImage: "/images/portfolio/uprawaChatbot.jpg",
-  //   title: "AI Assistant for Ecommerce",
-  //   metadata:
-  //     "Ai Assistant for Akcesoriadouprawy.pl",
-  //     urlLink:"/portfolio/akcesoriadouprawy-chatbot",
-  //     tags: ["ai"],
-  // },
-  // { 
-  //   _id: 4,
-  //   mainImage: "/images/portfolio/aiwareSpeed.jpg",
-  //   title: "SEO & Speed Aiware.cloud",
-  //   metadata:
-  //     "SEO & Speed for ",
-  //     urlLink:"/portfolio/aiwarecloud",
-  //     tags: ["marketing"],
-  // },
   { 
-    _id: 5,
-    mainImage: "/images/portfolio/ainsidertools.jpg",
-    title: "Ainsider.tools",
-    metadata:
-      "Ultra-fast library of AI tools and models",
-      urlLink:"/portfolio/aitoolslibrary",
-      tags: ["websites", "ai"],
-  },
-  { 
-    _id: 6,
+    _id: 4,
     mainImage: "/images/portfolio/afterrave.jpg",
     title: "After-rave.eu",
     metadata:
@@ -74,12 +47,30 @@ const BlogData: Portfolio[] = [
       tags: ["websites"],
   },
   { 
-    _id: 0.1,
-    mainImage: "/images/portfolio/flowisebot.jpg",
-    title: "AI Assistant in Flowise",
+    _id: 5,
+    mainImage: "/images/portfolio/macaiStudio.jpg",
+    title: "AI Assistant - Macai Studio",
+    metadata:
+      "Ai Assistant for Macai.studio",
+      urlLink:"/portfolio/macai-chatbot",
+      tags: ["ai"],
+  },
+  {
+    _id: 6,
+    mainImage: "/images/portfolio/volton.jpg",
+    title: "Voltoninstall.pl",
+    metadata:
+      "Business website for electrical services and smart home",
+      urlLink:"/portfolio/volton",
+      tags: ["websites"],
+  },
+  { 
+    _id: 7,
+    mainImage: "/images/portfolio/aiwarecloudchatbot.jpg",
+    title: "AI Assistant for Aiware Cloud",
     metadata:
       "Ai Assistants and Agents created in Flowise for business purposes",
-      urlLink:"/portfolio/flowise",
+      urlLink:"/portfolio/aiware-chatbot",
       tags: ["ai"],
   },
   // { 
@@ -100,6 +91,15 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/cora-goralczyk",
       tags: ["websites"],
   },
+  { 
+    _id: 6,
+    mainImage: "/images/portfolio/szkolajazdynew.jpg",
+    title: "Szkolajazdymachowski.pl",
+    metadata:
+      "Website with AI Lead Assistant",
+      urlLink:"/portfolio/osk-machowski",
+      tags: ["websites"],
+  },
   // { 
   //   _id: 5,
   //   mainImage: "/images/portfolio/piotrmacaidev.jpg",
@@ -118,15 +118,6 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/lanelyya",
   //     tags: ["websites"],
   // },
-  {
-    _id: 7,
-    mainImage: "/images/portfolio/volton.jpg",
-    title: "Voltoninstall.pl",
-    metadata:
-      "Business website for electrical services and smart home",
-      urlLink:"/portfolio/volton",
-      tags: ["websites"],
-  },
   // { 
   //   _id: 8,
   //   mainImage: "/images/portfolio/szkolajazdynew.jpg",

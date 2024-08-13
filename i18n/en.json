@@ -139,6 +139,8 @@
             "button2": "Marketing & SEO",
             "button3": "AI & Automations",
             "button4": "Generative AI",
+            "button5": "Github",
+            "moreButton": "See More Projects",
             "newsletter": "Subscribe to Newsletter",
             "items": {
                 "name": "Your Name",

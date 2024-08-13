@@ -60,14 +60,14 @@ const Portfolio = () => {
                   >
                     {t('portfolio.button1')}
                   </button>
-                    <button
+                    {/* <button
                     className={`mr-2 text-lg font-semibold ${
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                     onClick={() => handleTagSelection("marketing")}
                   >
                     {t('portfolio.button2')}
-                  </button>
+                  </button> */}
                   <button
                     className={`mr-2 text-lg font-semibold ${
                       selectedTag === "ai" ? "bg-blue-500 text-white" : "bg-gray-200"
@@ -78,11 +78,20 @@ const Portfolio = () => {
                   </button>
                   <Link href="/generativeai" target="_blank" rel="noopener noreferrer">
                   <button 
-                    className={`mr-2 text-lg font-semibold ${
+                    className={`mr-2 mt-2 text-lg font-semibold ${
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                   >
                     {t('portfolio.button4')}
+                  </button>
+                  </Link>
+                  <Link href="https://github.com/aiwareai" target="_blank" rel="noopener noreferrer">
+                  <button 
+                    className={`mr-2 mt-2 text-lg font-semibold ${
+                      selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
+                    }`}
+                  >
+                    {t('portfolio.button5')}
                   </button>
                   </Link>
            
@@ -95,6 +104,41 @@ const Portfolio = () => {
                     <PortfolioItem key={key} portfolio={post} />
                   ))}
                 </div>
+                
+                <div className="flex justify-center">
+        <a
+        href="/portfolio"
+        className="flex pt-2 pb-2 pr-4 pl-4 items-center gap-2.5 text-black dark:text-white mt-12 hover:text-white dark:hover:text-black transition-colors duration-300"
+        style={{
+          backgroundColor: '#006BFF',
+          borderRadius: '12px',
+        }}
+      >
+    <span className="hover:pr-2 duration-500">{t('portfolio.moreButton')}</span>
+    <svg
+      width="14"
+      height="14"
+      viewBox="0 0 14 14"
+      xmlns="http://www.w3.org/2000/svg"
+      className="dark:hidden"
+    >
+      <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
+    </svg>
+
+    <svg
+      className="hidden dark:block"
+      width="14"
+      height="14"
+      viewBox="0 0 14 14"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M10.4766 6.16664L6.00658 1.69664L7.18492 0.518311L13.6666 6.99998L7.18492 13.4816L6.00658 12.3033L10.4766 7.83331H0.333252V6.16664H10.4766Z" />
+    </svg>
+  </a>
+</div>
+
+
               </div>
         </section>
 

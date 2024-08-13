@@ -302,11 +302,20 @@ const Portfolio = () => {
                   </button>
                   <Link href="/generativeai" target="_blank" rel="noopener noreferrer">
                   <button 
-                    className={`mr-2 text-lg font-semibold ${
+                    className={`mr-2 mt-1 text-lg font-semibold ${
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                   >
                     {t('portfolio.button4')}
+                  </button>
+                  </Link>
+                  <Link href="https://github.com/aiwareai" target="_blank" rel="noopener noreferrer">
+                  <button 
+                    className={`mr-2 mt-1 text-lg font-semibold ${
+                      selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
+                    }`}
+                  >
+                    {t('portfolio.button5')}
                   </button>
                   </Link>
                     

@@ -138,6 +138,8 @@
             "button2": "Marketing & SEO",
             "button3": "AI & Automatyzacje",
             "button4": "Generatywna AI",
+            "button5": "Github",
+            "moreButton": "Więcej Moich Projektów",
             "newsletter": "Dołącz do Newslettera",
             "items": {
                 "name": "Your Name",
@@ -290,7 +292,7 @@
               "skin": {
                 "header": "Strona internetowa dla Kliniki Medycyny Estetycznej",
                 "desc1": "Projekt, który stworzyliśmy dla Skin Project Clinic, to ich strona internetowa oparta na platformie WordPress. Wykorzystując nasze doświadczenie w projektowaniu i tworzeniu stron internetowych, dostarczyliśmy im profesjonalną witrynę, która nie tylko reprezentuje ich markę, ale również ułatwia interakcję z klientami i zapewnia łatwe zarządzanie treścią.",
-                "desc2": "Nasza agencja wykorzystała możliwości WordPressa, aby stworzyć responsywną i estetycznie przyjemną stronę internetową, która nie tylko prezentuje usługi i produkty kliniki, ale także integruje się z innymi narzędziami, takimi jak media społecznościowe, zapewniając pełne wsparcie dla działań marketingowych."
+                "desc2": "Wykorzystaliśmy wszelakie możliwości WordPressa, aby stworzyć responsywną i estetycznie przyjemną stronę internetową, która nie tylko prezentuje usługi i produkty kliniki, ale także integruje się z innymi narzędziami, takimi jak media społecznościowe, zapewniając pełne wsparcie dla działań marketingowych."
             },
             "aiwarecloud": {
               "industry": "E-commerce",
