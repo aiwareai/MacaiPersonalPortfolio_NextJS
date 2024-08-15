@@ -21,11 +21,11 @@ const BlogData: Portfolio[] = [
   },
   { 
     _id: 2,
-    mainImage: "/images/portfolio/cora.jpg",
-    title: "Cora-goralczyk.pl",
+    mainImage: "/images/portfolio/bakaliovelove.jpg",
+    title: "Bakaliowelove.pl",
     metadata:
-      "Website for automotive mechanic workshop",
-      urlLink:"/portfolio/cora-goralczyk",
+      "Woocommerce Store with healthy food",
+      urlLink:"/portfolio/bakaliowelove",
       tags: ["websites"],
   },
   { 

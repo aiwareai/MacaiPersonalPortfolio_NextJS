@@ -87,9 +87,18 @@ const BlogData: Portfolio[] = [
     mainImage: "/images/portfolio/bakaliovelove.jpg",
     title: "Bakaliowelove.pl",
     metadata:
-      "Store on Woocommerce with healthy food",
+      "Woocommerce Store with healthy food",
       urlLink:"/portfolio/bakaliowelove",
       tags: ["websites"],
+  },
+     { 
+    _id: 10.5,
+    mainImage: "/images/portfolio/macaiStudio.jpg",
+    title: "AI Assistant for Macai.studio",
+    metadata:
+      "Ai Assistant for Macai.studio",
+      urlLink:"/portfolio/macai-chatbot",
+      tags: ["ai"],
   },
   {
     _id: 10,
