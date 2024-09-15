@@ -343,7 +343,7 @@ const Portfolio = () => {
                   </Link> */}
                   <Link href="https://www.behance.net/macaistudio" target="_blank" rel="noopener noreferrer">
                   <button 
-                    className={`mr-2 mt-1 text-lg font-semibold ${
+                    className={`mr-2 text-lg font-semibold ${
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                   >
@@ -352,7 +352,7 @@ const Portfolio = () => {
                   </Link>
                   <Link href=" https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">
                   <button 
-                    className={`mr-2 mt-1 text-lg font-semibold ${
+                    className={`mr-2 text-lg font-semibold ${
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                   >
@@ -361,7 +361,7 @@ const Portfolio = () => {
                   </Link>
                   <Link href="https://github.com/aiwareai" target="_blank" rel="noopener noreferrer">
                   <button 
-                    className={`mr-2 mt-1 text-lg font-semibold ${
+                    className={`mr-2 text-lg font-semibold ${
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                   >
