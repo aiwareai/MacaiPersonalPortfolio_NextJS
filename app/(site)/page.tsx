@@ -48,7 +48,7 @@ export default function Home() {
     <main>
       <Hero />
       <Feature /> 
-       <About />           
+       {/* <About />            */}
       {/* <FeaturesTab />  */}
        <HomePortfolio/>    
                  
@@ -76,7 +76,7 @@ export default function Home() {
       <GenAiHome/> 
       </div>   */} 
        <Brands />   
-       <Pricing />   
+       {/* <Pricing />    */}
        {/* <FunFact />  */}
        <CTA />
       <Contact /> 

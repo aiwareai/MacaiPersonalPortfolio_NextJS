@@ -36,7 +36,7 @@ const SingleBlogPage = async () => {
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>{t('mainPortfolio.tech')}</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">Next.js with Typescript</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">Wordpress</p>
                   </li>
                   {/* <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Cel:</p>
@@ -57,7 +57,7 @@ const SingleBlogPage = async () => {
            
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">
                     <Image
-                      src={"/images/portfolio/ainsidertools.jpg"}
+                      src={"/images/portfolio/ainsider_tools.jpg"}
                       alt="Kobe Steel plant that supplied"
                       fill
                       className="object-contain object-center rounded-md"

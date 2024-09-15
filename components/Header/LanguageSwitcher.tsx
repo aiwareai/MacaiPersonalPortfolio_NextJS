@@ -18,16 +18,7 @@ const LanguageSwitcher = () => {
       <button onClick={() => changeLanguage('pl')}>Polski</button> */}
        <div className="flex items-center border border-black rounded-full overflow-hidden bg-gray-200 dark:bg-gray-800">
 
-       <button
-        onClick={() => changeLanguage('pl')}
-        className={`px-4 py-2 ${
-          currentLanguage === 'pl'
-            ? 'bg-primary text-white'
-            : 'bg-gray-200 dark:bg-gray-800 text-black dark:text-white'
-        } hover:bg-primaryho transition duration-300`}
-      >
-        Polski
-      </button>
+     
       <button
         onClick={() => changeLanguage('en')}
         className={`px-4 py-2 ${
@@ -36,9 +27,19 @@ const LanguageSwitcher = () => {
             : 'bg-gray-200 dark:bg-gray-800 text-black dark:text-white'
         } hover:bg-primaryho transition duration-300`}
       >
-        English
+        en
       </button>
-
+      <button
+        onClick={() => changeLanguage('pl')}
+        className={`px-4 py-2 ${
+          currentLanguage === 'pl'
+            ? 'bg-primary text-white'
+            : 'bg-gray-200 dark:bg-gray-800 text-black dark:text-white'
+        } hover:bg-primaryho transition duration-300`}
+      >
+        pl
+      </button>
+      
     </div>
     </div>
   );

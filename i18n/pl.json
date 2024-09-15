@@ -8,14 +8,14 @@
           "subtitle": "Moje usługi i specjalizacje",
           "description": "Dostosowane Do Twoich Potrzeb - Rozwiązujące Twoich Problemy"
         },
-            "websitesTitle": "Strony internetowe i Landing Page",
+            "websitesTitle": "Landing Page i Strony internetowe",
             "websitesDescription": "Nowoczesne i dopasowane strony internetowe, tworzone w dowolnej technologii lub przy użyciu wybranych szablonów - ale zawsze tworzone w celu osiągnięcia Twoich celów",
             "marketingTitle": "Marketing i generowanie leadów",
             "marketingDescription": "Podstawą każdej działalności jest dotarcie i pozyskiwanie nowych klientów, jak i zatrzymywanie tych obecnych. Pomogę Ci w tym we wszystkim.",
-            "aiTitle": "Asystenci i Agenci AI",
+            "aiTitle": "Asystenci i Chatboty AI",
             "aiDescription": "Z pomocą sztucznej inteligencji stworzę asystentów i agentów AI dostosowanych do Twoich potrzeb, którzy pomogą Ci w najważniejszych aspektach Twojego biznesu.",
-            "designTitle": "Generatywna AI",
-            "designDescription": "Wspólnie możemy stworzyć - z wykorzystaniem AI wszelakie materiały wizualne dla Twojego biznesu - jak sesje produktowe, branding, loga, lub nawet influencerów AI. Szkolę również generatywne modele AI według indywidualnych potrzeb.",
+            "designTitle": "Design & UX/UI",
+            "designDescription": "Wspólnie możemy stworzyć wszelakie materiały wizualne dla Twojego biznesu - jak sesje produktowe, branding, loga, lub nawet influencerów AI. Szkolę również generatywne modele AI według indywidualnych potrzeb.",
             "ecommerceTitle": "Ecommerce i platformy internetowe",
             "ecommerceDescription": "Dopasowane do Twojego biznesu e-commerce i platformy internetowe, które zwiększają sprzedaż, poprawiają doświadczenia użytkowników i rozwijają Twój biznes.",
             "automationsTitle": "Automatyzacje & CRM",
@@ -139,6 +139,8 @@
             "button3": "AI & Automatyzacje",
             "button4": "Generatywna AI",
             "button5": "Github",
+            "buttonBehance": "Behance",
+            "buttonArtstation": "Artstation",
             "moreButton": "Więcej Moich Projektów",
             "newsletter": "Dołącz do Newslettera",
             "items": {
@@ -323,6 +325,11 @@
                     "desc1": "Dla obsługi i automatyzacji działalności platfromy i ecommerce Aiware.cloud stworzyłem zaawansowanego asystenta AI opartego wykorzystując platformę Voiceflow wraz z API OpenAI.. Ten chatbot umożliwia zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Wykorzystując możliwości Voiceflow, nasz asystent prowadzi naturalne rozmowy, rozumie intencje użytkowników i dostarcza odpowiednie informacje lub inicjuje procesy biznesowe.",
                     "desc2": "Asystent AI zintegrowany jest z stroną i sklepem Aiware, oraz innymi kanałami komunikacji, zapewniając spójne i wygodne doświadczenie dla klientów. Dzięki zaawansowanym funkcjom przetwarzania języka naturalnego i uczenia maszynowego, może on precyzyjnie identyfikować potrzeby klientów, przedstawiać odpowiednie oferty i zbierać niezbędne dane w celu wygenerowania wyceny projektu. Ta inteligentna automatyzacja pozwala nam efektywnie zarządzać leadami i zapewniać wysokiej jakości obsługę klienta."
                     },
+                    "ainsiderbot": {
+                          "header": "Asystent AI dla Aiware.cloud",
+                          "desc1": "Stworzyłem zaawansowanego asystenta AI, wykorzystując platformę Botpress oraz OpenAI API dla Aiware.cloud. Ten chatbot pomaga użytkownikom w identyfikacji i rekomendacji najlepszych narzędzi na podstawie ich konkretnych celów i potrzeb. Wykorzystując moc przetwarzania języka naturalnego, asystent rozumie wprowadzone dane przez użytkowników, sugeruje dopasowane rozwiązania i pomaga podejmować świadome decyzje dotyczące projektów i procesów pracy.",
+                          "desc2": "Asystent AI jest zintegrowany z platformą Aiware.cloud i działa bezproblemowo na różnych kanałach komunikacyjnych, oferując użytkownikom spójne i intuicyjne doświadczenie. Dzięki zaawansowanym możliwościom AI, chatbot może precyzyjnie rekomendować narzędzia i zasoby, upraszczając proces podejmowania decyzji. To pozwala użytkownikom na optymalizację ich działań i bardziej efektywne osiąganie założonych celów."
+                      },
                     "flowise": {
                       "header": "Chatbot AI w Flowise",
                       "desc1": "Dla obsługi i automatyzacji mojej działalności, a także dla konkretnych celów biznesowych stworzyłem zaawansowane chatboty i agentów AI korzystając z platformy Flowise - opartej na Langchain oraz hostując je i renderując przy użyciu Hugging Face. Te chatboty umożliwiają zbieranie leadów oraz wycenę indywidualnych projektów dla klientów w sposób zautomatyzowany i intuicyjny. Dzięki zaawansowanym możliwościom Flowise, nasze asystenty prowadzą naturalne rozmowy, rozumieją intencje użytkowników i dostarczają odpowiednie informacje lub inicjują procesy biznesowe.",
@@ -420,7 +427,7 @@
           },
           "aboutWeb": {
             "header1": {
-              "header1": "Indywidualne Rozwiązania",
+              "header1": "Web Development",
               "header2": "Dla Twojej Działalności",
               "header3": "Strony internetowe",
               "header4": "Landing Page i E-commerce",
@@ -437,7 +444,7 @@
         "heroAiSection": {
           "header": {
             "title": "Technologie AI",
-            "subtitle": "Asystenci i Agenci AI & Automatyzacja & CRM/CMS",
+            "subtitle": "Chatboty i Asystenci AI & Automatyzacja & CRM/CMS",
             "description": "Transformacja Twojej firmy Z Wykorzystaniem Najnowszej Technologii i Sztucznej Inteligencji"
           },
           "AiFeaturesTab": {
@@ -458,11 +465,11 @@
           },
           "AboutAI": {
             "header1": {
-              "header1": "Dostosowane Rozwiązania AI",
-              "header2": "Inteligentne Strategie",
-              "header3": "Usługi Kompleksowe",
-              "header4": "Dla Transformacji Biznesu",
-              "desc1": "Jako ekspert AI w Macai Studio, zawsze dostarczam w pełni dostosowane dla Twojej działalności rozwiązania, które wykorzystują moc sztucznej inteligencji w celu transformacji technologicznej Twojej firmy. Rozumiejąc specyfikę Twojej branży, wyzwania i cele, tworzę inteligentne strategie i rozwiązania oparte na AI, które odpowiadają na Twoje unikalne potrzeby i przynoszą realne korzyści dla Twojego biznesu."
+              "header1": "Automatyzacje",
+              "header2": "AI",
+              "header3": "Chatboty i Asystenci AI",
+              "header4": "Automatyzacje & CRM&CMS",
+              "desc1": "Jako developer z prawdziwą pasją do AI zawsze dostarczam w pełni dostosowane dla Twojej działalności rozwiązania, które wykorzystują moc sztucznej inteligencji w celu transformacji technologicznej Twojej firmy. Rozumiejąc specyfikę Twojej branży, wyzwania i cele, tworzę inteligentne strategie i rozwiązania oparte na AI, które odpowiadają na Twoje unikalne potrzeby i przynoszą realne korzyści dla Twojego biznesu."
             },
             "header2": {
               "header1": "Uwolnij Moc AI",
@@ -475,27 +482,27 @@
         "heroMarketingSection": {
           "FeaturesTab": {
             "header": {
-              "tabOne": "Marketingu Dla Twojego Biznesu",
-              "tabTwo": "Generacja Leadów i Pozyskiwanie Klientów",
-              "tabThree": "Rozwój Social Media"
+              "tabOne": "Design i Branding Dla Twojej Firmy",
+              "tabTwo": "Tworzenie Intuicyjnych Interfejsów UX/UI",
+              "tabThree": "Generatywne Tworzenie Treści Wizualnych"
             },
-            "tab1Title": "Zaawansowane Rozwiązania AI dla Marketingu",
-            "tab1Description1": "Odkryj, jak rozwiązania marketingowe wraz z wykorzystaniem AI mogą podnieść strategię Twojej firmy na wyższy poziom. Moje kompleksowe usługi obejmują projektowanie, rozwój i wdrażanie zaawansowanych rozwiązań, które poprawiają widoczność firmy i docierają do nowych, potencjalnych klientów.",
-            "tab1Description2": "Wykorzystując swoją wiedzę i doświadczenie, tworzę strategie marketingowe, które automatyzują tworzenie treści, optymalizują rozmieszczenie reklam i dostarczają analiz w czasie rzeczywistym. Pozwól mi dostarczyć rozwiązania, które napędzą Twój sukces, zwiększając zaangażowanie i zapewniając spójne komunikaty marki we wszystkich kanałach.",
-            "tab2Title": "Generacja Leadów i Nowi Klienci",
-            "tab2Description1": "Wdrażaj nowoczesne rozwiązania do generacji leadów i skutecznego pozyskiwania klientów, które przekształcą rozwój Twojego biznesu. Specjalizuję się w tworzeniu i implementacji systemów, które identyfikują wysokiej jakości leady, pielęgnują potencjalnych klientów poprzez spersonalizowane interakcje i przekształcają ich w lojalnych klientów.",
-            "tab2Description2": "Moje podejście łączy najnowsze technologie AI z najlepszymi praktykami branżowymi, dostarczając rozwiązania dostosowane do unikalnych potrzeb Twojej firmy. Strategie generacji leadów i konwersji, które stosuję, zwiększają efektywność, redukują koszty pozyskania klientów i zwiększają ich wartość w czasie.",
-            "tab3Title": "Rozwój Social Media Napędzany przez AI",
-            "tab3Description1": "Optymalizuj swoją obecność w mediach społecznościowych i zwiększaj zaangażowanie dzięki rozwiązaniom opartym na AI. Moje usługi obejmują integrację i optymalizację narzędzi AI do zarządzania social media, dostosowanych do specyficznych potrzeb Twojej firmy.",
-            "tab3Description2": "Wykorzystując zaawansowane narzędzia AI do analityki i automatyzacji, pomagam zarządzać treściami, analizować zachowania odbiorców i poprawiać wskaźniki zaangażowania. Dzięki moim rozwiązaniom możesz podejmować decyzje oparte na danych, ulepszać strategię social media i osiągać trwały rozwój we wszystkich platformach."
-          },
+            "tab1Title": "Zaawansowane Rozwiązania Designu i Brandingu",
+      "tab1Description1": "Odkryj, jak profesjonalny design i branding mogą wznieść wizerunek Twojej firmy na nowy poziom. Moje usługi obejmują projektowanie spójnych i estetycznych materiałów wizualnych, które wyróżniają Twoją markę i budują zaufanie klientów.",
+      "tab1Description2": "Tworzę unikalne projekty graficzne, które łączą w sobie nowoczesne trendy z funkcjonalnością, dbając o to, aby każde rozwiązanie było dostosowane do Twojej marki i odbiorców. Moje projekty poprawiają rozpoznawalność firmy i pomagają budować długotrwałe relacje z klientami.",
+      "tab2Title": "Tworzenie Intuicyjnych Interfejsów UX/UI",
+      "tab2Description1": "Zaprojektuj interfejsy użytkownika, które są proste w obsłudze i dostosowane do potrzeb Twoich klientów. Specjalizuję się w tworzeniu doświadczeń użytkownika (UX) i interfejsów użytkownika (UI), które łączą estetykę z intuicyjną nawigacją.",
+      "tab2Description2": "Moje podejście do UX/UI opiera się na dogłębnych badaniach i analizie zachowań użytkowników. Projektuję interfejsy, które zwiększają zaangażowanie, minimalizują bariery w korzystaniu z systemu i podnoszą ogólną satysfakcję użytkowników.",
+      "tab3Title": "Generatywne Tworzenie Treści Wizualnych",
+      "tab3Description1": "Wykorzystaj sztuczną inteligencję do automatycznego tworzenia wideo, grafik oraz fotografii produktów, które w pełni oddadzą profesjonalizm Twojej firmy. Oferuję usługi wykorzystujące AI do tworzenia spersonalizowanych treści wizualnych dostosowanych do Twoich potrzeb.",
+      "tab3Description2": "Dzięki zaawansowanym algorytmom generatywnym tworzę treści wizualne, które obejmują wysokiej jakości zdjęcia produktów, atrakcyjne grafiki reklamowe oraz dynamiczne wideo, wszystko to w oparciu o Twoje preferencje i potrzeby. Umożliwiam pełną automatyzację i personalizację procesów kreatywnych, aby Twoje materiały wizualne były zawsze na najwyższym poziomie."
+    },
           "About": {
             "header1": {
-              "header1": "Indywidualne Strategie",
-              "header2": "I Rozwiązania",
-              "header3": "Marketing i Generacja Leadów",
-              "header4": "Dla Twojego Biznesu",
-              "desc1": "Zawsze dostarczam w pełni dostosowane dla Twojej działalności rozwiązania, które wykorzystują nowoczesne strategie marketingowe, generację leadów i rozwój social media w celu transformacji Twojej firmy. Rozumiejąc specyfikę Twojej branży, wyzwania i cele, tworzę inteligentne strategie, które odpowiadają na Twoje unikalne potrzeby i przynoszą realne korzyści dla Twojego biznesu."
+              "header1": "Design",
+              "header2": "& UI/UX",
+              "header3": "Design / Branding",
+              "header4": "Logotypy / Banery / Grafiki / Social Media / Video",
+              "desc1": "Oferuję kompleksowe usługi designu i UX/UI, które pomagają Twojej zbudować wymarzony wizerunek w digitalnym świecie. Moje rozwiązania są dostosowane do Twoich potrzeb i branży, zapewniając spójność i efektywność w każdym aspekcie Twojego biznesu."
             },
             "header2": {
               "header1": "Uwolnij Moc AI",

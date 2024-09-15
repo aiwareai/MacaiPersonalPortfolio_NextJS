@@ -76,13 +76,31 @@ const Portfolio = () => {
                   >
                     {t('portfolio.button3')}
                   </button>
-                  <Link href="/generativeai" target="_blank" rel="noopener noreferrer">
+                  {/* <Link href="/generativeai" target="_blank" rel="noopener noreferrer">
                   <button 
                     className={`mr-2 mt-2 text-lg font-semibold ${
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                   >
                     {t('portfolio.button4')}
+                  </button>
+                  </Link> */}
+                     <Link href="https://www.behance.net/macaistudio" target="_blank" rel="noopener noreferrer">
+                  <button 
+                    className={`mr-2 mt-1 text-lg font-semibold ${
+                      selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
+                    }`}
+                  >
+                    {t('portfolio.buttonBehance')}
+                  </button>
+                  </Link>
+                  <Link href=" https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">
+                  <button 
+                    className={`mr-2 mt-1 text-lg font-semibold ${
+                      selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
+                    }`}
+                  >
+                    {t('portfolio.buttonArtstation')}
                   </button>
                   </Link>
                   <Link href="https://github.com/aiwareai" target="_blank" rel="noopener noreferrer">
@@ -110,7 +128,7 @@ const Portfolio = () => {
         href="/portfolio"
         className="flex pt-2 pb-2 pr-4 pl-4 items-center gap-2.5 text-black dark:text-white mt-12 hover:text-white dark:hover:text-black transition-colors duration-300"
         style={{
-          backgroundColor: '#006BFF',
+          backgroundColor: '#3D52D5',
           borderRadius: '12px',
         }}
       >

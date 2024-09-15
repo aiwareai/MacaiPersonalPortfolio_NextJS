@@ -110,7 +110,7 @@ const Portfolio = () => {
                     </svg>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://www.facebook.com/profile.php?id=100093134271073" target="_blank">
                     <svg
                       className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
@@ -133,7 +133,7 @@ const Portfolio = () => {
                       </defs>
                     </svg>
                   </a>
-                </li>
+                </li> */}
                 <li>
                 <a href="https://www.instagram.com/piotr.macai/" target="_blank">
                   <svg
@@ -152,9 +152,41 @@ const Portfolio = () => {
                 </a>
                 </li>
                 <li>
-                  <a href="https://www.github.com/aiwareai/" target="_blank">
-                    
+                  <a href="https://www.github.com/aiwareai/" target="_blank">                   
                   <Image src="/images/brand/github.png" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://huggingface.co/Piotr-Macai" target="_blank">                   
+                  <Image src="/images/brand/hf-logo-pirate.svg" alt="git" width={24} height={24} className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.behance.net/macaistudio" target="_blank">
+                    <svg
+                      className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z" />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.artstation.com/piotrmacai" target="_blank">
+                    <svg
+                      className="fill-[#D1D8E0] hover:fill-primary transition-all duration-300"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M0 17.723l2.027 3.505h.001a2.424 2.424 0 0 0 2.164 1.333h13.457l-2.792-4.838H0zm24 .025c0-.484-.143-.935-.388-1.314L15.728 2.728a2.424 2.424 0 0 0-2.142-1.289H9.419L21.598 22.54l1.92-3.325c.378-.637.482-.919.482-1.467zm-11.129-3.462L7.428 4.858l-5.444 9.428h10.887z" />
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -254,13 +286,13 @@ const Portfolio = () => {
               <div className="relative aspect-[700/444] w-full">
                 <Image
                   className="dark:hidden shadow-solid-l"
-                  src="/images/hero/hero-dark.svg"
+                  src="/images/heroheroxwhite.svg"
                   alt="Hero"
                   fill
                 />
                 <Image
                   className="hidden dark:block shadow-solid-l"
-                  src="/images/hero/hero-dark.svg"
+                  src="/images/hero/heroo1.svg"
                   alt="Hero"
                   fill
                 />
@@ -284,14 +316,14 @@ const Portfolio = () => {
                   >
                   {t('portfolio.button1')}
                   </button>
-                    <button
+                    {/* <button
                     className={`mr-2 text-lg font-semibold ${
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                     onClick={() => handleTagSelection("marketing")}
                   >
                     {t('portfolio.button2')}
-                  </button>
+                  </button> */}
                   <button
                     className={`mr-2 text-lg font-semibold ${
                       selectedTag === "ai" ? "bg-blue-500 text-white" : "bg-gray-200"
@@ -300,13 +332,31 @@ const Portfolio = () => {
                   >
                     {t('portfolio.button3')}
                   </button>
-                  <Link href="/generativeai" target="_blank" rel="noopener noreferrer">
+                  {/* <Link href="/generativeai" target="_blank" rel="noopener noreferrer">
                   <button 
                     className={`mr-2 mt-1 text-lg font-semibold ${
                       selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
                     }`}
                   >
                     {t('portfolio.button4')}
+                  </button>
+                  </Link> */}
+                  <Link href="https://www.behance.net/macaistudio" target="_blank" rel="noopener noreferrer">
+                  <button 
+                    className={`mr-2 mt-1 text-lg font-semibold ${
+                      selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
+                    }`}
+                  >
+                    {t('portfolio.buttonBehance')}
+                  </button>
+                  </Link>
+                  <Link href=" https://www.artstation.com/piotrmacai" target="_blank" rel="noopener noreferrer">
+                  <button 
+                    className={`mr-2 mt-1 text-lg font-semibold ${
+                      selectedTag === "marketing" ? "bg-blue-500 text-white" : "bg-gray-200"
+                    }`}
+                  >
+                    {t('portfolio.buttonArtstation')}
                   </button>
                   </Link>
                   <Link href="https://github.com/aiwareai" target="_blank" rel="noopener noreferrer">

@@ -20,6 +20,15 @@ const BlogData: Portfolio[] = [
       tags: ["websites"],
   },
   { 
+    _id: 1.5,
+    mainImage: "/images/portfolio/hfassistants.jpg",
+    title: "Huggingface Assistants",
+    metadata:
+      "Custom various AI Assistants",
+      urlLink:"/portfolio/huggingface-assistants",
+      tags: ["ai"],
+  },
+  { 
     _id: 2,
     mainImage: "/images/portfolio/bakaliovelove.jpg",
     title: "Bakaliowelove.pl",
@@ -28,13 +37,22 @@ const BlogData: Portfolio[] = [
       urlLink:"/portfolio/bakaliowelove",
       tags: ["websites"],
   },
+  // { 
+  //   _id: 5,
+  //   mainImage: "/images/portfolio/macaiStudio.jpg",
+  //   title: "AI Assistant for Ainsider.tools",
+  //   metadata:
+  //     "Ai Assistant for Ainsider.tools",
+  //     urlLink:"/portfolio/ainsiderbot",
+  //     tags: ["ai"],
+  // },
   { 
-    _id: 3,
-    mainImage: "/images/portfolio/ainspire.jpg",
-    title: "Ainsider.cloud",
+    _id: 2.5,
+    mainImage: "/images/portfolio/ainsider_tools.jpg",
+    title: "Ainsider.Tools",
     metadata:
-      "Ai Tools Library & Generative AI magazine",
-      urlLink:"/portfolio/ainsider-cloud",
+      "Gen AI Tools Directory and Magazine",
+      urlLink:"/portfolio/aitoolslibrary",
       tags: ["websites", "ai"],
   },
   { 
@@ -84,22 +102,22 @@ const BlogData: Portfolio[] = [
   // },
   { 
     _id: 7,
-    mainImage: "/images/portfolio/cora.jpg",
+    mainImage: "/images/portfolio/coraa.jpg",
     title: "Cora-goralczyk.pl",
     metadata:
       "Website for automotive mechanic workshop",
       urlLink:"/portfolio/cora-goralczyk",
       tags: ["websites"],
   },
-  { 
-    _id: 6,
-    mainImage: "/images/portfolio/szkolajazdynew.jpg",
-    title: "Szkolajazdymachowski.pl",
-    metadata:
-      "Website with AI Lead Assistant",
-      urlLink:"/portfolio/osk-machowski",
-      tags: ["websites"],
-  },
+  // { 
+  //   _id: 6,
+  //   mainImage: "/images/portfolio/szkolajazdynew.jpg",
+  //   title: "Szkolajazdymachowski.pl",
+  //   metadata:
+  //     "Website with AI Lead Assistant",
+  //     urlLink:"/portfolio/osk-machowski",
+  //     tags: ["websites"],
+  // },
   // { 
   //   _id: 5,
   //   mainImage: "/images/portfolio/piotrmacaidev.jpg",

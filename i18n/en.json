@@ -140,6 +140,8 @@
             "button3": "AI & Automations",
             "button4": "Generative AI",
             "button5": "Github",
+            "buttonBehance": "Behance",
+            "buttonArtstation": "Artstation",
             "moreButton": "See More Projects",
             "newsletter": "Subscribe to Newsletter",
             "items": {
@@ -323,6 +325,11 @@
               "desc1": "For the management and automation of Aiware.cloud's platform and ecommerce activities, I have created an advanced AI assistant utilizing the Voiceflow platform along with the OpenAI API. This chatbot enables the collection of leads and the pricing of individual projects for clients in an automated and intuitive manner. Leveraging the capabilities of Voiceflow, our assistant conducts natural conversations, understands user intents, and provides appropriate information or initiates business processes.",
               "desc2": "The AI assistant is integrated with the Aiware website and store, as well as other communication channels, ensuring a consistent and convenient experience for customers. Thanks to advanced natural language processing and machine learning features, it can accurately identify customer needs, present relevant offers, and gather necessary data to generate project estimates. This intelligent automation allows us to manage leads efficiently and provide high-quality customer service."
           },
+       "ainsiderbot": {
+            "header": "AI Assistant for Aiware.cloud",
+            "desc1": "I have developed an advanced AI assistant using Botpress and the OpenAI API for Aiware.cloud. This chatbot helps users identify and recommend the best tools based on their specific goals and needs. By leveraging the power of natural language processing, the assistant understands user inputs, suggests tailored solutions, and ensures users can make informed decisions about their projects and workflows.",
+            "desc2": "The AI assistant is integrated into the Aiware.cloud platform and communicates seamlessly across various channels, providing users with a cohesive and intuitive experience. Thanks to its advanced AI capabilities, the chatbot can accurately recommend tools and resources, simplifying the decision-making process. This enables users to optimize their operations and achieve their objectives more efficiently."
+        },
           "flowise": {
             "header": "AI Chatbot in Flowise",
             "desc1": "To manage and automate my business activities, as well as for specific business goals, I have created advanced chatbots and AI agents using the Flowise platform - based on Langchain, and hosting and rendering them with Hugging Face. These chatbots enable automated and intuitive lead collection and project pricing for clients. Leveraging Flowise's advanced capabilities, our assistants conduct natural conversations, understand user intentions, and provide relevant information or initiate business processes.",
@@ -507,11 +514,11 @@
   },
   "AboutAI": {
     "header1": {
-      "header1": "Tailored AI Solutions",
-      "header2": "Intelligent Strategies",
-      "header3": "End-to-End Services",
-      "header4": "For Business Transformation",
-      "desc1": "As an AI expert at MacAI Studio, I am committed to delivering tailored solutions that leverage the power of artificial intelligence to transform your business. By understanding the intricacies of your industry, challenges, and goals, I create intelligent strategies and AI-driven solutions that address your unique needs and drive real business impact."
+      "header1": "Automations",
+      "header2": "with AI",
+      "header3": "Chatbots and AI Assistants",
+      "header4": "Automations & CRM & CMS",
+      "desc1": "As an dev with true passion for AI I am committed to delivering tailored solutions that leverage the power of artificial intelligence to transform your business. By understanding the intricacies of your industry, challenges, and goals, I create intelligent strategies and AI-driven solutions that address your unique needs and drive real business impact."
     },
     "header2": {
       "header1": "Unleash the Power of AI",
@@ -524,33 +531,33 @@
 "heroMarketingSection": {
   "FeaturesTab": {
     "header": {
-      "tabOne": "Marketing for Your Business",
-      "tabTwo": "Lead Generation and Customer Acquisition",
-      "tabThree": "Social Media Development"
+      "tabOne": "Design and Branding for Your Business",
+      "tabTwo": "Creating Intuitive UX/UI Interfaces",
+      "tabThree": "Generative Visual Content Creation"
     },
-    "tab1Title": "Advanced AI Solutions for Marketing",
-    "tab1Description1": "Discover how marketing solutions enhanced with AI can elevate your company's strategy to the next level. My comprehensive services include designing, developing, and implementing advanced solutions that improve your company's visibility and reach new potential customers.",
-    "tab1Description2": "Leveraging my knowledge and experience, I create marketing strategies that automate content creation, optimize ad placement, and provide real-time analytics. Let me deliver solutions that drive your success by increasing engagement and ensuring consistent brand messaging across all channels.",
-    "tab2Title": "Lead Generation and New Customers",
-    "tab2Description1": "Implement modern solutions for lead generation and effective customer acquisition that will transform your business growth. I specialize in creating and implementing systems that identify high-quality leads, nurture potential customers through personalized interactions, and convert them into loyal clients.",
-    "tab2Description2": "My approach combines the latest AI technologies with industry best practices, delivering solutions tailored to the unique needs of your business. The lead generation and conversion strategies I employ increase efficiency, reduce customer acquisition costs, and enhance their lifetime value.",
-    "tab3Title": "AI-Driven Social Media Development",
-    "tab3Description1": "Optimize your social media presence and boost engagement with AI-powered solutions. My services include integrating and optimizing AI tools for social media management, tailored to your company's specific needs.",
-    "tab3Description2": "Utilizing advanced AI tools for analytics and automation, I help manage content, analyze audience behavior, and improve engagement metrics. With my solutions, you can make data-driven decisions, enhance your social media strategy, and achieve sustained growth across all platforms."
+    "tab1Title": "Advanced Design and Branding Solutions",
+    "tab1Description1": "Discover how professional design and branding can elevate your business image to a new level. My services include designing cohesive and aesthetically pleasing visual materials that highlight your brand and build customer trust.",
+    "tab1Description2": "I create unique graphic designs that combine modern trends with functionality, ensuring each solution is tailored to your brand and audience. My designs improve brand recognition and help build lasting relationships with customers.",
+    "tab2Title": "Creating Intuitive UX/UI Interfaces",
+    "tab2Description1": "Design user interfaces that are simple to use and tailored to your clients' needs. I specialize in creating user experiences (UX) and user interfaces (UI) that merge aesthetics with intuitive navigation.",
+    "tab2Description2": "My approach to UX/UI is based on in-depth research and analysis of user behavior. I design interfaces that enhance engagement, minimize user friction, and increase overall satisfaction.",
+    "tab3Title": "Generative Visual Content Creation",
+    "tab3Description1": "Leverage artificial intelligence to automatically create videos, graphics, and product photography that fully reflect the professionalism of your business. I offer AI-driven services for creating personalized visual content tailored to your needs.",
+    "tab3Description2": "Using advanced generative algorithms, I produce visual content that includes high-quality product photography, attractive promotional graphics, and dynamic videos—all based on your preferences and requirements. I enable full automation and personalization of creative processes, ensuring your visual materials are always top-notch."
   },
   "About": {
     "header1": {
-      "header1": "Personalized Strategies",
-      "header2": "And Solutions",
-      "header3": "Marketing and Lead Generation",
-      "header4": "For Your Business",
-      "desc1": "I always deliver fully tailored solutions for your business, utilizing modern marketing strategies, lead generation, and social media development to transform your company. Understanding the specifics of your industry, challenges, and goals, I create intelligent strategies that address your unique needs and bring real benefits to your business."
+      "header1": "Design",
+      "header2": "& UI/UX",
+      "header3": "Design / Branding",
+      "header4": "Logos / Banners / Graphics / Social Media / Video",
+      "desc1": "I offer comprehensive design and UX/UI services that help you build your dream image in the digital world. My solutions are tailored to your needs and industry, ensuring consistency and efficiency in every aspect of your business."
     },
     "header2": {
       "header1": "Unleash the Power of AI",
-      "header2": "For Your Company",
-      "desc1": "Harness the full potential of modern tools and marketing strategies for effective lead generation and dynamic social media development. Through my services, combining advanced technologies with deep knowledge, I offer comprehensive services tailored to your requirements and market specifics to elevate your business to the next level.",
-      "button": "Discover Our AI Solutions"
+      "header2": "For Your Business",
+      "desc1": "Harness the full potential of modern tools and marketing strategies for effective lead generation and dynamic social media growth. With my services, combining advanced technologies with deep expertise, I offer comprehensive solutions tailored to your needs and market specifics, together taking your business to the next level.",
+      "button": "Discover AI Solutions"
     }
   }
 }
