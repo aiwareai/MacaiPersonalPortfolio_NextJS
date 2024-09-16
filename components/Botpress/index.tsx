@@ -3,12 +3,12 @@ import React, { useEffect } from 'react';
 const Chatbot: React.FC = () => {
   useEffect(() => {
     const script1 = document.createElement('script');
-    script1.src = 'https://cdn.botpress.cloud/webchat/v1/inject.js';
+    script1.src = 'https://cdn.botpress.cloud/webchat/v2.1/inject.js';
     script1.async = true;
     document.body.appendChild(script1);
 
     const script2 = document.createElement('script');
-    script2.src = 'https://mediafiles.botpress.cloud/0ed3e116-09c3-4fe7-b14d-b025783d1cea/webchat/config.js';
+    script2.src = 'https://mediafiles.botpress.cloud/f3ba2c27-9f73-4d99-9658-574e07d0f7af/webchat/v2.1/config.js';
     script2.defer = true;
     document.body.appendChild(script2);
 
