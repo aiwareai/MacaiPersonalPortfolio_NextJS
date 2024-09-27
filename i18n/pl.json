@@ -163,6 +163,7 @@
             "menu8": "Gen AI",
             "menu10":"Marketing",
             "menu9": "Polityka Prywatności",
+            "menu11":"Magazyn Gen AI",
             "pricing": "Wycena"
         },
         "footer": {
@@ -214,6 +215,26 @@
                 "desc2": "Stworzyliśmy ten projekt przy użyciu WordPressa, który jest najpopularniejszym systemem CMS na świecie. WordPress umożliwia łatwe zarządzanie treścią - tutaj z różnymi rodzajami wpisów, a także łatwe dostosowywanie wyglądu i funkcjonalności witryny, integrację z mediami społecznościowymi i innymi narzędziami.",
                 "tags": "Tagi"
               },
+              "imgpromptr": {
+                "details": "Szczegóły Projektu",
+                "company": "Firma",
+                "industry": "Branża",
+                "tech": "Technologie Projektu",
+                "desc1": "Ten asystent AI przekształca dowolny obraz w kreatywny i szczegółowy prompt tekstowy. Wystarczy przesłać obraz, a asystent przeanalizuje jego zawartość, kontekst i styl, aby wygenerować interesujący, trafny prompt do pisania kreatywnego, opisów wizualnych dzieł sztuki lub zadań napędzanych AI, takich jak generowanie nowych obrazów.",
+                "desc2": "Nasz sklep wykorzystuje zaawansowane funkcje WooCommerce do personalizacji oferty produktowej, co pozwala nam dostosowywać rekomendacje produktów do preferencji każdego klienta. Dzięki temu zakupy w Bakaliowe Love są nie tylko proste, ale także dostosowane do indywidualnych potrzeb zdrowotnych i dietetycznych naszych użytkowników.",
+                "desc3": "Technologia WooCommerce wspiera również nasze wysiłki logistyczne i zarządzanie zapasami, co przekłada się na szybką i efektywną realizację zamówień. Oferujemy klientom różne opcje płatności i dostawy, sprawiając, że Bakaliowe Love staje się numerem jeden dla wszystkich poszukujących wygodnego dostępu do zdrowej żywności online.",
+                "desc4": "Platforma została zaprojektowana z myślą o maksymalnej użyteczności i dostępności dla użytkowników o różnym poziomie wiedzy - od studentów i hobbystów po doświadczonych inżynierów i badaczy. Dzięki intuicyjnemu interfejsowi użytkownika i wykorzystaniu nowoczesnych rozwiązań frontendowych, Ainsider Tools umożliwia szybkie wyszukiwanie i filtrowanie narzędzi AI, pomagając znaleźć odpowiednie zasoby dopasowane do konkretnych potrzeb projektowych."
+              },
+              "hf": {
+                "details": "Szczegóły Projektu",
+                "company": "Firma",
+                "industry": "Branża",
+                "tech": "Technologie Projektu",
+                "desc1": "Bakaliowe Love to innowacyjny sklep internetowy specjalizujący się w suszonych owocach i zdrowej żywności, zbudowany na potężnej platformie WooCommerce. Dzięki tej rozwiązaniu zapewniamy naszym klientom niezawodne i bezpieczne zakupy online. WooCommerce umożliwia nam oferowanie intuicyjnego doświadczenia zakupowego z łatwym dostępem do szerokiego asortymentu produktów odżywczych i organicznych.",
+                "desc2": "Nasz sklep wykorzystuje zaawansowane funkcje WooCommerce do personalizacji oferty produktowej, co pozwala nam dostosowywać rekomendacje produktów do preferencji każdego klienta. Dzięki temu zakupy w Bakaliowe Love są nie tylko proste, ale także dostosowane do indywidualnych potrzeb zdrowotnych i dietetycznych naszych użytkowników.",
+                "desc3": "Technologia WooCommerce wspiera również nasze wysiłki logistyczne i zarządzanie zapasami, co przekłada się na szybką i efektywną realizację zamówień. Oferujemy klientom różne opcje płatności i dostawy, sprawiając, że Bakaliowe Love staje się numerem jeden dla wszystkich poszukujących wygodnego dostępu do zdrowej żywności online.",
+                "desc4": "Platforma została zaprojektowana z myślą o maksymalnej użyteczności i dostępności dla użytkowników o różnym poziomie wiedzy - od studentów i hobbystów po doświadczonych inżynierów i badaczy. Dzięki intuicyjnemu interfejsowi użytkownika i wykorzystaniu nowoczesnych rozwiązań frontendowych, Ainsider Tools umożliwia szybkie wyszukiwanie i filtrowanie narzędzi AI, pomagając znaleźć odpowiednie zasoby dopasowane do konkretnych potrzeb projektowych."
+              },
               "ainsidercloud": {
                 "details": "Szczegóły Projektu",
                 "company": "Firma",
@@ -248,6 +269,16 @@
                 "desc2": "Nasz sklep wykorzystuje zaawansowane funkcje WooCommerce do personalizacji oferty produktowej, co pozwala nam dostosowywać rekomendacje produktów do preferencji każdego klienta. Dzięki temu zakupy w Bakaliowe Love są nie tylko proste, ale także dostosowane do indywidualnych potrzeb zdrowotnych i dietetycznych naszych użytkowników.",
                 "desc3": "Technologia WooCommerce wspiera również nasze wysiłki logistyczne i zarządzanie zapasami, co przekłada się na szybką i efektywną realizację zamówień. Oferujemy klientom różne opcje płatności i dostawy, sprawiając, że Bakaliowe Love staje się numerem jeden dla wszystkich poszukujących wygodnego dostępu do zdrowej żywności online.",
                 "desc4": "Platforma została zaprojektowana z myślą o maksymalnej użyteczności i dostępności dla użytkowników o różnym poziomie wiedzy - od studentów i hobbystów po doświadczonych inżynierów i badaczy. Dzięki intuicyjnemu interfejsowi użytkownika i wykorzystaniu nowoczesnych rozwiązań frontendowych, Ainsider Tools umożliwia szybkie wyszukiwanie i filtrowanie narzędzi AI, pomagając znaleźć odpowiednie zasoby dopasowane do konkretnych potrzeb projektowych."
+              },
+              "akcesoria": {
+                "details": "Szczegóły Projektu",
+                "company": "AkcesoriaDoUprawy.pl",
+                "industry": "Akcesoria do uprawy roślin",
+                "industry2": "Zdrowa Żywność",
+                "tech": "Technologie Projektu",
+                "desc1": "AkcesoriaDoUprawy.pl to innowacyjny sklep internetowy, który specjalizuje się w sprzedaży akcesoriów do uprawy roślin. Zbudowany na potężnej platformie WooCommerce, nasz sklep zapewnia klientom niezawodne i bezpieczne zakupy online. Dzięki WooCommerce oferujemy intuicyjne doświadczenie zakupowe z łatwym dostępem do szerokiego asortymentu produktów, w tym narzędzi ogrodniczych, systemów nawadniających oraz nawozów organicznych.",
+                "desc2": "Nasz sklep wykorzystuje zaawansowane funkcje WooCommerce do personalizacji oferty produktowej, co pozwala nam dostosowywać rekomendacje akcesoriów do indywidualnych potrzeb każdego klienta. Dzięki temu zakupy w AkcesoriaDoUprawy.pl są nie tylko proste, ale także dostosowane do specyfiki upraw i preferencji ogrodników, zarówno amatorów, jak i profesjonalistów.",
+                "desc3": "Technologia WooCommerce wspiera również nasze wysiłki logistyczne i zarządzanie zapasami, co przekłada się na szybką i efektywną realizację zamówień. Oferujemy różne opcje płatności i dostawy, co sprawia, że AkcesoriaDoUprawy.pl staje się numerem jeden dla wszystkich poszukujących wygodnego dostępu do akcesoriów do uprawy roślin online."
               },
               "cora": {
                 "details": "Szczegóły Projektu",

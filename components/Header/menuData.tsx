@@ -21,11 +21,18 @@ const getTranslatedMenuData = () => {
     },
     {
       id: 3,
-      title: t('header.menu3'),
+      title: t('header.menu11'),
       newTab: true,
-      path: "/#headerWeb",
+      path: "https://ainsider.tools",
       icon: "/images/icon/phone.svg",
     },
+    // {
+    //   id: 3,
+    //   title: t('header.menu3'),
+    //   newTab: true,
+    //   path: "/#headerWeb",
+    //   icon: "/images/icon/phone.svg",
+    // },
     // {
     //   id: 3,
     //   title: t('header.menu3'),

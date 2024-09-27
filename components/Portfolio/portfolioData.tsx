@@ -101,6 +101,15 @@ const BlogData: Portfolio[] = [
       tags: ["ai"],
   },
   { 
+    _id: 7.5,
+    mainImage: "/images/portfolio/promptr.jpg",
+    title: "Text-to-image Prompt Builder App",
+    metadata:
+      "Text-to-image Prompt Builder App",
+      urlLink:"/portfolio/promptrapp",
+      tags: ["ai"],
+  },
+  { 
     _id: 8,
     mainImage: "/images/portfolio/szkolajazdynew.jpg",
     title: "Szkolajazdymachowski.pl",
@@ -108,6 +117,7 @@ const BlogData: Portfolio[] = [
       "Website created together with AI Chatbot and FB profile for Driving School",
       urlLink:"/portfolio/osk-machowski",
       tags: ["websites"],
+      
   },
   { 
     _id: 9,
@@ -135,6 +145,33 @@ const BlogData: Portfolio[] = [
       "Shop in multiple languages on Shopify for German market",
       urlLink:"/portfolio/lanelyya",
       tags: ["websites"],
+  },  
+  {
+    _id: 10,
+    mainImage: "/images/portfolio/szkolajazdynew.jpg",
+    title: "Szkolajazdymachowski.pl",
+    metadata:
+      "HTML/JS/CSS websites for Driving School",
+      urlLink:"/portfolio/osk-machowski",
+      tags: ["websites"],
+  },
+  { 
+    _id: 17,
+    mainImage: "/images/portfolio/szkolachatbot.jpg",
+    title: "AI Assistant for Szkolajazdymachowski.pl",
+    metadata:
+      "Ai Assistant for Driving School Szkolajazdypolaniec.pl",
+      urlLink:"/portfolio/chatbot-osk",
+      tags: ["ai"],
+  },
+  { 
+    _id: 11,
+    mainImage: "/images/portfolio/imgpromptr.jpg",
+    title: "IMGPromptr",
+    metadata:
+      "AI Assistant for creating prompts from images",
+      urlLink:"/portfolio/imgpromptr",
+      tags: ["ai"],
   },
   { 
     _id: 11,
@@ -156,6 +193,15 @@ const BlogData: Portfolio[] = [
   // },
   { 
     _id: 12,
+    mainImage: "/images/portfolio/akcesoria.jpg",
+    title: "Akcesoriadouprawy.pl",
+    metadata:
+      "Ecommerce Store with external integrations",
+      urlLink:"/portfolio/akcesoriadouprawy",
+      tags: ["websites"],
+  },
+  { 
+    _id: 13,
     mainImage: "/images/portfolio/uprawaChatbot.jpg",
     title: "AI Assistant for Ecommerce",
     metadata:
@@ -244,15 +290,7 @@ const BlogData: Portfolio[] = [
   //     urlLink:"/portfolio/chatbot-osk",
   //     tags: ["ai"],
   // },
-  // { 
-  //   _id: 17,
-  //   mainImage: "/images/portfolio/jazdaChatbot.jpg",
-  //   title: "Szkolajazdymachowski.pl AI Assistant",
-  //   metadata:
-  //     "Ai Assistant Szkolajazdypolaniec.pl",
-  //     urlLink:"/portfolio/osk-machowski",
-  //     tags: ["ai"],
-  // },
+
   // { 
   //   _id: 18,
   //   mainImage: "/images/portfolio/szkolajazdymarketing.jpg",

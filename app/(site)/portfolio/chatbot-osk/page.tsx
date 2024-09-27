@@ -16,7 +16,7 @@ const SingleBlogPage = () => {
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Link:</p>
-                    <a href="https://szkolajazdymachowski.pl" className="text-white transition-all duration-300 hover:text-primary">szkolajazdymachowski.pl</a>
+                    <a href="https://cdn.botpress.cloud/webchat/v2.1/shareable.html?botId=ae063aa4-8325-421d-8e9f-b087afaa36f7" className="text-white transition-all duration-300 hover:text-primary">Talk with that Assistant</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Company:</p>
@@ -41,7 +41,7 @@ const SingleBlogPage = () => {
                 <div className="mb-10 w-full overflow-hidden">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">
                     <Image
-                      src="/images/portfolio/jazdaChatbot.jpg"
+                      src="/images/portfolio/szkolachatbot.jpg"
                       alt="Szkoła Jazdy Machowski website"
                       layout="fill"
                       className="object-contain object-center rounded-md"
@@ -54,13 +54,12 @@ const SingleBlogPage = () => {
                   <ul>
   <li>Query Automation: The chatbot is programmed to handle a wide range of queries, from simple questions about course offerings to more complex issues related to registration procedures and requirements. Using artificial intelligence, the chatbot can understand and interpret user queries, offering precise and understandable responses.</li>
 
-  <li>Lead Generation: The AI assistant actively supports the process of acquiring potential clients by collecting contact information from individuals interested in the school's offerings. This mechanism allows for efficient lead segmentation and communication automation, significantly increasing the effectiveness of marketing efforts.</li>
+  {/* <li>Lead Generation: The AI assistant actively supports the process of acquiring potential clients by collecting contact information from individuals interested in the school's offerings. This mechanism allows for efficient lead segmentation and communication automation, significantly increasing the effectiveness of marketing efforts.</li> */}
 
   <li>24/7 Support: The availability of the chatbot around the clock significantly enhances user satisfaction by providing support at any time. Regardless of the time of day, potential students can access the necessary information, resulting in a higher level of customer service.</li>
 
   <li>Intuitive Navigation: The chatbot facilitates website navigation by directing users to the appropriate sections and resources. As a result, prospective students can find the information they are interested in more quickly, increasing the likelihood of course enrollment.</li>
 
-  <li>Experience Personalization: AI technology enables communication to be tailored to the individual needs of each user, making interactions with the chatbot more personal and engaging. This personalization contributes to building positive relationships with potential students.</li>
 </ul>
 <p>Implementing the AI Chatbot on the "Szkoła Jazdy Machowski" website is an example of effective use of modern technologies to optimize customer service and automate business processes. Through integration with Voiceflow and OpenAI, the chatbot not only improves communication with users but also contributes to increased conversions by offering uninterrupted support and facilitating access to key information.</p>
                 </div>

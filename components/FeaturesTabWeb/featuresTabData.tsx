@@ -9,7 +9,7 @@ const featuresTabData: FeatureTab[] = [
     id: "tabOne",
     title: t('heroWebSection.WebFeaturesTab.tab1Title'),
     desc1: t('heroWebSection.WebFeaturesTab.tab1Description1'),
-    desc2: t('heroWebSection.WebFeaturesTab.tab1Description1'),
+    desc2: t('heroWebSection.WebFeaturesTab.tab1Description2'),
     image: "/images/features/undraw_wireframing.svg",
     imageDark: "/images/features/undraw_wireframing.svg",
   },

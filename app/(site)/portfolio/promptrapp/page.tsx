@@ -16,7 +16,7 @@ const SingleBlogPage = () => {
                 <ul>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Link:</p>
-                    <a href="https://huggingface.co/chat/assistants?user=Piotr-Macai" className="text-white transition-all duration-300 hover:text-primary">huggingface.co</a>
+                    <a href="https://texttoimagepromptr.vercel.app/" className="text-white transition-all duration-300 hover:text-primary">ImgPromptr App</a>
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Company:</p>
@@ -28,7 +28,7 @@ const SingleBlogPage = () => {
                   </li>
                   <li className="last:mb-0 mb-3 transition-all duration-300">
                     <p>Project Technologies:</p>
-                    <p className="text-white transition-all duration-300 hover:text-primary">Huggingface + Llama LLM</p>
+                    <p className="text-white transition-all duration-300 hover:text-primary">React.js</p>
                   </li>
                 </ul>
               </div>
@@ -36,12 +36,12 @@ const SingleBlogPage = () => {
             <div className="lg:w-2/3">
               <div className="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-7.5 md:p-10">
                 <h2 className="font-semibold text-3xl 2xl:text-sectiontitle2 text-black dark:text-white mb-5">
-                Multiple Personalized AI Assistants made at Huggingface
+                Text-to-image Prompt Builder App
                 </h2>
                 <div className="mb-10 w-full overflow-hidden">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/78]">
                     <Image
-                      src="/images/portfolio/hfassistants.jpg"
+                      src="/images/portfolio/promptr.jpg"
                       alt="Huggingface"
                       layout="fill"
                       className="object-contain object-center rounded-md"
